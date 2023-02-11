@@ -36,6 +36,8 @@ services:
   # Database (Postgres)
   db:
     image: postgres:12
+    volumes:
+      - db-data:/var/lib/postgresql/data
     ports:
       - 5434:5432
     environment:
