@@ -36,26 +36,15 @@ services:
   # Database (Postgres)
   db:
     image: postgres:12
-    env_file:
-      - .env
-    volumes:
-      - db-data:/var/lib/postgresql/data
+    ports:
+      - 5434:5432
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 123
+      POSTGRES_DB: nest
     networks:
       - db_net
       - backend_net
-
-
-  # database management (pgadmin)
-  pgadmin:
-    image: dpage/pgadmin4
-    env_file:
-      - .env
-    ports:
-      - 5050:80
-    networks:
-      - db_net
-    depends_on:
-      - db
 
   # reverse proxy (nginx)
   nginx:
