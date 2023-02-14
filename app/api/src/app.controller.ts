@@ -12,6 +12,6 @@ export class AppController {
 
   @Get('/api')
   getHeo() {
-    return this.appService.getHello();
+    this.appService.fetchUsersAndProjects(43);
   }
 }

@@ -11,7 +11,94 @@ datasource db {
 }
 
 model User {
-  id        Int      @default(autoincrement()) @id
-  email     String   @unique
-  name      String?
+  id                Int      @id @default(autoincrement())
+  email             String   @unique
+  login             String   @default("null")
+  first_name        String?
+  last_name         String?
+  usual_full_name   String?
+  usual_first_name  String?
+  url               String?
+  phone             String?
+  displayname       String?
+  kind              String?
+  staff             Boolean  @default(false)
+  correction_point  Int      @default(0)
+  pool_month        Int?
+  pool_year         Int?
+  location          String?
+  wallet            Float    @default(0)
+  anonymize_date    DateTime @default(now())
+  data_erasure_date DateTime @default(now())
+  created_at        DateTime @default(now())
+  updated_at        DateTime @updatedAt @default(now())
+  alumnized_at      DateTime?
+  active            Boolean  @default(false)
+  alumni            Boolean  @default(false)
+  Project           Project[]
+  UserTeam          UserTeam[]
+}
+
+model Project {
+  id              Int         @id
+  occurrence      Int
+  final_mark      Int
+  status          String
+  validated       Boolean     @map("validated?")
+  current_team_id Int         @map("current_team_id")
+  cursus_ids      Int[]
+  marked_at       DateTime    @map("marked_at")
+  marked          Boolean
+  retriable_at    DateTime    @map("retriable_at")
+  created_at      DateTime    @map("created_at")
+  updated_at      DateTime    @map("updated_at")
+  user            User        @relation(fields: [user_id], references: [id])
+  user_id         Int         @map("user.id")
+  teams           Team[]
+  project         ProjectMeta @relation(fields: [projectMetaId], references: [id])
+  projectMetaId   Int
+}
+
+model ProjectMeta {
+  id        Int       @id
+  name      String
+  slug      String
+  parent_id Int?
+  Project   Project[]
+}
+
+model Team {
+  id                  Int        @id
+  name                String
+  url                 String
+  final_mark          Int
+  project_id          Int
+  created_at          DateTime   @map("created_at")
+  updated_at          DateTime   @map("updated_at")
+  status              String
+  terminating_at      DateTime?  @map("terminating_at")
+  users               UserTeam[]
+  locked              Boolean    @map("locked?")
+  validated           Boolean    @map("validated?")
+  closed              Boolean    @map("closed?")
+  repo_url            String?    @map("repo_url")
+  repo_uuid           String?    @map("repo_uuid")
+  locked_at           DateTime?  @map("locked_at")
+  closed_at           DateTime?  @map("closed_at")
+  project_session_id  Int        @map("project_session_id")
+  project_gitlab_path String?    @map("project_gitlab_path")
+  Project             Project?   @relation(fields: [projectId], references: [id])
+  projectId           Int?
+}
+
+model UserTeam {
+  id               Int     @id
+  user             User    @relation(fields: [user_id], references: [id])
+  user_id          Int     @map("user.id")
+  team             Team    @relation(fields: [team_id], references: [id])
+  team_id          Int     @map("project_id")
+  leader           Boolean
+  occurrence       Int
+  validated        Boolean
+  projects_user_id Int?    @map("projects_user_id")
 }
