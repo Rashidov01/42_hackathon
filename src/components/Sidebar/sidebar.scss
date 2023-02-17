@@ -1,0 +1,75 @@
+@import "../../sass/mixins.scss";
+
+.sidebar {
+  padding: 20px 10px;
+  background-color: #393e46;
+  height: 100%;
+  border-right: 2px solid #495464;
+}
+
+.sidebar-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sidebar-footer__btn {
+  margin-top: auto;
+  display: block;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 0;
+}
+
+.sidebar-list {
+  @include list-unstyled;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.sidebar-list__link {
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all ease 0.4s;
+  // border-radius: 50%;
+  text-decoration: none;
+
+  &:hover {
+    background-color: #303841;
+    border-radius: 10px;
+  }
+}
+
+.sidebar-list__link.active {
+  background-color: #303841;
+  border-radius: 10px;
+}
+
+.sidebar-list__link:hover .sidebar-list__icon {
+  color: #1687a7;
+}
+
+.sidebar-list__link.active .sidebar-list__icon {
+  color: #1687a7;
+}
+
+.sidebar-list__item:not(:last-child) {
+  margin-bottom: 25px;
+}
+
+.sidebar-icon {
+  font-size: 25px;
+  color: #fff;
+}
+
+.sidebar-footer {
+  display: flex;
+}
