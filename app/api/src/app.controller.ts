@@ -11,7 +11,7 @@ export class AppController {
   }
 
   @Get('/api')
-  getHeo() {
-    this.appService.fetchUsersAndProjects(43);
+  async getHeo() {
+    return await this.appService.getAllInfo();
   }
 }
