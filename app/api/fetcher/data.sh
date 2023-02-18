@@ -1,6 +1,24 @@
 #!/bin/bash
 
-TOKEN="00ebcc7dc5bd2de8d6773664e0a70a4d8a7166c1a896cf69b957155ec9ad2933"
+source .env
+
+function get_token {
+  local response=$(curl -s -X POST \
+    https://api.intra.42.fr/oauth/token \
+    -H 'Content-Type: application/x-www-form-urlencoded' \
+    -d "grant_type=client_credentials&client_id=$CLIENT_ID&client_secret=$CLIENT_SECRET")
+  local token=$(echo "$response" | jq -r '.access_token')
+  echo "$token"
+}
+
+function get_second_token {
+  local response=$(curl -s -X POST \
+    https://api.intra.42.fr/oauth/token \
+    -H 'Content-Type: application/x-www-form-urlencoded' \
+    -d "grant_type=client_credentials&client_id=$CLIENT_ID_&client_secret=$CLIENT_SECRET_")
+  local token=$(echo "$response" | jq -r '.access_token')
+  echo "$token"
+}
 
 function get_users {
   local all_users=()
@@ -29,18 +47,23 @@ function get_all_info {
     echo "$response" > "pretty/$user.json"
     jq '.' ./pretty/$user.json > ./users/$user.json
     if [ $count -eq 750 ]; then
-      TOKEN="f9d7fce86f191695fbdc7b5f126c83e67ed6fcf420810eb40a60ed5a40d7442e"
+      TOKEN=$(get_second_token)
     fi
     sleep 1
   done
   echo "${all_users[@]}"
 }
 
+TOKEN=$(get_token)
+
 USERS=$(get_users)
 ALL_INFO=$(get_all_info "${USERS[@]}")
 
 echo "$ALL_INFO" > all_info.json
 
-sleep(2)
+sleep 2
 
 jq '.' all_info.json > users.json
+
+curl -X PATCH \
+  http://127.0.0.1/api/update
