@@ -10,7 +10,7 @@ services:
     working_dir: /usr/src/app
     volumes:
       - ./app/web:/usr/src/app
-    command: bash -c "yarn install && yarn dev"
+    command: bash -c "npm install && npm start"
     networks:
       - frontend_net
       - proxy_net
