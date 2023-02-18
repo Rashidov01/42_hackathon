@@ -1,0 +1,171 @@
+{
+  "id": 91188,
+  "email": "malkathe@student.42abudhabi.ae",
+  "login": "malkathe",
+  "first_name": "Mariam",
+  "last_name": "Alkatheeri",
+  "usual_full_name": "Mariam Alkatheeri",
+  "usual_first_name": null,
+  "url": "https://api.intra.42.fr/v2/users/malkathe",
+  "phone": "hidden",
+  "displayname": "Mariam Alkatheeri",
+  "kind": "student",
+  "image": {
+    "link": "https://cdn.intra.42.fr/users/7d710ce988dbc61300f2114fa5550a6a/malkathe.jpg",
+    "versions": {
+      "large": "https://cdn.intra.42.fr/users/1cb595e543a893080bf50d68cbeea59c/large_malkathe.jpg",
+      "medium": "https://cdn.intra.42.fr/users/237e182b3e65799f169185748361ec48/medium_malkathe.jpg",
+      "small": "https://cdn.intra.42.fr/users/8d14e428e039386a06f2901223fbb7db/small_malkathe.jpg",
+      "micro": "https://cdn.intra.42.fr/users/98ea3237e4ca2f0f771a3788b9e46613/micro_malkathe.jpg"
+    }
+  },
+  "staff?": false,
+  "correction_point": 5,
+  "pool_month": "july",
+  "pool_year": "2021",
+  "location": null,
+  "wallet": 0,
+  "anonymize_date": "2024-06-21T00:00:00.000+04:00",
+  "data_erasure_date": "2024-06-21T00:00:00.000+04:00",
+  "created_at": "2021-06-21T08:10:07.924Z",
+  "updated_at": "2021-06-21T10:52:41.193Z",
+  "alumnized_at": null,
+  "alumni?": false,
+  "active?": false,
+  "groups": [],
+  "cursus_users": [
+    {
+      "grade": null,
+      "level": 0,
+      "skills": [],
+      "blackholed_at": null,
+      "id": 126290,
+      "begin_at": "2021-06-21T08:11:10.000Z",
+      "end_at": "2021-07-15T14:00:00.000Z",
+      "cursus_id": 9,
+      "has_coalition": true,
+      "created_at": "2021-06-21T08:10:10.699Z",
+      "updated_at": "2021-06-21T08:10:10.699Z",
+      "user": {
+        "id": 91188,
+        "email": "malkathe@student.42abudhabi.ae",
+        "login": "malkathe",
+        "first_name": "Mariam",
+        "last_name": "Alkatheeri",
+        "usual_full_name": "Mariam Alkatheeri",
+        "usual_first_name": null,
+        "url": "https://api.intra.42.fr/v2/users/malkathe",
+        "phone": "hidden",
+        "displayname": "Mariam Alkatheeri",
+        "kind": "student",
+        "image": {
+          "link": "https://cdn.intra.42.fr/users/7d710ce988dbc61300f2114fa5550a6a/malkathe.jpg",
+          "versions": {
+            "large": "https://cdn.intra.42.fr/users/1cb595e543a893080bf50d68cbeea59c/large_malkathe.jpg",
+            "medium": "https://cdn.intra.42.fr/users/237e182b3e65799f169185748361ec48/medium_malkathe.jpg",
+            "small": "https://cdn.intra.42.fr/users/8d14e428e039386a06f2901223fbb7db/small_malkathe.jpg",
+            "micro": "https://cdn.intra.42.fr/users/98ea3237e4ca2f0f771a3788b9e46613/micro_malkathe.jpg"
+          }
+        },
+        "staff?": false,
+        "correction_point": 5,
+        "pool_month": "july",
+        "pool_year": "2021",
+        "location": null,
+        "wallet": 0,
+        "anonymize_date": "2024-06-21T00:00:00.000+04:00",
+        "data_erasure_date": "2024-06-21T00:00:00.000+04:00",
+        "created_at": "2021-06-21T08:10:07.924Z",
+        "updated_at": "2021-06-21T10:52:41.193Z",
+        "alumnized_at": null,
+        "alumni?": false,
+        "active?": false
+      },
+      "cursus": {
+        "id": 9,
+        "created_at": "2015-11-04T10:58:13.979Z",
+        "name": "C Piscine",
+        "slug": "c-piscine",
+        "kind": "piscine"
+      }
+    }
+  ],
+  "projects_users": [
+    {
+      "id": 2208307,
+      "occurrence": 0,
+      "final_mark": 0,
+      "status": "finished",
+      "validated?": false,
+      "current_team_id": 3607011,
+      "project": {
+        "id": 1255,
+        "name": "C Piscine Shell 00",
+        "slug": "c-piscine-shell-00",
+        "parent_id": null
+      },
+      "cursus_ids": [
+        9
+      ],
+      "marked_at": "2021-07-15T14:03:59.522Z",
+      "marked": true,
+      "retriable_at": "2021-07-15T14:23:59.591Z",
+      "created_at": "2021-06-21T09:05:35.898Z",
+      "updated_at": "2021-07-15T14:06:21.245Z"
+    }
+  ],
+  "languages_users": [
+    {
+      "id": 378686,
+      "language_id": 2,
+      "user_id": 91188,
+      "position": 1,
+      "created_at": "2021-06-21T08:10:08.014Z"
+    }
+  ],
+  "achievements": [],
+  "titles": [],
+  "titles_users": [],
+  "partnerships": [],
+  "patroned": [],
+  "patroning": [],
+  "expertises_users": [],
+  "roles": [],
+  "campus": [
+    {
+      "id": 43,
+      "name": "Abu Dhabi",
+      "time_zone": "Asia/Dubai",
+      "language": {
+        "id": 2,
+        "name": "English",
+        "identifier": "en",
+        "created_at": "2015-04-14T16:07:38.122Z",
+        "updated_at": "2023-02-16T11:08:11.620Z"
+      },
+      "users_count": 1500,
+      "vogsphere_id": 30,
+      "country": "United Arab Emirates",
+      "address": "Mina Zayed, Warehouse District ",
+      "zip": "00000",
+      "city": "Abu Dhabi",
+      "website": "https://42abudhabi.ae/",
+      "facebook": "",
+      "twitter": "",
+      "active": true,
+      "public": true,
+      "email_extension": "42abudhabi.ae",
+      "default_hidden_phone": false
+    }
+  ],
+  "campus_users": [
+    {
+      "id": 82728,
+      "user_id": 91188,
+      "campus_id": 43,
+      "is_primary": true,
+      "created_at": "2021-06-21T08:10:07.942Z",
+      "updated_at": "2021-06-21T08:10:07.942Z"
+    }
+  ]
+}

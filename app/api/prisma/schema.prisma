@@ -21,7 +21,7 @@ model User {
   usual_full_name    String?
   usual_first_name   String?
   url                String?   @default("null")
-  phone              String?   @unique @default("hidden")
+  phone              String?   @default("hidden")
   displayname        String?
   kind               String?   @default("null")
   staff              Boolean

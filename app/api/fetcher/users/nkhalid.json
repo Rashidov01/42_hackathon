@@ -1,0 +1,148 @@
+{
+  "id": 93212,
+  "email": "nkhalid@student.42abudhabi.ae",
+  "login": "nkhalid",
+  "first_name": "Najeeb",
+  "last_name": "Khalid",
+  "usual_full_name": "Najeeb Khalid",
+  "usual_first_name": null,
+  "url": "https://api.intra.42.fr/v2/users/nkhalid",
+  "phone": "hidden",
+  "displayname": "Najeeb Khalid",
+  "kind": "student",
+  "image": {
+    "link": "https://cdn.intra.42.fr/users/d51e08817d8842dadd26129465207851/nkhalid.jpg",
+    "versions": {
+      "large": "https://cdn.intra.42.fr/users/d41e5f8fdbc32ceac29c2314ffa494b0/large_nkhalid.jpg",
+      "medium": "https://cdn.intra.42.fr/users/207a5ad097bb2d1da360e7a18b403b42/medium_nkhalid.jpg",
+      "small": "https://cdn.intra.42.fr/users/d53ad49a2509b7d725846dfc41aafc25/small_nkhalid.jpg",
+      "micro": "https://cdn.intra.42.fr/users/70851f25f2f36d7990a9c1c133a19433/micro_nkhalid.jpg"
+    }
+  },
+  "staff?": false,
+  "correction_point": 5,
+  "pool_month": "august",
+  "pool_year": "2021",
+  "location": null,
+  "wallet": 0,
+  "anonymize_date": "2024-07-13T00:00:00.000+04:00",
+  "data_erasure_date": "2024-07-13T00:00:00.000+04:00",
+  "created_at": "2021-07-13T10:02:00.428Z",
+  "updated_at": "2021-07-13T10:04:30.631Z",
+  "alumnized_at": null,
+  "alumni?": false,
+  "active?": false,
+  "groups": [],
+  "cursus_users": [
+    {
+      "grade": null,
+      "level": 0,
+      "skills": [],
+      "blackholed_at": null,
+      "id": 129361,
+      "begin_at": "2021-08-01T04:42:00.000Z",
+      "end_at": "2021-08-26T14:00:00.000Z",
+      "cursus_id": 9,
+      "has_coalition": true,
+      "created_at": "2021-07-13T10:02:02.584Z",
+      "updated_at": "2021-07-13T10:02:02.584Z",
+      "user": {
+        "id": 93212,
+        "email": "nkhalid@student.42abudhabi.ae",
+        "login": "nkhalid",
+        "first_name": "Najeeb",
+        "last_name": "Khalid",
+        "usual_full_name": "Najeeb Khalid",
+        "usual_first_name": null,
+        "url": "https://api.intra.42.fr/v2/users/nkhalid",
+        "phone": "hidden",
+        "displayname": "Najeeb Khalid",
+        "kind": "student",
+        "image": {
+          "link": "https://cdn.intra.42.fr/users/d51e08817d8842dadd26129465207851/nkhalid.jpg",
+          "versions": {
+            "large": "https://cdn.intra.42.fr/users/d41e5f8fdbc32ceac29c2314ffa494b0/large_nkhalid.jpg",
+            "medium": "https://cdn.intra.42.fr/users/207a5ad097bb2d1da360e7a18b403b42/medium_nkhalid.jpg",
+            "small": "https://cdn.intra.42.fr/users/d53ad49a2509b7d725846dfc41aafc25/small_nkhalid.jpg",
+            "micro": "https://cdn.intra.42.fr/users/70851f25f2f36d7990a9c1c133a19433/micro_nkhalid.jpg"
+          }
+        },
+        "staff?": false,
+        "correction_point": 5,
+        "pool_month": "august",
+        "pool_year": "2021",
+        "location": null,
+        "wallet": 0,
+        "anonymize_date": "2024-07-13T00:00:00.000+04:00",
+        "data_erasure_date": "2024-07-13T00:00:00.000+04:00",
+        "created_at": "2021-07-13T10:02:00.428Z",
+        "updated_at": "2021-07-13T10:04:30.631Z",
+        "alumnized_at": null,
+        "alumni?": false,
+        "active?": false
+      },
+      "cursus": {
+        "id": 9,
+        "created_at": "2015-11-04T10:58:13.979Z",
+        "name": "C Piscine",
+        "slug": "c-piscine",
+        "kind": "piscine"
+      }
+    }
+  ],
+  "projects_users": [],
+  "languages_users": [
+    {
+      "id": 387637,
+      "language_id": 2,
+      "user_id": 93212,
+      "position": 1,
+      "created_at": "2021-07-13T10:02:00.624Z"
+    }
+  ],
+  "achievements": [],
+  "titles": [],
+  "titles_users": [],
+  "partnerships": [],
+  "patroned": [],
+  "patroning": [],
+  "expertises_users": [],
+  "roles": [],
+  "campus": [
+    {
+      "id": 43,
+      "name": "Abu Dhabi",
+      "time_zone": "Asia/Dubai",
+      "language": {
+        "id": 2,
+        "name": "English",
+        "identifier": "en",
+        "created_at": "2015-04-14T16:07:38.122Z",
+        "updated_at": "2023-02-16T11:08:11.620Z"
+      },
+      "users_count": 1500,
+      "vogsphere_id": 30,
+      "country": "United Arab Emirates",
+      "address": "Mina Zayed, Warehouse District ",
+      "zip": "00000",
+      "city": "Abu Dhabi",
+      "website": "https://42abudhabi.ae/",
+      "facebook": "",
+      "twitter": "",
+      "active": true,
+      "public": true,
+      "email_extension": "42abudhabi.ae",
+      "default_hidden_phone": false
+    }
+  ],
+  "campus_users": [
+    {
+      "id": 84759,
+      "user_id": 93212,
+      "campus_id": 43,
+      "is_primary": true,
+      "created_at": "2021-07-13T10:02:00.444Z",
+      "updated_at": "2021-07-13T10:02:00.444Z"
+    }
+  ]
+}

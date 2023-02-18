@@ -1,0 +1,148 @@
+{
+  "id": 145529,
+  "email": "maabdull@student.42abudhabi.ae",
+  "login": "maabdull",
+  "first_name": "Mahad",
+  "last_name": "Abdullah",
+  "usual_full_name": "Mahad Abdullah",
+  "usual_first_name": null,
+  "url": "https://api.intra.42.fr/v2/users/maabdull",
+  "phone": "hidden",
+  "displayname": "Mahad Abdullah",
+  "kind": "student",
+  "image": {
+    "link": "https://cdn.intra.42.fr/users/e928bdbef401d0609596ede8a86f9834/maabdull.jpg",
+    "versions": {
+      "large": "https://cdn.intra.42.fr/users/277ba9f307923aac090ed03680e86420/large_maabdull.jpg",
+      "medium": "https://cdn.intra.42.fr/users/bbc40d10de2e4d3b817166ec3f0f606a/medium_maabdull.jpg",
+      "small": "https://cdn.intra.42.fr/users/20b62552006581ae3d92781b60d715c2/small_maabdull.jpg",
+      "micro": "https://cdn.intra.42.fr/users/304d1c9164f257cbfad1b831266f6776/micro_maabdull.jpg"
+    }
+  },
+  "staff?": false,
+  "correction_point": 5,
+  "pool_month": "march",
+  "pool_year": "2023",
+  "location": null,
+  "wallet": 0,
+  "anonymize_date": "2026-02-13T00:00:00.000+04:00",
+  "data_erasure_date": "2026-02-13T00:00:00.000+04:00",
+  "created_at": "2023-02-13T08:18:27.928Z",
+  "updated_at": "2023-02-13T09:48:53.599Z",
+  "alumnized_at": null,
+  "alumni?": false,
+  "active?": false,
+  "groups": [],
+  "cursus_users": [
+    {
+      "grade": null,
+      "level": 0,
+      "skills": [],
+      "blackholed_at": null,
+      "id": 205958,
+      "begin_at": "2023-02-20T04:42:00.000Z",
+      "end_at": "2023-03-16T14:00:00.000Z",
+      "cursus_id": 9,
+      "has_coalition": true,
+      "created_at": "2023-02-13T08:18:29.093Z",
+      "updated_at": "2023-02-13T08:18:29.093Z",
+      "user": {
+        "id": 145529,
+        "email": "maabdull@student.42abudhabi.ae",
+        "login": "maabdull",
+        "first_name": "Mahad",
+        "last_name": "Abdullah",
+        "usual_full_name": "Mahad Abdullah",
+        "usual_first_name": null,
+        "url": "https://api.intra.42.fr/v2/users/maabdull",
+        "phone": "hidden",
+        "displayname": "Mahad Abdullah",
+        "kind": "student",
+        "image": {
+          "link": "https://cdn.intra.42.fr/users/e928bdbef401d0609596ede8a86f9834/maabdull.jpg",
+          "versions": {
+            "large": "https://cdn.intra.42.fr/users/277ba9f307923aac090ed03680e86420/large_maabdull.jpg",
+            "medium": "https://cdn.intra.42.fr/users/bbc40d10de2e4d3b817166ec3f0f606a/medium_maabdull.jpg",
+            "small": "https://cdn.intra.42.fr/users/20b62552006581ae3d92781b60d715c2/small_maabdull.jpg",
+            "micro": "https://cdn.intra.42.fr/users/304d1c9164f257cbfad1b831266f6776/micro_maabdull.jpg"
+          }
+        },
+        "staff?": false,
+        "correction_point": 5,
+        "pool_month": "march",
+        "pool_year": "2023",
+        "location": null,
+        "wallet": 0,
+        "anonymize_date": "2026-02-13T00:00:00.000+04:00",
+        "data_erasure_date": "2026-02-13T00:00:00.000+04:00",
+        "created_at": "2023-02-13T08:18:27.928Z",
+        "updated_at": "2023-02-13T09:48:53.599Z",
+        "alumnized_at": null,
+        "alumni?": false,
+        "active?": false
+      },
+      "cursus": {
+        "id": 9,
+        "created_at": "2015-11-04T10:58:13.979Z",
+        "name": "C Piscine",
+        "slug": "c-piscine",
+        "kind": "piscine"
+      }
+    }
+  ],
+  "projects_users": [],
+  "languages_users": [
+    {
+      "id": 733461,
+      "language_id": 2,
+      "user_id": 145529,
+      "position": 1,
+      "created_at": "2023-02-13T08:18:28.587Z"
+    }
+  ],
+  "achievements": [],
+  "titles": [],
+  "titles_users": [],
+  "partnerships": [],
+  "patroned": [],
+  "patroning": [],
+  "expertises_users": [],
+  "roles": [],
+  "campus": [
+    {
+      "id": 43,
+      "name": "Abu Dhabi",
+      "time_zone": "Asia/Dubai",
+      "language": {
+        "id": 2,
+        "name": "English",
+        "identifier": "en",
+        "created_at": "2015-04-14T16:07:38.122Z",
+        "updated_at": "2023-02-16T11:08:11.620Z"
+      },
+      "users_count": 1500,
+      "vogsphere_id": 30,
+      "country": "United Arab Emirates",
+      "address": "Mina Zayed, Warehouse District ",
+      "zip": "00000",
+      "city": "Abu Dhabi",
+      "website": "https://42abudhabi.ae/",
+      "facebook": "",
+      "twitter": "",
+      "active": true,
+      "public": true,
+      "email_extension": "42abudhabi.ae",
+      "default_hidden_phone": false
+    }
+  ],
+  "campus_users": [
+    {
+      "id": 137236,
+      "user_id": 145529,
+      "campus_id": 43,
+      "is_primary": true,
+      "created_at": "2023-02-13T08:18:27.950Z",
+      "updated_at": "2023-02-13T08:18:27.950Z"
+    }
+  ]
+}

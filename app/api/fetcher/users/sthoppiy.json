@@ -1,0 +1,148 @@
+{
+  "id": 145741,
+  "email": "sthoppiy@student.42abudhabi.ae",
+  "login": "sthoppiy",
+  "first_name": "Surya kiran",
+  "last_name": "Thoppiyil pradosh",
+  "usual_full_name": "Surya Kiran Thoppiyil Pradosh",
+  "usual_first_name": null,
+  "url": "https://api.intra.42.fr/v2/users/sthoppiy",
+  "phone": "hidden",
+  "displayname": "Surya Kiran Thoppiyil Pradosh",
+  "kind": "student",
+  "image": {
+    "link": "https://cdn.intra.42.fr/users/9516e3d0b46bfe99ec8e46753e1b2762/sthoppiy.jpg",
+    "versions": {
+      "large": "https://cdn.intra.42.fr/users/7c056ebc4c48f155ab8a12bed24f0909/large_sthoppiy.jpg",
+      "medium": "https://cdn.intra.42.fr/users/570fb3f6269c133e5fccde8d658297ab/medium_sthoppiy.jpg",
+      "small": "https://cdn.intra.42.fr/users/baf2bb10bb99f9344d81ec5b7f10e4f3/small_sthoppiy.jpg",
+      "micro": "https://cdn.intra.42.fr/users/3414925af1844576fb58ba538addf5d5/micro_sthoppiy.jpg"
+    }
+  },
+  "staff?": false,
+  "correction_point": 5,
+  "pool_month": "march",
+  "pool_year": "2023",
+  "location": null,
+  "wallet": 0,
+  "anonymize_date": "2026-02-16T00:00:00.000+04:00",
+  "data_erasure_date": "2026-02-16T00:00:00.000+04:00",
+  "created_at": "2023-02-16T08:13:57.024Z",
+  "updated_at": "2023-02-16T16:01:22.130Z",
+  "alumnized_at": null,
+  "alumni?": false,
+  "active?": false,
+  "groups": [],
+  "cursus_users": [
+    {
+      "grade": null,
+      "level": 0,
+      "skills": [],
+      "blackholed_at": null,
+      "id": 206650,
+      "begin_at": "2023-02-20T04:42:00.000Z",
+      "end_at": "2023-03-16T14:00:00.000Z",
+      "cursus_id": 9,
+      "has_coalition": true,
+      "created_at": "2023-02-16T08:13:58.231Z",
+      "updated_at": "2023-02-16T08:13:58.231Z",
+      "user": {
+        "id": 145741,
+        "email": "sthoppiy@student.42abudhabi.ae",
+        "login": "sthoppiy",
+        "first_name": "Surya kiran",
+        "last_name": "Thoppiyil pradosh",
+        "usual_full_name": "Surya Kiran Thoppiyil Pradosh",
+        "usual_first_name": null,
+        "url": "https://api.intra.42.fr/v2/users/sthoppiy",
+        "phone": "hidden",
+        "displayname": "Surya Kiran Thoppiyil Pradosh",
+        "kind": "student",
+        "image": {
+          "link": "https://cdn.intra.42.fr/users/9516e3d0b46bfe99ec8e46753e1b2762/sthoppiy.jpg",
+          "versions": {
+            "large": "https://cdn.intra.42.fr/users/7c056ebc4c48f155ab8a12bed24f0909/large_sthoppiy.jpg",
+            "medium": "https://cdn.intra.42.fr/users/570fb3f6269c133e5fccde8d658297ab/medium_sthoppiy.jpg",
+            "small": "https://cdn.intra.42.fr/users/baf2bb10bb99f9344d81ec5b7f10e4f3/small_sthoppiy.jpg",
+            "micro": "https://cdn.intra.42.fr/users/3414925af1844576fb58ba538addf5d5/micro_sthoppiy.jpg"
+          }
+        },
+        "staff?": false,
+        "correction_point": 5,
+        "pool_month": "march",
+        "pool_year": "2023",
+        "location": null,
+        "wallet": 0,
+        "anonymize_date": "2026-02-16T00:00:00.000+04:00",
+        "data_erasure_date": "2026-02-16T00:00:00.000+04:00",
+        "created_at": "2023-02-16T08:13:57.024Z",
+        "updated_at": "2023-02-16T16:01:22.130Z",
+        "alumnized_at": null,
+        "alumni?": false,
+        "active?": false
+      },
+      "cursus": {
+        "id": 9,
+        "created_at": "2015-11-04T10:58:13.979Z",
+        "name": "C Piscine",
+        "slug": "c-piscine",
+        "kind": "piscine"
+      }
+    }
+  ],
+  "projects_users": [],
+  "languages_users": [
+    {
+      "id": 736740,
+      "language_id": 2,
+      "user_id": 145741,
+      "position": 1,
+      "created_at": "2023-02-16T08:13:57.694Z"
+    }
+  ],
+  "achievements": [],
+  "titles": [],
+  "titles_users": [],
+  "partnerships": [],
+  "patroned": [],
+  "patroning": [],
+  "expertises_users": [],
+  "roles": [],
+  "campus": [
+    {
+      "id": 43,
+      "name": "Abu Dhabi",
+      "time_zone": "Asia/Dubai",
+      "language": {
+        "id": 2,
+        "name": "English",
+        "identifier": "en",
+        "created_at": "2015-04-14T16:07:38.122Z",
+        "updated_at": "2023-02-16T11:08:11.620Z"
+      },
+      "users_count": 1500,
+      "vogsphere_id": 30,
+      "country": "United Arab Emirates",
+      "address": "Mina Zayed, Warehouse District ",
+      "zip": "00000",
+      "city": "Abu Dhabi",
+      "website": "https://42abudhabi.ae/",
+      "facebook": "",
+      "twitter": "",
+      "active": true,
+      "public": true,
+      "email_extension": "42abudhabi.ae",
+      "default_hidden_phone": false
+    }
+  ],
+  "campus_users": [
+    {
+      "id": 137451,
+      "user_id": 145741,
+      "campus_id": 43,
+      "is_primary": true,
+      "created_at": "2023-02-16T08:13:57.045Z",
+      "updated_at": "2023-02-16T08:13:57.045Z"
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "id": 145761,
+  "email": "amaslenk@student.42abudhabi.ae",
+  "login": "amaslenk",
+  "first_name": "Aleksandr",
+  "last_name": "Maslenkov",
+  "usual_full_name": "Aleksandr Maslenkov",
+  "usual_first_name": null,
+  "url": "https://api.intra.42.fr/v2/users/amaslenk",
+  "phone": "hidden",
+  "displayname": "Aleksandr Maslenkov",
+  "kind": "student",
+  "image": {
+    "link": "https://cdn.intra.42.fr/users/052bc69739d46931c51288ff00ffb2de/amaslenk.jpg",
+    "versions": {
+      "large": "https://cdn.intra.42.fr/users/cbe65fffa4f4e9d34ea177ff2f67b7c3/large_amaslenk.jpg",
+      "medium": "https://cdn.intra.42.fr/users/32a7cfe29a80bf66fc73a5f4b1431399/medium_amaslenk.jpg",
+      "small": "https://cdn.intra.42.fr/users/7a6f4833e7b2b2e17d66460d1ba91a15/small_amaslenk.jpg",
+      "micro": "https://cdn.intra.42.fr/users/42310487272048588f620a6b0eabb736/micro_amaslenk.jpg"
+    }
+  },
+  "staff?": false,
+  "correction_point": 5,
+  "pool_month": "march",
+  "pool_year": "2023",
+  "location": null,
+  "wallet": 0,
+  "anonymize_date": "2026-02-17T00:00:00.000+04:00",
+  "data_erasure_date": "2026-02-17T00:00:00.000+04:00",
+  "created_at": "2023-02-16T10:31:22.204Z",
+  "updated_at": "2023-02-16T11:23:08.289Z",
+  "alumnized_at": null,
+  "alumni?": false,
+  "active?": false,
+  "groups": [],
+  "cursus_users": [
+    {
+      "grade": null,
+      "level": 0,
+      "skills": [],
+      "blackholed_at": null,
+      "id": 206673,
+      "begin_at": "2023-02-20T04:42:00.000Z",
+      "end_at": "2023-03-16T14:00:00.000Z",
+      "cursus_id": 9,
+      "has_coalition": true,
+      "created_at": "2023-02-16T10:31:23.511Z",
+      "updated_at": "2023-02-16T10:31:23.511Z",
+      "user": {
+        "id": 145761,
+        "email": "amaslenk@student.42abudhabi.ae",
+        "login": "amaslenk",
+        "first_name": "Aleksandr",
+        "last_name": "Maslenkov",
+        "usual_full_name": "Aleksandr Maslenkov",
+        "usual_first_name": null,
+        "url": "https://api.intra.42.fr/v2/users/amaslenk",
+        "phone": "hidden",
+        "displayname": "Aleksandr Maslenkov",
+        "kind": "student",
+        "image": {
+          "link": "https://cdn.intra.42.fr/users/052bc69739d46931c51288ff00ffb2de/amaslenk.jpg",
+          "versions": {
+            "large": "https://cdn.intra.42.fr/users/cbe65fffa4f4e9d34ea177ff2f67b7c3/large_amaslenk.jpg",
+            "medium": "https://cdn.intra.42.fr/users/32a7cfe29a80bf66fc73a5f4b1431399/medium_amaslenk.jpg",
+            "small": "https://cdn.intra.42.fr/users/7a6f4833e7b2b2e17d66460d1ba91a15/small_amaslenk.jpg",
+            "micro": "https://cdn.intra.42.fr/users/42310487272048588f620a6b0eabb736/micro_amaslenk.jpg"
+          }
+        },
+        "staff?": false,
+        "correction_point": 5,
+        "pool_month": "march",
+        "pool_year": "2023",
+        "location": null,
+        "wallet": 0,
+        "anonymize_date": "2026-02-17T00:00:00.000+04:00",
+        "data_erasure_date": "2026-02-17T00:00:00.000+04:00",
+        "created_at": "2023-02-16T10:31:22.204Z",
+        "updated_at": "2023-02-16T11:23:08.289Z",
+        "alumnized_at": null,
+        "alumni?": false,
+        "active?": false
+      },
+      "cursus": {
+        "id": 9,
+        "created_at": "2015-11-04T10:58:13.979Z",
+        "name": "C Piscine",
+        "slug": "c-piscine",
+        "kind": "piscine"
+      }
+    }
+  ],
+  "projects_users": [],
+  "languages_users": [
+    {
+      "id": 736875,
+      "language_id": 2,
+      "user_id": 145761,
+      "position": 1,
+      "created_at": "2023-02-16T10:31:22.912Z"
+    }
+  ],
+  "achievements": [],
+  "titles": [],
+  "titles_users": [],
+  "partnerships": [],
+  "patroned": [],
+  "patroning": [],
+  "expertises_users": [],
+  "roles": [],
+  "campus": [
+    {
+      "id": 43,
+      "name": "Abu Dhabi",
+      "time_zone": "Asia/Dubai",
+      "language": {
+        "id": 2,
+        "name": "English",
+        "identifier": "en",
+        "created_at": "2015-04-14T16:07:38.122Z",
+        "updated_at": "2023-02-16T11:08:11.620Z"
+      },
+      "users_count": 1500,
+      "vogsphere_id": 30,
+      "country": "United Arab Emirates",
+      "address": "Mina Zayed, Warehouse District ",
+      "zip": "00000",
+      "city": "Abu Dhabi",
+      "website": "https://42abudhabi.ae/",
+      "facebook": "",
+      "twitter": "",
+      "active": true,
+      "public": true,
+      "email_extension": "42abudhabi.ae",
+      "default_hidden_phone": false
+    }
+  ],
+  "campus_users": [
+    {
+      "id": 137472,
+      "user_id": 145761,
+      "campus_id": 43,
+      "is_primary": true,
+      "created_at": "2023-02-16T10:31:22.233Z",
+      "updated_at": "2023-02-16T10:31:22.233Z"
+    }
+  ]
+}

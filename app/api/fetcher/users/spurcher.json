@@ -1,0 +1,148 @@
+{
+  "id": 145664,
+  "email": "spurcher@student.42abudhabi.ae",
+  "login": "spurcher",
+  "first_name": "Stefan",
+  "last_name": "Purcherea",
+  "usual_full_name": "Stefan Purcherea",
+  "usual_first_name": null,
+  "url": "https://api.intra.42.fr/v2/users/spurcher",
+  "phone": "hidden",
+  "displayname": "Stefan Purcherea",
+  "kind": "student",
+  "image": {
+    "link": "https://cdn.intra.42.fr/users/cd6011cad4c8de1c5af124be1536d3d7/spurcher.jpg",
+    "versions": {
+      "large": "https://cdn.intra.42.fr/users/4edbf5e335205597c457925bfe131e81/large_spurcher.jpg",
+      "medium": "https://cdn.intra.42.fr/users/05d5abe838b0bfadbcf2bb4e63e6f696/medium_spurcher.jpg",
+      "small": "https://cdn.intra.42.fr/users/6d0460a6de346267b8e606b30c51a5d4/small_spurcher.jpg",
+      "micro": "https://cdn.intra.42.fr/users/9ebe50e4082515561dcdda98e7646774/micro_spurcher.jpg"
+    }
+  },
+  "staff?": false,
+  "correction_point": 5,
+  "pool_month": "march",
+  "pool_year": "2023",
+  "location": null,
+  "wallet": 0,
+  "anonymize_date": "2026-02-16T00:00:00.000+04:00",
+  "data_erasure_date": "2026-02-16T00:00:00.000+04:00",
+  "created_at": "2023-02-13T09:28:29.527Z",
+  "updated_at": "2023-02-15T15:22:12.320Z",
+  "alumnized_at": null,
+  "alumni?": false,
+  "active?": false,
+  "groups": [],
+  "cursus_users": [
+    {
+      "grade": null,
+      "level": 0,
+      "skills": [],
+      "blackholed_at": null,
+      "id": 206094,
+      "begin_at": "2023-02-20T04:42:00.000Z",
+      "end_at": "2023-03-16T14:00:00.000Z",
+      "cursus_id": 9,
+      "has_coalition": true,
+      "created_at": "2023-02-13T09:28:30.834Z",
+      "updated_at": "2023-02-13T09:28:30.834Z",
+      "user": {
+        "id": 145664,
+        "email": "spurcher@student.42abudhabi.ae",
+        "login": "spurcher",
+        "first_name": "Stefan",
+        "last_name": "Purcherea",
+        "usual_full_name": "Stefan Purcherea",
+        "usual_first_name": null,
+        "url": "https://api.intra.42.fr/v2/users/spurcher",
+        "phone": "hidden",
+        "displayname": "Stefan Purcherea",
+        "kind": "student",
+        "image": {
+          "link": "https://cdn.intra.42.fr/users/cd6011cad4c8de1c5af124be1536d3d7/spurcher.jpg",
+          "versions": {
+            "large": "https://cdn.intra.42.fr/users/4edbf5e335205597c457925bfe131e81/large_spurcher.jpg",
+            "medium": "https://cdn.intra.42.fr/users/05d5abe838b0bfadbcf2bb4e63e6f696/medium_spurcher.jpg",
+            "small": "https://cdn.intra.42.fr/users/6d0460a6de346267b8e606b30c51a5d4/small_spurcher.jpg",
+            "micro": "https://cdn.intra.42.fr/users/9ebe50e4082515561dcdda98e7646774/micro_spurcher.jpg"
+          }
+        },
+        "staff?": false,
+        "correction_point": 5,
+        "pool_month": "march",
+        "pool_year": "2023",
+        "location": null,
+        "wallet": 0,
+        "anonymize_date": "2026-02-16T00:00:00.000+04:00",
+        "data_erasure_date": "2026-02-16T00:00:00.000+04:00",
+        "created_at": "2023-02-13T09:28:29.527Z",
+        "updated_at": "2023-02-15T15:22:12.320Z",
+        "alumnized_at": null,
+        "alumni?": false,
+        "active?": false
+      },
+      "cursus": {
+        "id": 9,
+        "created_at": "2015-11-04T10:58:13.979Z",
+        "name": "C Piscine",
+        "slug": "c-piscine",
+        "kind": "piscine"
+      }
+    }
+  ],
+  "projects_users": [],
+  "languages_users": [
+    {
+      "id": 733768,
+      "language_id": 2,
+      "user_id": 145664,
+      "position": 1,
+      "created_at": "2023-02-13T09:28:30.261Z"
+    }
+  ],
+  "achievements": [],
+  "titles": [],
+  "titles_users": [],
+  "partnerships": [],
+  "patroned": [],
+  "patroning": [],
+  "expertises_users": [],
+  "roles": [],
+  "campus": [
+    {
+      "id": 43,
+      "name": "Abu Dhabi",
+      "time_zone": "Asia/Dubai",
+      "language": {
+        "id": 2,
+        "name": "English",
+        "identifier": "en",
+        "created_at": "2015-04-14T16:07:38.122Z",
+        "updated_at": "2023-02-16T11:08:11.620Z"
+      },
+      "users_count": 1500,
+      "vogsphere_id": 30,
+      "country": "United Arab Emirates",
+      "address": "Mina Zayed, Warehouse District ",
+      "zip": "00000",
+      "city": "Abu Dhabi",
+      "website": "https://42abudhabi.ae/",
+      "facebook": "",
+      "twitter": "",
+      "active": true,
+      "public": true,
+      "email_extension": "42abudhabi.ae",
+      "default_hidden_phone": false
+    }
+  ],
+  "campus_users": [
+    {
+      "id": 137371,
+      "user_id": 145664,
+      "campus_id": 43,
+      "is_primary": true,
+      "created_at": "2023-02-13T09:28:29.604Z",
+      "updated_at": "2023-02-13T09:28:29.604Z"
+    }
+  ]
+}

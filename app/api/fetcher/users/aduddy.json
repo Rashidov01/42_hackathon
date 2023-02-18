@@ -1,0 +1,148 @@
+{
+  "id": 145701,
+  "email": "aduddy@student.42abudhabi.ae",
+  "login": "aduddy",
+  "first_name": "Alexander",
+  "last_name": "Duddy",
+  "usual_full_name": "Alexander Duddy",
+  "usual_first_name": null,
+  "url": "https://api.intra.42.fr/v2/users/aduddy",
+  "phone": "hidden",
+  "displayname": "Alexander Duddy",
+  "kind": "student",
+  "image": {
+    "link": "https://cdn.intra.42.fr/users/3e8d51ccfc02655278b3d7141b112fd1/aduddy.jpg",
+    "versions": {
+      "large": "https://cdn.intra.42.fr/users/c97d374fe7231a8798508df033e2f6cf/large_aduddy.jpg",
+      "medium": "https://cdn.intra.42.fr/users/2cff9fa57e7f0dc615a18fa570d64b0c/medium_aduddy.jpg",
+      "small": "https://cdn.intra.42.fr/users/dce638d7ebfb83a22de7b5492fe86674/small_aduddy.jpg",
+      "micro": "https://cdn.intra.42.fr/users/4418d64b9c25fffede5305e27dd742cf/micro_aduddy.jpg"
+    }
+  },
+  "staff?": false,
+  "correction_point": 5,
+  "pool_month": "march",
+  "pool_year": "2023",
+  "location": null,
+  "wallet": 0,
+  "anonymize_date": "2026-02-14T00:00:00.000+04:00",
+  "data_erasure_date": "2026-02-14T00:00:00.000+04:00",
+  "created_at": "2023-02-13T11:13:27.740Z",
+  "updated_at": "2023-02-14T12:31:08.186Z",
+  "alumnized_at": null,
+  "alumni?": false,
+  "active?": false,
+  "groups": [],
+  "cursus_users": [
+    {
+      "grade": null,
+      "level": 0,
+      "skills": [],
+      "blackholed_at": null,
+      "id": 206136,
+      "begin_at": "2023-02-20T04:42:00.000Z",
+      "end_at": "2023-03-16T14:00:00.000Z",
+      "cursus_id": 9,
+      "has_coalition": true,
+      "created_at": "2023-02-13T11:13:29.149Z",
+      "updated_at": "2023-02-13T11:13:29.149Z",
+      "user": {
+        "id": 145701,
+        "email": "aduddy@student.42abudhabi.ae",
+        "login": "aduddy",
+        "first_name": "Alexander",
+        "last_name": "Duddy",
+        "usual_full_name": "Alexander Duddy",
+        "usual_first_name": null,
+        "url": "https://api.intra.42.fr/v2/users/aduddy",
+        "phone": "hidden",
+        "displayname": "Alexander Duddy",
+        "kind": "student",
+        "image": {
+          "link": "https://cdn.intra.42.fr/users/3e8d51ccfc02655278b3d7141b112fd1/aduddy.jpg",
+          "versions": {
+            "large": "https://cdn.intra.42.fr/users/c97d374fe7231a8798508df033e2f6cf/large_aduddy.jpg",
+            "medium": "https://cdn.intra.42.fr/users/2cff9fa57e7f0dc615a18fa570d64b0c/medium_aduddy.jpg",
+            "small": "https://cdn.intra.42.fr/users/dce638d7ebfb83a22de7b5492fe86674/small_aduddy.jpg",
+            "micro": "https://cdn.intra.42.fr/users/4418d64b9c25fffede5305e27dd742cf/micro_aduddy.jpg"
+          }
+        },
+        "staff?": false,
+        "correction_point": 5,
+        "pool_month": "march",
+        "pool_year": "2023",
+        "location": null,
+        "wallet": 0,
+        "anonymize_date": "2026-02-14T00:00:00.000+04:00",
+        "data_erasure_date": "2026-02-14T00:00:00.000+04:00",
+        "created_at": "2023-02-13T11:13:27.740Z",
+        "updated_at": "2023-02-14T12:31:08.186Z",
+        "alumnized_at": null,
+        "alumni?": false,
+        "active?": false
+      },
+      "cursus": {
+        "id": 9,
+        "created_at": "2015-11-04T10:58:13.979Z",
+        "name": "C Piscine",
+        "slug": "c-piscine",
+        "kind": "piscine"
+      }
+    }
+  ],
+  "projects_users": [],
+  "languages_users": [
+    {
+      "id": 733935,
+      "language_id": 2,
+      "user_id": 145701,
+      "position": 1,
+      "created_at": "2023-02-13T11:13:28.509Z"
+    }
+  ],
+  "achievements": [],
+  "titles": [],
+  "titles_users": [],
+  "partnerships": [],
+  "patroned": [],
+  "patroning": [],
+  "expertises_users": [],
+  "roles": [],
+  "campus": [
+    {
+      "id": 43,
+      "name": "Abu Dhabi",
+      "time_zone": "Asia/Dubai",
+      "language": {
+        "id": 2,
+        "name": "English",
+        "identifier": "en",
+        "created_at": "2015-04-14T16:07:38.122Z",
+        "updated_at": "2023-02-16T11:08:11.620Z"
+      },
+      "users_count": 1500,
+      "vogsphere_id": 30,
+      "country": "United Arab Emirates",
+      "address": "Mina Zayed, Warehouse District ",
+      "zip": "00000",
+      "city": "Abu Dhabi",
+      "website": "https://42abudhabi.ae/",
+      "facebook": "",
+      "twitter": "",
+      "active": true,
+      "public": true,
+      "email_extension": "42abudhabi.ae",
+      "default_hidden_phone": false
+    }
+  ],
+  "campus_users": [
+    {
+      "id": 137408,
+      "user_id": 145701,
+      "campus_id": 43,
+      "is_primary": true,
+      "created_at": "2023-02-13T11:13:27.779Z",
+      "updated_at": "2023-02-13T11:13:27.779Z"
+    }
+  ]
+}

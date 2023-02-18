@@ -1,0 +1,148 @@
+{
+  "id": 145737,
+  "email": "zmazroue@student.42abudhabi.ae",
+  "login": "zmazroue",
+  "first_name": "Zayed",
+  "last_name": "Mazrouei",
+  "usual_full_name": "Zayed Mazrouei",
+  "usual_first_name": null,
+  "url": "https://api.intra.42.fr/v2/users/zmazroue",
+  "phone": "hidden",
+  "displayname": "Zayed Mazrouei",
+  "kind": "student",
+  "image": {
+    "link": "https://cdn.intra.42.fr/users/a9ccc0af07be284509f574eaa2472f48/zmazroue.jpg",
+    "versions": {
+      "large": "https://cdn.intra.42.fr/users/5876421c84cac0e96b552ed337c68624/large_zmazroue.jpg",
+      "medium": "https://cdn.intra.42.fr/users/8841f2215d43a861f4296fbee92176d2/medium_zmazroue.jpg",
+      "small": "https://cdn.intra.42.fr/users/ffe8a03de3299f21646d7014b8dca7eb/small_zmazroue.jpg",
+      "micro": "https://cdn.intra.42.fr/users/3d5293edadc2260bb070194465c768ac/micro_zmazroue.jpg"
+    }
+  },
+  "staff?": false,
+  "correction_point": 5,
+  "pool_month": "march",
+  "pool_year": "2023",
+  "location": null,
+  "wallet": 0,
+  "anonymize_date": "2026-02-16T00:00:00.000+04:00",
+  "data_erasure_date": "2026-02-16T00:00:00.000+04:00",
+  "created_at": "2023-02-16T08:09:00.998Z",
+  "updated_at": "2023-02-16T08:11:03.469Z",
+  "alumnized_at": null,
+  "alumni?": false,
+  "active?": false,
+  "groups": [],
+  "cursus_users": [
+    {
+      "grade": null,
+      "level": 0,
+      "skills": [],
+      "blackholed_at": null,
+      "id": 206646,
+      "begin_at": "2023-02-20T04:42:00.000Z",
+      "end_at": "2023-03-16T14:00:00.000Z",
+      "cursus_id": 9,
+      "has_coalition": true,
+      "created_at": "2023-02-16T08:09:02.234Z",
+      "updated_at": "2023-02-16T08:09:02.234Z",
+      "user": {
+        "id": 145737,
+        "email": "zmazroue@student.42abudhabi.ae",
+        "login": "zmazroue",
+        "first_name": "Zayed",
+        "last_name": "Mazrouei",
+        "usual_full_name": "Zayed Mazrouei",
+        "usual_first_name": null,
+        "url": "https://api.intra.42.fr/v2/users/zmazroue",
+        "phone": "hidden",
+        "displayname": "Zayed Mazrouei",
+        "kind": "student",
+        "image": {
+          "link": "https://cdn.intra.42.fr/users/a9ccc0af07be284509f574eaa2472f48/zmazroue.jpg",
+          "versions": {
+            "large": "https://cdn.intra.42.fr/users/5876421c84cac0e96b552ed337c68624/large_zmazroue.jpg",
+            "medium": "https://cdn.intra.42.fr/users/8841f2215d43a861f4296fbee92176d2/medium_zmazroue.jpg",
+            "small": "https://cdn.intra.42.fr/users/ffe8a03de3299f21646d7014b8dca7eb/small_zmazroue.jpg",
+            "micro": "https://cdn.intra.42.fr/users/3d5293edadc2260bb070194465c768ac/micro_zmazroue.jpg"
+          }
+        },
+        "staff?": false,
+        "correction_point": 5,
+        "pool_month": "march",
+        "pool_year": "2023",
+        "location": null,
+        "wallet": 0,
+        "anonymize_date": "2026-02-16T00:00:00.000+04:00",
+        "data_erasure_date": "2026-02-16T00:00:00.000+04:00",
+        "created_at": "2023-02-16T08:09:00.998Z",
+        "updated_at": "2023-02-16T08:11:03.469Z",
+        "alumnized_at": null,
+        "alumni?": false,
+        "active?": false
+      },
+      "cursus": {
+        "id": 9,
+        "created_at": "2015-11-04T10:58:13.979Z",
+        "name": "C Piscine",
+        "slug": "c-piscine",
+        "kind": "piscine"
+      }
+    }
+  ],
+  "projects_users": [],
+  "languages_users": [
+    {
+      "id": 736730,
+      "language_id": 2,
+      "user_id": 145737,
+      "position": 1,
+      "created_at": "2023-02-16T08:09:01.716Z"
+    }
+  ],
+  "achievements": [],
+  "titles": [],
+  "titles_users": [],
+  "partnerships": [],
+  "patroned": [],
+  "patroning": [],
+  "expertises_users": [],
+  "roles": [],
+  "campus": [
+    {
+      "id": 43,
+      "name": "Abu Dhabi",
+      "time_zone": "Asia/Dubai",
+      "language": {
+        "id": 2,
+        "name": "English",
+        "identifier": "en",
+        "created_at": "2015-04-14T16:07:38.122Z",
+        "updated_at": "2023-02-16T11:08:11.620Z"
+      },
+      "users_count": 1500,
+      "vogsphere_id": 30,
+      "country": "United Arab Emirates",
+      "address": "Mina Zayed, Warehouse District ",
+      "zip": "00000",
+      "city": "Abu Dhabi",
+      "website": "https://42abudhabi.ae/",
+      "facebook": "",
+      "twitter": "",
+      "active": true,
+      "public": true,
+      "email_extension": "42abudhabi.ae",
+      "default_hidden_phone": false
+    }
+  ],
+  "campus_users": [
+    {
+      "id": 137447,
+      "user_id": 145737,
+      "campus_id": 43,
+      "is_primary": true,
+      "created_at": "2023-02-16T08:09:01.035Z",
+      "updated_at": "2023-02-16T08:09:01.035Z"
+    }
+  ]
+}

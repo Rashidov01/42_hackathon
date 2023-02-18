@@ -1,0 +1,148 @@
+{
+  "id": 93217,
+  "email": "tjovin@student.42abudhabi.ae",
+  "login": "tjovin",
+  "first_name": "Tony",
+  "last_name": "Jovin",
+  "usual_full_name": "Tony Jovin",
+  "usual_first_name": null,
+  "url": "https://api.intra.42.fr/v2/users/tjovin",
+  "phone": "hidden",
+  "displayname": "Tony Jovin",
+  "kind": "student",
+  "image": {
+    "link": "https://cdn.intra.42.fr/users/172e41d5e975a280da4859bd27f95f83/tjovin.jpg",
+    "versions": {
+      "large": "https://cdn.intra.42.fr/users/8ba1658139717d883f598d36515b0b71/large_tjovin.jpg",
+      "medium": "https://cdn.intra.42.fr/users/f6e46d532005505a34e9c8f57cf33f8e/medium_tjovin.jpg",
+      "small": "https://cdn.intra.42.fr/users/c64885fad577458e4793c896826ddc1e/small_tjovin.jpg",
+      "micro": "https://cdn.intra.42.fr/users/d45abda5367780651b924bd9f6fd95d8/micro_tjovin.jpg"
+    }
+  },
+  "staff?": false,
+  "correction_point": 5,
+  "pool_month": "august",
+  "pool_year": "2021",
+  "location": null,
+  "wallet": 0,
+  "anonymize_date": "2024-07-13T00:00:00.000+04:00",
+  "data_erasure_date": "2024-07-13T00:00:00.000+04:00",
+  "created_at": "2021-07-13T10:03:22.642Z",
+  "updated_at": "2021-07-13T10:05:33.714Z",
+  "alumnized_at": null,
+  "alumni?": false,
+  "active?": false,
+  "groups": [],
+  "cursus_users": [
+    {
+      "grade": null,
+      "level": 0,
+      "skills": [],
+      "blackholed_at": null,
+      "id": 129366,
+      "begin_at": "2021-08-01T04:42:00.000Z",
+      "end_at": "2021-08-26T14:00:00.000Z",
+      "cursus_id": 9,
+      "has_coalition": true,
+      "created_at": "2021-07-13T10:03:24.595Z",
+      "updated_at": "2021-07-13T10:03:24.595Z",
+      "user": {
+        "id": 93217,
+        "email": "tjovin@student.42abudhabi.ae",
+        "login": "tjovin",
+        "first_name": "Tony",
+        "last_name": "Jovin",
+        "usual_full_name": "Tony Jovin",
+        "usual_first_name": null,
+        "url": "https://api.intra.42.fr/v2/users/tjovin",
+        "phone": "hidden",
+        "displayname": "Tony Jovin",
+        "kind": "student",
+        "image": {
+          "link": "https://cdn.intra.42.fr/users/172e41d5e975a280da4859bd27f95f83/tjovin.jpg",
+          "versions": {
+            "large": "https://cdn.intra.42.fr/users/8ba1658139717d883f598d36515b0b71/large_tjovin.jpg",
+            "medium": "https://cdn.intra.42.fr/users/f6e46d532005505a34e9c8f57cf33f8e/medium_tjovin.jpg",
+            "small": "https://cdn.intra.42.fr/users/c64885fad577458e4793c896826ddc1e/small_tjovin.jpg",
+            "micro": "https://cdn.intra.42.fr/users/d45abda5367780651b924bd9f6fd95d8/micro_tjovin.jpg"
+          }
+        },
+        "staff?": false,
+        "correction_point": 5,
+        "pool_month": "august",
+        "pool_year": "2021",
+        "location": null,
+        "wallet": 0,
+        "anonymize_date": "2024-07-13T00:00:00.000+04:00",
+        "data_erasure_date": "2024-07-13T00:00:00.000+04:00",
+        "created_at": "2021-07-13T10:03:22.642Z",
+        "updated_at": "2021-07-13T10:05:33.714Z",
+        "alumnized_at": null,
+        "alumni?": false,
+        "active?": false
+      },
+      "cursus": {
+        "id": 9,
+        "created_at": "2015-11-04T10:58:13.979Z",
+        "name": "C Piscine",
+        "slug": "c-piscine",
+        "kind": "piscine"
+      }
+    }
+  ],
+  "projects_users": [],
+  "languages_users": [
+    {
+      "id": 387642,
+      "language_id": 2,
+      "user_id": 93217,
+      "position": 1,
+      "created_at": "2021-07-13T10:03:22.941Z"
+    }
+  ],
+  "achievements": [],
+  "titles": [],
+  "titles_users": [],
+  "partnerships": [],
+  "patroned": [],
+  "patroning": [],
+  "expertises_users": [],
+  "roles": [],
+  "campus": [
+    {
+      "id": 43,
+      "name": "Abu Dhabi",
+      "time_zone": "Asia/Dubai",
+      "language": {
+        "id": 2,
+        "name": "English",
+        "identifier": "en",
+        "created_at": "2015-04-14T16:07:38.122Z",
+        "updated_at": "2023-02-16T11:08:11.620Z"
+      },
+      "users_count": 1500,
+      "vogsphere_id": 30,
+      "country": "United Arab Emirates",
+      "address": "Mina Zayed, Warehouse District ",
+      "zip": "00000",
+      "city": "Abu Dhabi",
+      "website": "https://42abudhabi.ae/",
+      "facebook": "",
+      "twitter": "",
+      "active": true,
+      "public": true,
+      "email_extension": "42abudhabi.ae",
+      "default_hidden_phone": false
+    }
+  ],
+  "campus_users": [
+    {
+      "id": 84764,
+      "user_id": 93217,
+      "campus_id": 43,
+      "is_primary": true,
+      "created_at": "2021-07-13T10:03:22.658Z",
+      "updated_at": "2021-07-13T10:03:22.658Z"
+    }
+  ]
+}

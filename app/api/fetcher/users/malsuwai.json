@@ -1,0 +1,171 @@
+{
+  "id": 93237,
+  "email": "malsuwai@student.42abudhabi.ae",
+  "login": "malsuwai",
+  "first_name": "Mohamed",
+  "last_name": "Alsuwaidi",
+  "usual_full_name": "Mohamed Alsuwaidi",
+  "usual_first_name": null,
+  "url": "https://api.intra.42.fr/v2/users/malsuwai",
+  "phone": "hidden",
+  "displayname": "Mohamed Alsuwaidi",
+  "kind": "student",
+  "image": {
+    "link": "https://cdn.intra.42.fr/users/5eb49d14b54ace10ced7d3af47ee631a/malsuwai.jpg",
+    "versions": {
+      "large": "https://cdn.intra.42.fr/users/4e51596a6ea24dfd7f4f2e1601c6b829/large_malsuwai.jpg",
+      "medium": "https://cdn.intra.42.fr/users/31892ce0547a86b059dd8d949987b437/medium_malsuwai.jpg",
+      "small": "https://cdn.intra.42.fr/users/b7df4fc613f8b2ae2db2b21d74cd6157/small_malsuwai.jpg",
+      "micro": "https://cdn.intra.42.fr/users/9f9756b267cabd5bfcb4e315d9cde23e/micro_malsuwai.jpg"
+    }
+  },
+  "staff?": false,
+  "correction_point": 5,
+  "pool_month": "august",
+  "pool_year": "2021",
+  "location": null,
+  "wallet": 0,
+  "anonymize_date": "2024-08-02T00:00:00.000+04:00",
+  "data_erasure_date": "2024-08-02T00:00:00.000+04:00",
+  "created_at": "2021-07-13T11:32:09.222Z",
+  "updated_at": "2021-08-02T13:38:41.738Z",
+  "alumnized_at": null,
+  "alumni?": false,
+  "active?": false,
+  "groups": [],
+  "cursus_users": [
+    {
+      "grade": null,
+      "level": 0,
+      "skills": [],
+      "blackholed_at": null,
+      "id": 129386,
+      "begin_at": "2021-08-01T04:42:00.000Z",
+      "end_at": "2021-08-26T14:00:00.000Z",
+      "cursus_id": 9,
+      "has_coalition": true,
+      "created_at": "2021-07-13T11:32:12.198Z",
+      "updated_at": "2021-07-13T11:32:12.198Z",
+      "user": {
+        "id": 93237,
+        "email": "malsuwai@student.42abudhabi.ae",
+        "login": "malsuwai",
+        "first_name": "Mohamed",
+        "last_name": "Alsuwaidi",
+        "usual_full_name": "Mohamed Alsuwaidi",
+        "usual_first_name": null,
+        "url": "https://api.intra.42.fr/v2/users/malsuwai",
+        "phone": "hidden",
+        "displayname": "Mohamed Alsuwaidi",
+        "kind": "student",
+        "image": {
+          "link": "https://cdn.intra.42.fr/users/5eb49d14b54ace10ced7d3af47ee631a/malsuwai.jpg",
+          "versions": {
+            "large": "https://cdn.intra.42.fr/users/4e51596a6ea24dfd7f4f2e1601c6b829/large_malsuwai.jpg",
+            "medium": "https://cdn.intra.42.fr/users/31892ce0547a86b059dd8d949987b437/medium_malsuwai.jpg",
+            "small": "https://cdn.intra.42.fr/users/b7df4fc613f8b2ae2db2b21d74cd6157/small_malsuwai.jpg",
+            "micro": "https://cdn.intra.42.fr/users/9f9756b267cabd5bfcb4e315d9cde23e/micro_malsuwai.jpg"
+          }
+        },
+        "staff?": false,
+        "correction_point": 5,
+        "pool_month": "august",
+        "pool_year": "2021",
+        "location": null,
+        "wallet": 0,
+        "anonymize_date": "2024-08-02T00:00:00.000+04:00",
+        "data_erasure_date": "2024-08-02T00:00:00.000+04:00",
+        "created_at": "2021-07-13T11:32:09.222Z",
+        "updated_at": "2021-08-02T13:38:41.738Z",
+        "alumnized_at": null,
+        "alumni?": false,
+        "active?": false
+      },
+      "cursus": {
+        "id": 9,
+        "created_at": "2015-11-04T10:58:13.979Z",
+        "name": "C Piscine",
+        "slug": "c-piscine",
+        "kind": "piscine"
+      }
+    }
+  ],
+  "projects_users": [
+    {
+      "id": 2269828,
+      "occurrence": 0,
+      "final_mark": 0,
+      "status": "finished",
+      "validated?": false,
+      "current_team_id": 3691027,
+      "project": {
+        "id": 1255,
+        "name": "C Piscine Shell 00",
+        "slug": "c-piscine-shell-00",
+        "parent_id": null
+      },
+      "cursus_ids": [
+        9
+      ],
+      "marked_at": "2021-08-26T14:02:31.335Z",
+      "marked": true,
+      "retriable_at": "2021-08-26T14:22:31.402Z",
+      "created_at": "2021-08-01T08:34:24.600Z",
+      "updated_at": "2021-08-26T14:03:39.406Z"
+    }
+  ],
+  "languages_users": [
+    {
+      "id": 387703,
+      "language_id": 2,
+      "user_id": 93237,
+      "position": 1,
+      "created_at": "2021-07-13T11:32:09.402Z"
+    }
+  ],
+  "achievements": [],
+  "titles": [],
+  "titles_users": [],
+  "partnerships": [],
+  "patroned": [],
+  "patroning": [],
+  "expertises_users": [],
+  "roles": [],
+  "campus": [
+    {
+      "id": 43,
+      "name": "Abu Dhabi",
+      "time_zone": "Asia/Dubai",
+      "language": {
+        "id": 2,
+        "name": "English",
+        "identifier": "en",
+        "created_at": "2015-04-14T16:07:38.122Z",
+        "updated_at": "2023-02-16T11:08:11.620Z"
+      },
+      "users_count": 1500,
+      "vogsphere_id": 30,
+      "country": "United Arab Emirates",
+      "address": "Mina Zayed, Warehouse District ",
+      "zip": "00000",
+      "city": "Abu Dhabi",
+      "website": "https://42abudhabi.ae/",
+      "facebook": "",
+      "twitter": "",
+      "active": true,
+      "public": true,
+      "email_extension": "42abudhabi.ae",
+      "default_hidden_phone": false
+    }
+  ],
+  "campus_users": [
+    {
+      "id": 84784,
+      "user_id": 93237,
+      "campus_id": 43,
+      "is_primary": true,
+      "created_at": "2021-07-13T11:32:09.254Z",
+      "updated_at": "2021-07-13T11:32:09.254Z"
+    }
+  ]
+}

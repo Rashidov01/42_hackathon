@@ -1,0 +1,148 @@
+{
+  "id": 145742,
+  "email": "asajitha@student.42abudhabi.ae",
+  "login": "asajitha",
+  "first_name": "Aiswarya",
+  "last_name": "Sajitha Radhkrishnan",
+  "usual_full_name": "Aiswarya Sajitha Radhkrishnan",
+  "usual_first_name": null,
+  "url": "https://api.intra.42.fr/v2/users/asajitha",
+  "phone": "hidden",
+  "displayname": "Aiswarya Sajitha Radhkrishnan",
+  "kind": "student",
+  "image": {
+    "link": "https://cdn.intra.42.fr/users/d38467f593c1c1639eef9c687d84133f/asajitha.jpg",
+    "versions": {
+      "large": "https://cdn.intra.42.fr/users/ae4c57c79d890813e6d086e248395390/large_asajitha.jpg",
+      "medium": "https://cdn.intra.42.fr/users/bfd2ad1b9139132ec0bb0e7e9bc2231c/medium_asajitha.jpg",
+      "small": "https://cdn.intra.42.fr/users/e4277c8b148703f0495315617cc5c755/small_asajitha.jpg",
+      "micro": "https://cdn.intra.42.fr/users/76803df6c6709502e92ea162a080843c/micro_asajitha.jpg"
+    }
+  },
+  "staff?": false,
+  "correction_point": 5,
+  "pool_month": "march",
+  "pool_year": "2023",
+  "location": null,
+  "wallet": 0,
+  "anonymize_date": "2026-02-16T00:00:00.000+04:00",
+  "data_erasure_date": "2026-02-16T00:00:00.000+04:00",
+  "created_at": "2023-02-16T08:15:41.462Z",
+  "updated_at": "2023-02-16T10:17:50.428Z",
+  "alumnized_at": null,
+  "alumni?": false,
+  "active?": false,
+  "groups": [],
+  "cursus_users": [
+    {
+      "grade": null,
+      "level": 0,
+      "skills": [],
+      "blackholed_at": null,
+      "id": 206651,
+      "begin_at": "2023-02-20T04:42:00.000Z",
+      "end_at": "2023-03-16T14:00:00.000Z",
+      "cursus_id": 9,
+      "has_coalition": true,
+      "created_at": "2023-02-16T08:15:42.640Z",
+      "updated_at": "2023-02-16T08:15:42.640Z",
+      "user": {
+        "id": 145742,
+        "email": "asajitha@student.42abudhabi.ae",
+        "login": "asajitha",
+        "first_name": "Aiswarya",
+        "last_name": "Sajitha Radhkrishnan",
+        "usual_full_name": "Aiswarya Sajitha Radhkrishnan",
+        "usual_first_name": null,
+        "url": "https://api.intra.42.fr/v2/users/asajitha",
+        "phone": "hidden",
+        "displayname": "Aiswarya Sajitha Radhkrishnan",
+        "kind": "student",
+        "image": {
+          "link": "https://cdn.intra.42.fr/users/d38467f593c1c1639eef9c687d84133f/asajitha.jpg",
+          "versions": {
+            "large": "https://cdn.intra.42.fr/users/ae4c57c79d890813e6d086e248395390/large_asajitha.jpg",
+            "medium": "https://cdn.intra.42.fr/users/bfd2ad1b9139132ec0bb0e7e9bc2231c/medium_asajitha.jpg",
+            "small": "https://cdn.intra.42.fr/users/e4277c8b148703f0495315617cc5c755/small_asajitha.jpg",
+            "micro": "https://cdn.intra.42.fr/users/76803df6c6709502e92ea162a080843c/micro_asajitha.jpg"
+          }
+        },
+        "staff?": false,
+        "correction_point": 5,
+        "pool_month": "march",
+        "pool_year": "2023",
+        "location": null,
+        "wallet": 0,
+        "anonymize_date": "2026-02-16T00:00:00.000+04:00",
+        "data_erasure_date": "2026-02-16T00:00:00.000+04:00",
+        "created_at": "2023-02-16T08:15:41.462Z",
+        "updated_at": "2023-02-16T10:17:50.428Z",
+        "alumnized_at": null,
+        "alumni?": false,
+        "active?": false
+      },
+      "cursus": {
+        "id": 9,
+        "created_at": "2015-11-04T10:58:13.979Z",
+        "name": "C Piscine",
+        "slug": "c-piscine",
+        "kind": "piscine"
+      }
+    }
+  ],
+  "projects_users": [],
+  "languages_users": [
+    {
+      "id": 736751,
+      "language_id": 2,
+      "user_id": 145742,
+      "position": 1,
+      "created_at": "2023-02-16T08:15:42.134Z"
+    }
+  ],
+  "achievements": [],
+  "titles": [],
+  "titles_users": [],
+  "partnerships": [],
+  "patroned": [],
+  "patroning": [],
+  "expertises_users": [],
+  "roles": [],
+  "campus": [
+    {
+      "id": 43,
+      "name": "Abu Dhabi",
+      "time_zone": "Asia/Dubai",
+      "language": {
+        "id": 2,
+        "name": "English",
+        "identifier": "en",
+        "created_at": "2015-04-14T16:07:38.122Z",
+        "updated_at": "2023-02-16T11:08:11.620Z"
+      },
+      "users_count": 1500,
+      "vogsphere_id": 30,
+      "country": "United Arab Emirates",
+      "address": "Mina Zayed, Warehouse District ",
+      "zip": "00000",
+      "city": "Abu Dhabi",
+      "website": "https://42abudhabi.ae/",
+      "facebook": "",
+      "twitter": "",
+      "active": true,
+      "public": true,
+      "email_extension": "42abudhabi.ae",
+      "default_hidden_phone": false
+    }
+  ],
+  "campus_users": [
+    {
+      "id": 137452,
+      "user_id": 145742,
+      "campus_id": 43,
+      "is_primary": true,
+      "created_at": "2023-02-16T08:15:41.494Z",
+      "updated_at": "2023-02-16T08:15:41.494Z"
+    }
+  ]
+}

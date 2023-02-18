@@ -1,0 +1,148 @@
+{
+  "id": 145738,
+  "email": "adrak-se@student.42abudhabi.ae",
+  "login": "adrak-se",
+  "first_name": "Abdulwadoud",
+  "last_name": "Drak Sebai",
+  "usual_full_name": "Abdulwadoud Drak Sebai",
+  "usual_first_name": null,
+  "url": "https://api.intra.42.fr/v2/users/adrak-se",
+  "phone": "hidden",
+  "displayname": "Abdulwadoud Drak Sebai",
+  "kind": "student",
+  "image": {
+    "link": "https://cdn.intra.42.fr/users/4261848e1c338cce77e8b243b200e198/adrak-se.jpg",
+    "versions": {
+      "large": "https://cdn.intra.42.fr/users/e2c9a258a7e4ffa194e0555029283e08/large_adrak-se.jpg",
+      "medium": "https://cdn.intra.42.fr/users/7e0c239982ff906fa92d1f904f1f2c99/medium_adrak-se.jpg",
+      "small": "https://cdn.intra.42.fr/users/9f01cea9b2e6e98bdc442af6734886e5/small_adrak-se.jpg",
+      "micro": "https://cdn.intra.42.fr/users/dd144e50ea3c787b8bc1eb35b7232e10/micro_adrak-se.jpg"
+    }
+  },
+  "staff?": false,
+  "correction_point": 5,
+  "pool_month": "march",
+  "pool_year": "2023",
+  "location": null,
+  "wallet": 0,
+  "anonymize_date": "2026-02-16T00:00:00.000+04:00",
+  "data_erasure_date": "2026-02-16T00:00:00.000+04:00",
+  "created_at": "2023-02-16T08:10:29.133Z",
+  "updated_at": "2023-02-16T08:14:58.199Z",
+  "alumnized_at": null,
+  "alumni?": false,
+  "active?": false,
+  "groups": [],
+  "cursus_users": [
+    {
+      "grade": null,
+      "level": 0,
+      "skills": [],
+      "blackholed_at": null,
+      "id": 206647,
+      "begin_at": "2023-02-20T04:42:00.000Z",
+      "end_at": "2023-03-16T14:00:00.000Z",
+      "cursus_id": 9,
+      "has_coalition": true,
+      "created_at": "2023-02-16T08:10:30.405Z",
+      "updated_at": "2023-02-16T08:10:30.405Z",
+      "user": {
+        "id": 145738,
+        "email": "adrak-se@student.42abudhabi.ae",
+        "login": "adrak-se",
+        "first_name": "Abdulwadoud",
+        "last_name": "Drak Sebai",
+        "usual_full_name": "Abdulwadoud Drak Sebai",
+        "usual_first_name": null,
+        "url": "https://api.intra.42.fr/v2/users/adrak-se",
+        "phone": "hidden",
+        "displayname": "Abdulwadoud Drak Sebai",
+        "kind": "student",
+        "image": {
+          "link": "https://cdn.intra.42.fr/users/4261848e1c338cce77e8b243b200e198/adrak-se.jpg",
+          "versions": {
+            "large": "https://cdn.intra.42.fr/users/e2c9a258a7e4ffa194e0555029283e08/large_adrak-se.jpg",
+            "medium": "https://cdn.intra.42.fr/users/7e0c239982ff906fa92d1f904f1f2c99/medium_adrak-se.jpg",
+            "small": "https://cdn.intra.42.fr/users/9f01cea9b2e6e98bdc442af6734886e5/small_adrak-se.jpg",
+            "micro": "https://cdn.intra.42.fr/users/dd144e50ea3c787b8bc1eb35b7232e10/micro_adrak-se.jpg"
+          }
+        },
+        "staff?": false,
+        "correction_point": 5,
+        "pool_month": "march",
+        "pool_year": "2023",
+        "location": null,
+        "wallet": 0,
+        "anonymize_date": "2026-02-16T00:00:00.000+04:00",
+        "data_erasure_date": "2026-02-16T00:00:00.000+04:00",
+        "created_at": "2023-02-16T08:10:29.133Z",
+        "updated_at": "2023-02-16T08:14:58.199Z",
+        "alumnized_at": null,
+        "alumni?": false,
+        "active?": false
+      },
+      "cursus": {
+        "id": 9,
+        "created_at": "2015-11-04T10:58:13.979Z",
+        "name": "C Piscine",
+        "slug": "c-piscine",
+        "kind": "piscine"
+      }
+    }
+  ],
+  "projects_users": [],
+  "languages_users": [
+    {
+      "id": 736731,
+      "language_id": 2,
+      "user_id": 145738,
+      "position": 1,
+      "created_at": "2023-02-16T08:10:29.854Z"
+    }
+  ],
+  "achievements": [],
+  "titles": [],
+  "titles_users": [],
+  "partnerships": [],
+  "patroned": [],
+  "patroning": [],
+  "expertises_users": [],
+  "roles": [],
+  "campus": [
+    {
+      "id": 43,
+      "name": "Abu Dhabi",
+      "time_zone": "Asia/Dubai",
+      "language": {
+        "id": 2,
+        "name": "English",
+        "identifier": "en",
+        "created_at": "2015-04-14T16:07:38.122Z",
+        "updated_at": "2023-02-16T11:08:11.620Z"
+      },
+      "users_count": 1500,
+      "vogsphere_id": 30,
+      "country": "United Arab Emirates",
+      "address": "Mina Zayed, Warehouse District ",
+      "zip": "00000",
+      "city": "Abu Dhabi",
+      "website": "https://42abudhabi.ae/",
+      "facebook": "",
+      "twitter": "",
+      "active": true,
+      "public": true,
+      "email_extension": "42abudhabi.ae",
+      "default_hidden_phone": false
+    }
+  ],
+  "campus_users": [
+    {
+      "id": 137448,
+      "user_id": 145738,
+      "campus_id": 43,
+      "is_primary": true,
+      "created_at": "2023-02-16T08:10:29.158Z",
+      "updated_at": "2023-02-16T08:10:29.158Z"
+    }
+  ]
+}
