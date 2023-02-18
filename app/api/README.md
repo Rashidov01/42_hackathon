@@ -83,3 +83,10 @@ to set the database on the site as tables to be able to see and access them run:
 ```
 npx prisma studio
 ```
+
+## Fill Database
+after setting up database, you can fill it by running the api and then running the shellscript file data.sh in the file called fetcher by running
+```
+bash data.sh
+```
+
