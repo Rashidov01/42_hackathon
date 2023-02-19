@@ -18,8 +18,8 @@ export class AuthService {
 	async getAccessToken(authCode) {
 		const response = await axios.post('https://api.intra.42.fr/oauth/token', {
 			grant_type: 'authorization_code',
-			client_id: 'u-s4t2ud-70128b8cb6e7301d51af612bab45dbd49c633a5dd15eedec24161c475b98bc1c',
-			client_secret: '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',
+			client_id: '',
+			client_secret: '',
 			code: authCode,
 			redirect_uri: 'http://127.0.0.1/api'
 		});
