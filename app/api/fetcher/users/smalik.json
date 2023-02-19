@@ -1,0 +1,193 @@
+{
+  "id": 101488,
+  "email": "smalik@student.42abudhabi.ae",
+  "login": "smalik",
+  "first_name": "Saad anwar",
+  "last_name": "Malik",
+  "usual_full_name": "Saad Anwar Malik",
+  "usual_first_name": null,
+  "url": "https://api.intra.42.fr/v2/users/smalik",
+  "phone": "hidden",
+  "displayname": "Saad Anwar Malik",
+  "kind": "student",
+  "image": {
+    "link": "https://cdn.intra.42.fr/users/cac85be493796ae97c7271572ec43ad1/smalik.jpg",
+    "versions": {
+      "large": "https://cdn.intra.42.fr/users/b73c48d096d952d80082f71d6d66a018/large_smalik.jpg",
+      "medium": "https://cdn.intra.42.fr/users/4e36bd8db76b017e1f55527f7de44b24/medium_smalik.jpg",
+      "small": "https://cdn.intra.42.fr/users/7b701c60129bdf6d102d74843c006020/small_smalik.jpg",
+      "micro": "https://cdn.intra.42.fr/users/4a27e0c7f89b7f2c8879d88b1712f2cb/micro_smalik.jpg"
+    }
+  },
+  "staff?": false,
+  "correction_point": 5,
+  "pool_month": "november",
+  "pool_year": "2021",
+  "location": null,
+  "wallet": 0,
+  "anonymize_date": "2024-10-31T00:00:00.000+04:00",
+  "data_erasure_date": "2024-10-31T00:00:00.000+04:00",
+  "created_at": "2021-10-27T10:17:11.621Z",
+  "updated_at": "2021-10-31T10:10:45.476Z",
+  "alumnized_at": null,
+  "alumni?": false,
+  "active?": false,
+  "groups": [],
+  "cursus_users": [
+    {
+      "grade": null,
+      "level": 0,
+      "skills": [],
+      "blackholed_at": null,
+      "id": 144874,
+      "begin_at": "2021-10-31T04:42:00.000Z",
+      "end_at": "2021-11-25T14:00:00.000Z",
+      "cursus_id": 9,
+      "has_coalition": true,
+      "created_at": "2021-10-27T10:17:20.311Z",
+      "updated_at": "2021-10-27T10:17:20.311Z",
+      "user": {
+        "id": 101488,
+        "email": "smalik@student.42abudhabi.ae",
+        "login": "smalik",
+        "first_name": "Saad anwar",
+        "last_name": "Malik",
+        "usual_full_name": "Saad Anwar Malik",
+        "usual_first_name": null,
+        "url": "https://api.intra.42.fr/v2/users/smalik",
+        "phone": "hidden",
+        "displayname": "Saad Anwar Malik",
+        "kind": "student",
+        "image": {
+          "link": "https://cdn.intra.42.fr/users/cac85be493796ae97c7271572ec43ad1/smalik.jpg",
+          "versions": {
+            "large": "https://cdn.intra.42.fr/users/b73c48d096d952d80082f71d6d66a018/large_smalik.jpg",
+            "medium": "https://cdn.intra.42.fr/users/4e36bd8db76b017e1f55527f7de44b24/medium_smalik.jpg",
+            "small": "https://cdn.intra.42.fr/users/7b701c60129bdf6d102d74843c006020/small_smalik.jpg",
+            "micro": "https://cdn.intra.42.fr/users/4a27e0c7f89b7f2c8879d88b1712f2cb/micro_smalik.jpg"
+          }
+        },
+        "staff?": false,
+        "correction_point": 5,
+        "pool_month": "november",
+        "pool_year": "2021",
+        "location": null,
+        "wallet": 0,
+        "anonymize_date": "2024-10-31T00:00:00.000+04:00",
+        "data_erasure_date": "2024-10-31T00:00:00.000+04:00",
+        "created_at": "2021-10-27T10:17:11.621Z",
+        "updated_at": "2021-10-31T10:10:45.476Z",
+        "alumnized_at": null,
+        "alumni?": false,
+        "active?": false
+      },
+      "cursus": {
+        "id": 9,
+        "created_at": "2015-11-04T10:58:13.979Z",
+        "name": "C Piscine",
+        "slug": "c-piscine",
+        "kind": "piscine"
+      }
+    }
+  ],
+  "projects_users": [
+    {
+      "id": 2418532,
+      "occurrence": 0,
+      "final_mark": 0,
+      "status": "finished",
+      "validated?": false,
+      "current_team_id": 3895505,
+      "project": {
+        "id": 1304,
+        "name": "C Piscine Final Exam",
+        "slug": "c-piscine-final-exam",
+        "parent_id": null
+      },
+      "cursus_ids": [
+        9
+      ],
+      "marked_at": "2021-11-25T14:02:21.987Z",
+      "marked": true,
+      "retriable_at": null,
+      "created_at": "2021-11-24T08:36:34.621Z",
+      "updated_at": "2021-11-25T14:02:22.037Z"
+    },
+    {
+      "id": 2410030,
+      "occurrence": 0,
+      "final_mark": 0,
+      "status": "finished",
+      "validated?": false,
+      "current_team_id": 3884937,
+      "project": {
+        "id": 1303,
+        "name": "C Piscine Exam 02",
+        "slug": "c-piscine-exam-02",
+        "parent_id": null
+      },
+      "cursus_ids": [
+        9
+      ],
+      "marked_at": "2021-11-25T14:02:25.905Z",
+      "marked": true,
+      "retriable_at": null,
+      "created_at": "2021-11-17T11:13:33.672Z",
+      "updated_at": "2021-11-25T14:02:25.960Z"
+    }
+  ],
+  "languages_users": [
+    {
+      "id": 450377,
+      "language_id": 2,
+      "user_id": 101488,
+      "position": 1,
+      "created_at": "2021-10-27T10:17:11.708Z"
+    }
+  ],
+  "achievements": [],
+  "titles": [],
+  "titles_users": [],
+  "partnerships": [],
+  "patroned": [],
+  "patroning": [],
+  "expertises_users": [],
+  "roles": [],
+  "campus": [
+    {
+      "id": 43,
+      "name": "Abu Dhabi",
+      "time_zone": "Asia/Dubai",
+      "language": {
+        "id": 2,
+        "name": "English",
+        "identifier": "en",
+        "created_at": "2015-04-14T16:07:38.122Z",
+        "updated_at": "2023-02-16T11:08:11.620Z"
+      },
+      "users_count": 1500,
+      "vogsphere_id": 30,
+      "country": "United Arab Emirates",
+      "address": "Mina Zayed, Warehouse District ",
+      "zip": "00000",
+      "city": "Abu Dhabi",
+      "website": "https://42abudhabi.ae/",
+      "facebook": "",
+      "twitter": "",
+      "active": true,
+      "public": true,
+      "email_extension": "42abudhabi.ae",
+      "default_hidden_phone": false
+    }
+  ],
+  "campus_users": [
+    {
+      "id": 93077,
+      "user_id": 101488,
+      "campus_id": 43,
+      "is_primary": true,
+      "created_at": "2021-10-27T10:17:11.635Z",
+      "updated_at": "2021-10-27T10:17:11.635Z"
+    }
+  ]
+}

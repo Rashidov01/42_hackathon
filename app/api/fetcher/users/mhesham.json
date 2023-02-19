@@ -1,0 +1,193 @@
+{
+  "id": 101384,
+  "email": "mhesham@student.42abudhabi.ae",
+  "login": "mhesham",
+  "first_name": "Mohammed",
+  "last_name": "Hesham",
+  "usual_full_name": "Mohammed Hesham",
+  "usual_first_name": null,
+  "url": "https://api.intra.42.fr/v2/users/mhesham",
+  "phone": "hidden",
+  "displayname": "Mohammed Hesham",
+  "kind": "student",
+  "image": {
+    "link": "https://cdn.intra.42.fr/users/315e0ef21acfde4b0eec1596e2ac9518/mhesham.jpg",
+    "versions": {
+      "large": "https://cdn.intra.42.fr/users/d8d85b3e8774e59938f6d01caef3fc84/large_mhesham.jpg",
+      "medium": "https://cdn.intra.42.fr/users/e415712b67307b26f5cc7496775f67d2/medium_mhesham.jpg",
+      "small": "https://cdn.intra.42.fr/users/05367c188384a62ce02f302574f1a092/small_mhesham.jpg",
+      "micro": "https://cdn.intra.42.fr/users/b5df85cde9389f8c3ea1cf1d21b8f466/micro_mhesham.jpg"
+    }
+  },
+  "staff?": false,
+  "correction_point": 5,
+  "pool_month": "november",
+  "pool_year": "2021",
+  "location": null,
+  "wallet": 0,
+  "anonymize_date": "2024-10-27T00:00:00.000+04:00",
+  "data_erasure_date": "2024-10-27T00:00:00.000+04:00",
+  "created_at": "2021-10-27T08:32:58.611Z",
+  "updated_at": "2021-10-27T08:33:52.482Z",
+  "alumnized_at": null,
+  "alumni?": false,
+  "active?": false,
+  "groups": [],
+  "cursus_users": [
+    {
+      "grade": null,
+      "level": 0,
+      "skills": [],
+      "blackholed_at": null,
+      "id": 144708,
+      "begin_at": "2021-10-31T04:42:00.000Z",
+      "end_at": "2021-11-25T14:00:00.000Z",
+      "cursus_id": 9,
+      "has_coalition": true,
+      "created_at": "2021-10-27T08:33:10.467Z",
+      "updated_at": "2021-10-27T08:33:10.467Z",
+      "user": {
+        "id": 101384,
+        "email": "mhesham@student.42abudhabi.ae",
+        "login": "mhesham",
+        "first_name": "Mohammed",
+        "last_name": "Hesham",
+        "usual_full_name": "Mohammed Hesham",
+        "usual_first_name": null,
+        "url": "https://api.intra.42.fr/v2/users/mhesham",
+        "phone": "hidden",
+        "displayname": "Mohammed Hesham",
+        "kind": "student",
+        "image": {
+          "link": "https://cdn.intra.42.fr/users/315e0ef21acfde4b0eec1596e2ac9518/mhesham.jpg",
+          "versions": {
+            "large": "https://cdn.intra.42.fr/users/d8d85b3e8774e59938f6d01caef3fc84/large_mhesham.jpg",
+            "medium": "https://cdn.intra.42.fr/users/e415712b67307b26f5cc7496775f67d2/medium_mhesham.jpg",
+            "small": "https://cdn.intra.42.fr/users/05367c188384a62ce02f302574f1a092/small_mhesham.jpg",
+            "micro": "https://cdn.intra.42.fr/users/b5df85cde9389f8c3ea1cf1d21b8f466/micro_mhesham.jpg"
+          }
+        },
+        "staff?": false,
+        "correction_point": 5,
+        "pool_month": "november",
+        "pool_year": "2021",
+        "location": null,
+        "wallet": 0,
+        "anonymize_date": "2024-10-27T00:00:00.000+04:00",
+        "data_erasure_date": "2024-10-27T00:00:00.000+04:00",
+        "created_at": "2021-10-27T08:32:58.611Z",
+        "updated_at": "2021-10-27T08:33:52.482Z",
+        "alumnized_at": null,
+        "alumni?": false,
+        "active?": false
+      },
+      "cursus": {
+        "id": 9,
+        "created_at": "2015-11-04T10:58:13.979Z",
+        "name": "C Piscine",
+        "slug": "c-piscine",
+        "kind": "piscine"
+      }
+    }
+  ],
+  "projects_users": [
+    {
+      "id": 2418618,
+      "occurrence": 0,
+      "final_mark": 0,
+      "status": "finished",
+      "validated?": false,
+      "current_team_id": 3895591,
+      "project": {
+        "id": 1304,
+        "name": "C Piscine Final Exam",
+        "slug": "c-piscine-final-exam",
+        "parent_id": null
+      },
+      "cursus_ids": [
+        9
+      ],
+      "marked_at": "2021-11-25T14:02:15.016Z",
+      "marked": true,
+      "retriable_at": null,
+      "created_at": "2021-11-24T08:37:47.205Z",
+      "updated_at": "2021-11-25T14:02:15.098Z"
+    },
+    {
+      "id": 2410124,
+      "occurrence": 0,
+      "final_mark": 0,
+      "status": "finished",
+      "validated?": false,
+      "current_team_id": 3885032,
+      "project": {
+        "id": 1303,
+        "name": "C Piscine Exam 02",
+        "slug": "c-piscine-exam-02",
+        "parent_id": null
+      },
+      "cursus_ids": [
+        9
+      ],
+      "marked_at": "2021-11-25T14:02:17.154Z",
+      "marked": true,
+      "retriable_at": null,
+      "created_at": "2021-11-17T11:17:32.639Z",
+      "updated_at": "2021-11-25T14:02:17.198Z"
+    }
+  ],
+  "languages_users": [
+    {
+      "id": 450243,
+      "language_id": 2,
+      "user_id": 101384,
+      "position": 1,
+      "created_at": "2021-10-27T08:32:58.686Z"
+    }
+  ],
+  "achievements": [],
+  "titles": [],
+  "titles_users": [],
+  "partnerships": [],
+  "patroned": [],
+  "patroning": [],
+  "expertises_users": [],
+  "roles": [],
+  "campus": [
+    {
+      "id": 43,
+      "name": "Abu Dhabi",
+      "time_zone": "Asia/Dubai",
+      "language": {
+        "id": 2,
+        "name": "English",
+        "identifier": "en",
+        "created_at": "2015-04-14T16:07:38.122Z",
+        "updated_at": "2023-02-16T11:08:11.620Z"
+      },
+      "users_count": 1500,
+      "vogsphere_id": 30,
+      "country": "United Arab Emirates",
+      "address": "Mina Zayed, Warehouse District ",
+      "zip": "00000",
+      "city": "Abu Dhabi",
+      "website": "https://42abudhabi.ae/",
+      "facebook": "",
+      "twitter": "",
+      "active": true,
+      "public": true,
+      "email_extension": "42abudhabi.ae",
+      "default_hidden_phone": false
+    }
+  ],
+  "campus_users": [
+    {
+      "id": 92991,
+      "user_id": 101384,
+      "campus_id": 43,
+      "is_primary": true,
+      "created_at": "2021-10-27T08:32:58.625Z",
+      "updated_at": "2021-10-27T08:32:58.625Z"
+    }
+  ]
+}

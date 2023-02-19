@@ -1,0 +1,148 @@
+{
+  "id": 145693,
+  "email": "asuhail@student.42abudhabi.ae",
+  "login": "asuhail",
+  "first_name": "Athiq Zain",
+  "last_name": "Suhail",
+  "usual_full_name": "Athiq Zain Suhail",
+  "usual_first_name": null,
+  "url": "https://api.intra.42.fr/v2/users/asuhail",
+  "phone": "hidden",
+  "displayname": "Athiq Zain Suhail",
+  "kind": "student",
+  "image": {
+    "link": "https://cdn.intra.42.fr/users/7574ece1ed770d03f65eb7fe0a18c039/asuhail.jpg",
+    "versions": {
+      "large": "https://cdn.intra.42.fr/users/b7dab599e9697757f34c62ea43b35eac/large_asuhail.jpg",
+      "medium": "https://cdn.intra.42.fr/users/7c867dc16456c2df501e5f119fc4865c/medium_asuhail.jpg",
+      "small": "https://cdn.intra.42.fr/users/e5cd9edbc816a3f17786a073c9a421c7/small_asuhail.jpg",
+      "micro": "https://cdn.intra.42.fr/users/b88ef3d5645f822173ccdefcf38f203a/micro_asuhail.jpg"
+    }
+  },
+  "staff?": false,
+  "correction_point": 5,
+  "pool_month": "march",
+  "pool_year": "2023",
+  "location": null,
+  "wallet": 0,
+  "anonymize_date": "2026-02-13T00:00:00.000+04:00",
+  "data_erasure_date": "2026-02-13T00:00:00.000+04:00",
+  "created_at": "2023-02-13T10:09:12.941Z",
+  "updated_at": "2023-02-13T12:54:29.871Z",
+  "alumnized_at": null,
+  "alumni?": false,
+  "active?": false,
+  "groups": [],
+  "cursus_users": [
+    {
+      "grade": null,
+      "level": 0,
+      "skills": [],
+      "blackholed_at": null,
+      "id": 206125,
+      "begin_at": "2023-02-20T04:42:00.000Z",
+      "end_at": "2023-03-16T14:00:00.000Z",
+      "cursus_id": 9,
+      "has_coalition": true,
+      "created_at": "2023-02-13T10:09:14.283Z",
+      "updated_at": "2023-02-13T10:09:14.283Z",
+      "user": {
+        "id": 145693,
+        "email": "asuhail@student.42abudhabi.ae",
+        "login": "asuhail",
+        "first_name": "Athiq Zain",
+        "last_name": "Suhail",
+        "usual_full_name": "Athiq Zain Suhail",
+        "usual_first_name": null,
+        "url": "https://api.intra.42.fr/v2/users/asuhail",
+        "phone": "hidden",
+        "displayname": "Athiq Zain Suhail",
+        "kind": "student",
+        "image": {
+          "link": "https://cdn.intra.42.fr/users/7574ece1ed770d03f65eb7fe0a18c039/asuhail.jpg",
+          "versions": {
+            "large": "https://cdn.intra.42.fr/users/b7dab599e9697757f34c62ea43b35eac/large_asuhail.jpg",
+            "medium": "https://cdn.intra.42.fr/users/7c867dc16456c2df501e5f119fc4865c/medium_asuhail.jpg",
+            "small": "https://cdn.intra.42.fr/users/e5cd9edbc816a3f17786a073c9a421c7/small_asuhail.jpg",
+            "micro": "https://cdn.intra.42.fr/users/b88ef3d5645f822173ccdefcf38f203a/micro_asuhail.jpg"
+          }
+        },
+        "staff?": false,
+        "correction_point": 5,
+        "pool_month": "march",
+        "pool_year": "2023",
+        "location": null,
+        "wallet": 0,
+        "anonymize_date": "2026-02-13T00:00:00.000+04:00",
+        "data_erasure_date": "2026-02-13T00:00:00.000+04:00",
+        "created_at": "2023-02-13T10:09:12.941Z",
+        "updated_at": "2023-02-13T12:54:29.871Z",
+        "alumnized_at": null,
+        "alumni?": false,
+        "active?": false
+      },
+      "cursus": {
+        "id": 9,
+        "created_at": "2015-11-04T10:58:13.979Z",
+        "name": "C Piscine",
+        "slug": "c-piscine",
+        "kind": "piscine"
+      }
+    }
+  ],
+  "projects_users": [],
+  "languages_users": [
+    {
+      "id": 733871,
+      "language_id": 2,
+      "user_id": 145693,
+      "position": 1,
+      "created_at": "2023-02-13T10:09:13.706Z"
+    }
+  ],
+  "achievements": [],
+  "titles": [],
+  "titles_users": [],
+  "partnerships": [],
+  "patroned": [],
+  "patroning": [],
+  "expertises_users": [],
+  "roles": [],
+  "campus": [
+    {
+      "id": 43,
+      "name": "Abu Dhabi",
+      "time_zone": "Asia/Dubai",
+      "language": {
+        "id": 2,
+        "name": "English",
+        "identifier": "en",
+        "created_at": "2015-04-14T16:07:38.122Z",
+        "updated_at": "2023-02-16T11:08:11.620Z"
+      },
+      "users_count": 1500,
+      "vogsphere_id": 30,
+      "country": "United Arab Emirates",
+      "address": "Mina Zayed, Warehouse District ",
+      "zip": "00000",
+      "city": "Abu Dhabi",
+      "website": "https://42abudhabi.ae/",
+      "facebook": "",
+      "twitter": "",
+      "active": true,
+      "public": true,
+      "email_extension": "42abudhabi.ae",
+      "default_hidden_phone": false
+    }
+  ],
+  "campus_users": [
+    {
+      "id": 137400,
+      "user_id": 145693,
+      "campus_id": 43,
+      "is_primary": true,
+      "created_at": "2023-02-13T10:09:12.965Z",
+      "updated_at": "2023-02-13T10:09:12.965Z"
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "id": 101450,
+  "email": "omakota@student.42abudhabi.ae",
+  "login": "omakota",
+  "first_name": "Oleksandr",
+  "last_name": "Makota",
+  "usual_full_name": "Oleksandr Makota",
+  "usual_first_name": null,
+  "url": "https://api.intra.42.fr/v2/users/omakota",
+  "phone": "hidden",
+  "displayname": "Oleksandr Makota",
+  "kind": "student",
+  "image": {
+    "link": "https://cdn.intra.42.fr/users/26b9d785b1fddd3a3d11de06fca78e49/omakota.jpg",
+    "versions": {
+      "large": "https://cdn.intra.42.fr/users/3b345ab5be0f8754027e84d209f6b24f/large_omakota.jpg",
+      "medium": "https://cdn.intra.42.fr/users/1088d79f27e9f559b991feaaafe83c66/medium_omakota.jpg",
+      "small": "https://cdn.intra.42.fr/users/b07aacb8aecaacd25c9744332de2ec7e/small_omakota.jpg",
+      "micro": "https://cdn.intra.42.fr/users/0eb0ddbc0928d18c4ec6aff7e3248663/micro_omakota.jpg"
+    }
+  },
+  "staff?": false,
+  "correction_point": 5,
+  "pool_month": "november",
+  "pool_year": "2021",
+  "location": null,
+  "wallet": 0,
+  "anonymize_date": "2024-10-27T00:00:00.000+04:00",
+  "data_erasure_date": "2024-10-27T00:00:00.000+04:00",
+  "created_at": "2021-10-27T09:41:18.430Z",
+  "updated_at": "2021-10-27T09:42:14.560Z",
+  "alumnized_at": null,
+  "alumni?": false,
+  "active?": false,
+  "groups": [],
+  "cursus_users": [],
+  "projects_users": [
+    {
+      "id": 2410063,
+      "occurrence": 0,
+      "final_mark": null,
+      "status": "in_progress",
+      "validated?": null,
+      "current_team_id": 3884971,
+      "project": {
+        "id": 1303,
+        "name": "C Piscine Exam 02",
+        "slug": "c-piscine-exam-02",
+        "parent_id": null
+      },
+      "cursus_ids": [],
+      "marked_at": null,
+      "marked": false,
+      "retriable_at": null,
+      "created_at": "2021-11-17T11:15:04.149Z",
+      "updated_at": "2021-11-17T11:15:04.149Z"
+    },
+    {
+      "id": 2418565,
+      "occurrence": 0,
+      "final_mark": null,
+      "status": "in_progress",
+      "validated?": null,
+      "current_team_id": 3895538,
+      "project": {
+        "id": 1304,
+        "name": "C Piscine Final Exam",
+        "slug": "c-piscine-final-exam",
+        "parent_id": null
+      },
+      "cursus_ids": [],
+      "marked_at": null,
+      "marked": false,
+      "retriable_at": null,
+      "created_at": "2021-11-24T08:37:02.921Z",
+      "updated_at": "2021-11-24T08:37:02.921Z"
+    }
+  ],
+  "languages_users": [
+    {
+      "id": 450331,
+      "language_id": 2,
+      "user_id": 101450,
+      "position": 1,
+      "created_at": "2021-10-27T09:41:18.504Z"
+    }
+  ],
+  "achievements": [],
+  "titles": [],
+  "titles_users": [],
+  "partnerships": [],
+  "patroned": [],
+  "patroning": [],
+  "expertises_users": [],
+  "roles": [],
+  "campus": [
+    {
+      "id": 43,
+      "name": "Abu Dhabi",
+      "time_zone": "Asia/Dubai",
+      "language": {
+        "id": 2,
+        "name": "English",
+        "identifier": "en",
+        "created_at": "2015-04-14T16:07:38.122Z",
+        "updated_at": "2023-02-16T11:08:11.620Z"
+      },
+      "users_count": 1500,
+      "vogsphere_id": 30,
+      "country": "United Arab Emirates",
+      "address": "Mina Zayed, Warehouse District ",
+      "zip": "00000",
+      "city": "Abu Dhabi",
+      "website": "https://42abudhabi.ae/",
+      "facebook": "",
+      "twitter": "",
+      "active": true,
+      "public": true,
+      "email_extension": "42abudhabi.ae",
+      "default_hidden_phone": false
+    }
+  ],
+  "campus_users": [
+    {
+      "id": 93044,
+      "user_id": 101450,
+      "campus_id": 43,
+      "is_primary": true,
+      "created_at": "2021-10-27T09:41:18.444Z",
+      "updated_at": "2021-10-27T09:41:18.444Z"
+    }
+  ]
+}

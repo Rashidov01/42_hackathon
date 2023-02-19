@@ -1,0 +1,148 @@
+{
+  "id": 88375,
+  "email": "hmhedhbi@student.42abudhabi.ae",
+  "login": "hmhedhbi",
+  "first_name": "Hamdi",
+  "last_name": "Mhedhbi",
+  "usual_full_name": "Hamdi Mhedhbi",
+  "usual_first_name": null,
+  "url": "https://api.intra.42.fr/v2/users/hmhedhbi",
+  "phone": "hidden",
+  "displayname": "Hamdi Mhedhbi",
+  "kind": "student",
+  "image": {
+    "link": "https://cdn.intra.42.fr/users/aa78bcea833cb7de18baa0394ddc8d83/hmhedhbi.jpg",
+    "versions": {
+      "large": "https://cdn.intra.42.fr/users/4bc75d40ce088e388bb8266d9bf665ca/large_hmhedhbi.jpg",
+      "medium": "https://cdn.intra.42.fr/users/29d0a6bf33245e2beaef23ee23b71f5d/medium_hmhedhbi.jpg",
+      "small": "https://cdn.intra.42.fr/users/9617ec06fa00fe63d9edc303569cd9d0/small_hmhedhbi.jpg",
+      "micro": "https://cdn.intra.42.fr/users/f4a6b4efd069b13ef38f61d3c9c22768/micro_hmhedhbi.jpg"
+    }
+  },
+  "staff?": false,
+  "correction_point": 5,
+  "pool_month": "may",
+  "pool_year": "2021",
+  "location": null,
+  "wallet": 0,
+  "anonymize_date": "2024-05-16T00:00:00.000+04:00",
+  "data_erasure_date": "2024-05-16T00:00:00.000+04:00",
+  "created_at": "2021-05-02T17:28:44.686Z",
+  "updated_at": "2021-05-02T17:46:35.933Z",
+  "alumnized_at": null,
+  "alumni?": false,
+  "active?": false,
+  "groups": [],
+  "cursus_users": [
+    {
+      "grade": null,
+      "level": 0,
+      "skills": [],
+      "blackholed_at": null,
+      "id": 120654,
+      "begin_at": "2021-05-16T04:42:00.000Z",
+      "end_at": "2021-06-10T14:00:00.000Z",
+      "cursus_id": 9,
+      "has_coalition": true,
+      "created_at": "2021-05-02T17:28:46.745Z",
+      "updated_at": "2021-05-02T17:28:46.745Z",
+      "user": {
+        "id": 88375,
+        "email": "hmhedhbi@student.42abudhabi.ae",
+        "login": "hmhedhbi",
+        "first_name": "Hamdi",
+        "last_name": "Mhedhbi",
+        "usual_full_name": "Hamdi Mhedhbi",
+        "usual_first_name": null,
+        "url": "https://api.intra.42.fr/v2/users/hmhedhbi",
+        "phone": "hidden",
+        "displayname": "Hamdi Mhedhbi",
+        "kind": "student",
+        "image": {
+          "link": "https://cdn.intra.42.fr/users/aa78bcea833cb7de18baa0394ddc8d83/hmhedhbi.jpg",
+          "versions": {
+            "large": "https://cdn.intra.42.fr/users/4bc75d40ce088e388bb8266d9bf665ca/large_hmhedhbi.jpg",
+            "medium": "https://cdn.intra.42.fr/users/29d0a6bf33245e2beaef23ee23b71f5d/medium_hmhedhbi.jpg",
+            "small": "https://cdn.intra.42.fr/users/9617ec06fa00fe63d9edc303569cd9d0/small_hmhedhbi.jpg",
+            "micro": "https://cdn.intra.42.fr/users/f4a6b4efd069b13ef38f61d3c9c22768/micro_hmhedhbi.jpg"
+          }
+        },
+        "staff?": false,
+        "correction_point": 5,
+        "pool_month": "may",
+        "pool_year": "2021",
+        "location": null,
+        "wallet": 0,
+        "anonymize_date": "2024-05-16T00:00:00.000+04:00",
+        "data_erasure_date": "2024-05-16T00:00:00.000+04:00",
+        "created_at": "2021-05-02T17:28:44.686Z",
+        "updated_at": "2021-05-02T17:46:35.933Z",
+        "alumnized_at": null,
+        "alumni?": false,
+        "active?": false
+      },
+      "cursus": {
+        "id": 9,
+        "created_at": "2015-11-04T10:58:13.979Z",
+        "name": "C Piscine",
+        "slug": "c-piscine",
+        "kind": "piscine"
+      }
+    }
+  ],
+  "projects_users": [],
+  "languages_users": [
+    {
+      "id": 367293,
+      "language_id": 2,
+      "user_id": 88375,
+      "position": 1,
+      "created_at": "2021-05-02T17:28:44.822Z"
+    }
+  ],
+  "achievements": [],
+  "titles": [],
+  "titles_users": [],
+  "partnerships": [],
+  "patroned": [],
+  "patroning": [],
+  "expertises_users": [],
+  "roles": [],
+  "campus": [
+    {
+      "id": 43,
+      "name": "Abu Dhabi",
+      "time_zone": "Asia/Dubai",
+      "language": {
+        "id": 2,
+        "name": "English",
+        "identifier": "en",
+        "created_at": "2015-04-14T16:07:38.122Z",
+        "updated_at": "2023-02-16T11:08:11.620Z"
+      },
+      "users_count": 1500,
+      "vogsphere_id": 30,
+      "country": "United Arab Emirates",
+      "address": "Mina Zayed, Warehouse District ",
+      "zip": "00000",
+      "city": "Abu Dhabi",
+      "website": "https://42abudhabi.ae/",
+      "facebook": "",
+      "twitter": "",
+      "active": true,
+      "public": true,
+      "email_extension": "42abudhabi.ae",
+      "default_hidden_phone": false
+    }
+  ],
+  "campus_users": [
+    {
+      "id": 79889,
+      "user_id": 88375,
+      "campus_id": 43,
+      "is_primary": true,
+      "created_at": "2021-05-02T17:28:44.712Z",
+      "updated_at": "2021-05-02T17:28:44.712Z"
+    }
+  ]
+}

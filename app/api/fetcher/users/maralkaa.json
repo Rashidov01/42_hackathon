@@ -1,0 +1,148 @@
+{
+  "id": 145514,
+  "email": "maralkaa@student.42abudhabi.ae",
+  "login": "maralkaa",
+  "first_name": "Mariam",
+  "last_name": "Alkaabi",
+  "usual_full_name": "Mariam Alkaabi",
+  "usual_first_name": null,
+  "url": "https://api.intra.42.fr/v2/users/maralkaa",
+  "phone": "hidden",
+  "displayname": "Mariam Alkaabi",
+  "kind": "student",
+  "image": {
+    "link": "https://cdn.intra.42.fr/users/9b6e2b82350c03fc499adc1fb837eec7/maralkaa.jpg",
+    "versions": {
+      "large": "https://cdn.intra.42.fr/users/1a632e73b7765589dad3e74de5f785d4/large_maralkaa.jpg",
+      "medium": "https://cdn.intra.42.fr/users/de2f09fd9ca70f424c340872528c116e/medium_maralkaa.jpg",
+      "small": "https://cdn.intra.42.fr/users/bbd22d03daf77fd799708deae600c928/small_maralkaa.jpg",
+      "micro": "https://cdn.intra.42.fr/users/a8060450f0f55f0d44e86d86cf5a7834/micro_maralkaa.jpg"
+    }
+  },
+  "staff?": false,
+  "correction_point": 5,
+  "pool_month": "march",
+  "pool_year": "2023",
+  "location": null,
+  "wallet": 0,
+  "anonymize_date": "2026-02-13T00:00:00.000+04:00",
+  "data_erasure_date": "2026-02-13T00:00:00.000+04:00",
+  "created_at": "2023-02-13T08:08:15.438Z",
+  "updated_at": "2023-02-13T08:13:23.244Z",
+  "alumnized_at": null,
+  "alumni?": false,
+  "active?": false,
+  "groups": [],
+  "cursus_users": [
+    {
+      "grade": null,
+      "level": 0,
+      "skills": [],
+      "blackholed_at": null,
+      "id": 205943,
+      "begin_at": "2023-02-20T04:42:00.000Z",
+      "end_at": "2023-03-16T14:00:00.000Z",
+      "cursus_id": 9,
+      "has_coalition": true,
+      "created_at": "2023-02-13T08:08:16.629Z",
+      "updated_at": "2023-02-13T08:08:16.629Z",
+      "user": {
+        "id": 145514,
+        "email": "maralkaa@student.42abudhabi.ae",
+        "login": "maralkaa",
+        "first_name": "Mariam",
+        "last_name": "Alkaabi",
+        "usual_full_name": "Mariam Alkaabi",
+        "usual_first_name": null,
+        "url": "https://api.intra.42.fr/v2/users/maralkaa",
+        "phone": "hidden",
+        "displayname": "Mariam Alkaabi",
+        "kind": "student",
+        "image": {
+          "link": "https://cdn.intra.42.fr/users/9b6e2b82350c03fc499adc1fb837eec7/maralkaa.jpg",
+          "versions": {
+            "large": "https://cdn.intra.42.fr/users/1a632e73b7765589dad3e74de5f785d4/large_maralkaa.jpg",
+            "medium": "https://cdn.intra.42.fr/users/de2f09fd9ca70f424c340872528c116e/medium_maralkaa.jpg",
+            "small": "https://cdn.intra.42.fr/users/bbd22d03daf77fd799708deae600c928/small_maralkaa.jpg",
+            "micro": "https://cdn.intra.42.fr/users/a8060450f0f55f0d44e86d86cf5a7834/micro_maralkaa.jpg"
+          }
+        },
+        "staff?": false,
+        "correction_point": 5,
+        "pool_month": "march",
+        "pool_year": "2023",
+        "location": null,
+        "wallet": 0,
+        "anonymize_date": "2026-02-13T00:00:00.000+04:00",
+        "data_erasure_date": "2026-02-13T00:00:00.000+04:00",
+        "created_at": "2023-02-13T08:08:15.438Z",
+        "updated_at": "2023-02-13T08:13:23.244Z",
+        "alumnized_at": null,
+        "alumni?": false,
+        "active?": false
+      },
+      "cursus": {
+        "id": 9,
+        "created_at": "2015-11-04T10:58:13.979Z",
+        "name": "C Piscine",
+        "slug": "c-piscine",
+        "kind": "piscine"
+      }
+    }
+  ],
+  "projects_users": [],
+  "languages_users": [
+    {
+      "id": 733440,
+      "language_id": 2,
+      "user_id": 145514,
+      "position": 1,
+      "created_at": "2023-02-13T08:08:16.136Z"
+    }
+  ],
+  "achievements": [],
+  "titles": [],
+  "titles_users": [],
+  "partnerships": [],
+  "patroned": [],
+  "patroning": [],
+  "expertises_users": [],
+  "roles": [],
+  "campus": [
+    {
+      "id": 43,
+      "name": "Abu Dhabi",
+      "time_zone": "Asia/Dubai",
+      "language": {
+        "id": 2,
+        "name": "English",
+        "identifier": "en",
+        "created_at": "2015-04-14T16:07:38.122Z",
+        "updated_at": "2023-02-16T11:08:11.620Z"
+      },
+      "users_count": 1500,
+      "vogsphere_id": 30,
+      "country": "United Arab Emirates",
+      "address": "Mina Zayed, Warehouse District ",
+      "zip": "00000",
+      "city": "Abu Dhabi",
+      "website": "https://42abudhabi.ae/",
+      "facebook": "",
+      "twitter": "",
+      "active": true,
+      "public": true,
+      "email_extension": "42abudhabi.ae",
+      "default_hidden_phone": false
+    }
+  ],
+  "campus_users": [
+    {
+      "id": 137221,
+      "user_id": 145514,
+      "campus_id": 43,
+      "is_primary": true,
+      "created_at": "2023-02-13T08:08:15.490Z",
+      "updated_at": "2023-02-13T08:08:15.490Z"
+    }
+  ]
+}

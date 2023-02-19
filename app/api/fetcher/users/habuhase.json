@@ -1,0 +1,171 @@
+{
+  "id": 93132,
+  "email": "habuhase@student.42abudhabi.ae",
+  "login": "habuhase",
+  "first_name": "Hisham",
+  "last_name": "Abuhaseera",
+  "usual_full_name": "Hisham Abuhaseera",
+  "usual_first_name": null,
+  "url": "https://api.intra.42.fr/v2/users/habuhase",
+  "phone": "hidden",
+  "displayname": "Hisham Abuhaseera",
+  "kind": "student",
+  "image": {
+    "link": "https://cdn.intra.42.fr/users/c228544e27f7fcf946dbb7028e4a265d/habuhase.jpg",
+    "versions": {
+      "large": "https://cdn.intra.42.fr/users/966a9639ac3d0874cbf61fc3083d81f2/large_habuhase.jpg",
+      "medium": "https://cdn.intra.42.fr/users/f2345b119d916968ab367198f6649abd/medium_habuhase.jpg",
+      "small": "https://cdn.intra.42.fr/users/5649f7abe0b792c8d97ac6500e7083c2/small_habuhase.jpg",
+      "micro": "https://cdn.intra.42.fr/users/585172d62099a94a5fb7ea917f6a19e2/micro_habuhase.jpg"
+    }
+  },
+  "staff?": false,
+  "correction_point": 5,
+  "pool_month": "august",
+  "pool_year": "2021",
+  "location": null,
+  "wallet": 0,
+  "anonymize_date": "2024-08-07T00:00:00.000+04:00",
+  "data_erasure_date": "2024-08-07T00:00:00.000+04:00",
+  "created_at": "2021-07-12T10:14:05.866Z",
+  "updated_at": "2021-08-07T15:09:39.445Z",
+  "alumnized_at": null,
+  "alumni?": false,
+  "active?": false,
+  "groups": [],
+  "cursus_users": [
+    {
+      "grade": null,
+      "level": 0,
+      "skills": [],
+      "blackholed_at": null,
+      "id": 129268,
+      "begin_at": "2021-08-01T04:42:00.000Z",
+      "end_at": "2021-08-26T14:00:00.000Z",
+      "cursus_id": 9,
+      "has_coalition": true,
+      "created_at": "2021-07-12T10:14:07.821Z",
+      "updated_at": "2021-07-12T10:14:07.821Z",
+      "user": {
+        "id": 93132,
+        "email": "habuhase@student.42abudhabi.ae",
+        "login": "habuhase",
+        "first_name": "Hisham",
+        "last_name": "Abuhaseera",
+        "usual_full_name": "Hisham Abuhaseera",
+        "usual_first_name": null,
+        "url": "https://api.intra.42.fr/v2/users/habuhase",
+        "phone": "hidden",
+        "displayname": "Hisham Abuhaseera",
+        "kind": "student",
+        "image": {
+          "link": "https://cdn.intra.42.fr/users/c228544e27f7fcf946dbb7028e4a265d/habuhase.jpg",
+          "versions": {
+            "large": "https://cdn.intra.42.fr/users/966a9639ac3d0874cbf61fc3083d81f2/large_habuhase.jpg",
+            "medium": "https://cdn.intra.42.fr/users/f2345b119d916968ab367198f6649abd/medium_habuhase.jpg",
+            "small": "https://cdn.intra.42.fr/users/5649f7abe0b792c8d97ac6500e7083c2/small_habuhase.jpg",
+            "micro": "https://cdn.intra.42.fr/users/585172d62099a94a5fb7ea917f6a19e2/micro_habuhase.jpg"
+          }
+        },
+        "staff?": false,
+        "correction_point": 5,
+        "pool_month": "august",
+        "pool_year": "2021",
+        "location": null,
+        "wallet": 0,
+        "anonymize_date": "2024-08-07T00:00:00.000+04:00",
+        "data_erasure_date": "2024-08-07T00:00:00.000+04:00",
+        "created_at": "2021-07-12T10:14:05.866Z",
+        "updated_at": "2021-08-07T15:09:39.445Z",
+        "alumnized_at": null,
+        "alumni?": false,
+        "active?": false
+      },
+      "cursus": {
+        "id": 9,
+        "created_at": "2015-11-04T10:58:13.979Z",
+        "name": "C Piscine",
+        "slug": "c-piscine",
+        "kind": "piscine"
+      }
+    }
+  ],
+  "projects_users": [
+    {
+      "id": 2282865,
+      "occurrence": 0,
+      "final_mark": 0,
+      "status": "finished",
+      "validated?": false,
+      "current_team_id": 3707102,
+      "project": {
+        "id": 1255,
+        "name": "C Piscine Shell 00",
+        "slug": "c-piscine-shell-00",
+        "parent_id": null
+      },
+      "cursus_ids": [
+        9
+      ],
+      "marked_at": "2021-08-26T14:02:14.851Z",
+      "marked": true,
+      "retriable_at": "2021-08-26T14:22:15.127Z",
+      "created_at": "2021-08-07T13:58:55.754Z",
+      "updated_at": "2021-08-26T14:03:12.439Z"
+    }
+  ],
+  "languages_users": [
+    {
+      "id": 387389,
+      "language_id": 2,
+      "user_id": 93132,
+      "position": 1,
+      "created_at": "2021-07-12T10:14:05.994Z"
+    }
+  ],
+  "achievements": [],
+  "titles": [],
+  "titles_users": [],
+  "partnerships": [],
+  "patroned": [],
+  "patroning": [],
+  "expertises_users": [],
+  "roles": [],
+  "campus": [
+    {
+      "id": 43,
+      "name": "Abu Dhabi",
+      "time_zone": "Asia/Dubai",
+      "language": {
+        "id": 2,
+        "name": "English",
+        "identifier": "en",
+        "created_at": "2015-04-14T16:07:38.122Z",
+        "updated_at": "2023-02-16T11:08:11.620Z"
+      },
+      "users_count": 1500,
+      "vogsphere_id": 30,
+      "country": "United Arab Emirates",
+      "address": "Mina Zayed, Warehouse District ",
+      "zip": "00000",
+      "city": "Abu Dhabi",
+      "website": "https://42abudhabi.ae/",
+      "facebook": "",
+      "twitter": "",
+      "active": true,
+      "public": true,
+      "email_extension": "42abudhabi.ae",
+      "default_hidden_phone": false
+    }
+  ],
+  "campus_users": [
+    {
+      "id": 84679,
+      "user_id": 93132,
+      "campus_id": 43,
+      "is_primary": true,
+      "created_at": "2021-07-12T10:14:05.887Z",
+      "updated_at": "2021-07-12T10:14:05.887Z"
+    }
+  ]
+}

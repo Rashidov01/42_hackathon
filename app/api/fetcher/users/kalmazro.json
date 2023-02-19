@@ -1,0 +1,193 @@
+{
+  "id": 101565,
+  "email": "kalmazro@student.42abudhabi.ae",
+  "login": "kalmazro",
+  "first_name": "Khalifa",
+  "last_name": "Almazrouei",
+  "usual_full_name": "Khalifa Almazrouei",
+  "usual_first_name": null,
+  "url": "https://api.intra.42.fr/v2/users/kalmazro",
+  "phone": "hidden",
+  "displayname": "Khalifa Almazrouei",
+  "kind": "student",
+  "image": {
+    "link": "https://cdn.intra.42.fr/users/62e5b979904d485dffa3fc230d93c748/kalmazro.jpg",
+    "versions": {
+      "large": "https://cdn.intra.42.fr/users/571a1551be1de9649de1beafa23088bd/large_kalmazro.jpg",
+      "medium": "https://cdn.intra.42.fr/users/c66e7e530954fdf44096f838daa9e95e/medium_kalmazro.jpg",
+      "small": "https://cdn.intra.42.fr/users/1516948804394dc7ad2f5fe496f48b27/small_kalmazro.jpg",
+      "micro": "https://cdn.intra.42.fr/users/47c6572ba48f29ed2c0d3658cf4407d5/micro_kalmazro.jpg"
+    }
+  },
+  "staff?": false,
+  "correction_point": 5,
+  "pool_month": "november",
+  "pool_year": "2021",
+  "location": null,
+  "wallet": 0,
+  "anonymize_date": "2024-11-04T00:00:00.000+04:00",
+  "data_erasure_date": "2024-11-04T00:00:00.000+04:00",
+  "created_at": "2021-10-31T09:16:27.671Z",
+  "updated_at": "2021-11-01T19:41:34.546Z",
+  "alumnized_at": null,
+  "alumni?": false,
+  "active?": false,
+  "groups": [],
+  "cursus_users": [
+    {
+      "grade": null,
+      "level": 0,
+      "skills": [],
+      "blackholed_at": null,
+      "id": 145033,
+      "begin_at": "2021-10-31T09:17:52.000Z",
+      "end_at": "2021-11-25T14:00:00.000Z",
+      "cursus_id": 9,
+      "has_coalition": true,
+      "created_at": "2021-10-31T09:16:42.313Z",
+      "updated_at": "2021-10-31T09:16:42.313Z",
+      "user": {
+        "id": 101565,
+        "email": "kalmazro@student.42abudhabi.ae",
+        "login": "kalmazro",
+        "first_name": "Khalifa",
+        "last_name": "Almazrouei",
+        "usual_full_name": "Khalifa Almazrouei",
+        "usual_first_name": null,
+        "url": "https://api.intra.42.fr/v2/users/kalmazro",
+        "phone": "hidden",
+        "displayname": "Khalifa Almazrouei",
+        "kind": "student",
+        "image": {
+          "link": "https://cdn.intra.42.fr/users/62e5b979904d485dffa3fc230d93c748/kalmazro.jpg",
+          "versions": {
+            "large": "https://cdn.intra.42.fr/users/571a1551be1de9649de1beafa23088bd/large_kalmazro.jpg",
+            "medium": "https://cdn.intra.42.fr/users/c66e7e530954fdf44096f838daa9e95e/medium_kalmazro.jpg",
+            "small": "https://cdn.intra.42.fr/users/1516948804394dc7ad2f5fe496f48b27/small_kalmazro.jpg",
+            "micro": "https://cdn.intra.42.fr/users/47c6572ba48f29ed2c0d3658cf4407d5/micro_kalmazro.jpg"
+          }
+        },
+        "staff?": false,
+        "correction_point": 5,
+        "pool_month": "november",
+        "pool_year": "2021",
+        "location": null,
+        "wallet": 0,
+        "anonymize_date": "2024-11-04T00:00:00.000+04:00",
+        "data_erasure_date": "2024-11-04T00:00:00.000+04:00",
+        "created_at": "2021-10-31T09:16:27.671Z",
+        "updated_at": "2021-11-01T19:41:34.546Z",
+        "alumnized_at": null,
+        "alumni?": false,
+        "active?": false
+      },
+      "cursus": {
+        "id": 9,
+        "created_at": "2015-11-04T10:58:13.979Z",
+        "name": "C Piscine",
+        "slug": "c-piscine",
+        "kind": "piscine"
+      }
+    }
+  ],
+  "projects_users": [
+    {
+      "id": 2418494,
+      "occurrence": 0,
+      "final_mark": 0,
+      "status": "finished",
+      "validated?": false,
+      "current_team_id": 3895467,
+      "project": {
+        "id": 1304,
+        "name": "C Piscine Final Exam",
+        "slug": "c-piscine-final-exam",
+        "parent_id": null
+      },
+      "cursus_ids": [
+        9
+      ],
+      "marked_at": "2021-11-25T14:02:27.191Z",
+      "marked": true,
+      "retriable_at": null,
+      "created_at": "2021-11-24T08:35:39.907Z",
+      "updated_at": "2021-11-25T14:02:27.211Z"
+    },
+    {
+      "id": 2409991,
+      "occurrence": 0,
+      "final_mark": 0,
+      "status": "finished",
+      "validated?": false,
+      "current_team_id": 3884897,
+      "project": {
+        "id": 1303,
+        "name": "C Piscine Exam 02",
+        "slug": "c-piscine-exam-02",
+        "parent_id": null
+      },
+      "cursus_ids": [
+        9
+      ],
+      "marked_at": "2021-11-25T14:02:30.078Z",
+      "marked": true,
+      "retriable_at": null,
+      "created_at": "2021-11-17T11:11:32.744Z",
+      "updated_at": "2021-11-25T14:02:30.103Z"
+    }
+  ],
+  "languages_users": [
+    {
+      "id": 451966,
+      "language_id": 2,
+      "user_id": 101565,
+      "position": 1,
+      "created_at": "2021-10-31T09:16:27.819Z"
+    }
+  ],
+  "achievements": [],
+  "titles": [],
+  "titles_users": [],
+  "partnerships": [],
+  "patroned": [],
+  "patroning": [],
+  "expertises_users": [],
+  "roles": [],
+  "campus": [
+    {
+      "id": 43,
+      "name": "Abu Dhabi",
+      "time_zone": "Asia/Dubai",
+      "language": {
+        "id": 2,
+        "name": "English",
+        "identifier": "en",
+        "created_at": "2015-04-14T16:07:38.122Z",
+        "updated_at": "2023-02-16T11:08:11.620Z"
+      },
+      "users_count": 1500,
+      "vogsphere_id": 30,
+      "country": "United Arab Emirates",
+      "address": "Mina Zayed, Warehouse District ",
+      "zip": "00000",
+      "city": "Abu Dhabi",
+      "website": "https://42abudhabi.ae/",
+      "facebook": "",
+      "twitter": "",
+      "active": true,
+      "public": true,
+      "email_extension": "42abudhabi.ae",
+      "default_hidden_phone": false
+    }
+  ],
+  "campus_users": [
+    {
+      "id": 93151,
+      "user_id": 101565,
+      "campus_id": 43,
+      "is_primary": true,
+      "created_at": "2021-10-31T09:16:27.741Z",
+      "updated_at": "2021-10-31T09:16:27.741Z"
+    }
+  ]
+}

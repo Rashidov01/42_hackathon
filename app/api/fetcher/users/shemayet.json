@@ -1,0 +1,148 @@
+{
+  "id": 145687,
+  "email": "shemayet@student.42abudhabi.ae",
+  "login": "shemayet",
+  "first_name": "Salman",
+  "last_name": "Hemayet Uddin",
+  "usual_full_name": "Salman Hemayet Uddin",
+  "usual_first_name": null,
+  "url": "https://api.intra.42.fr/v2/users/shemayet",
+  "phone": "hidden",
+  "displayname": "Salman Hemayet Uddin",
+  "kind": "student",
+  "image": {
+    "link": "https://cdn.intra.42.fr/users/283e27c4c8d5b2a292e4d9a39cc17344/shemayet.jpg",
+    "versions": {
+      "large": "https://cdn.intra.42.fr/users/3eea53e026d9be0f33a2bea5b52be8f1/large_shemayet.jpg",
+      "medium": "https://cdn.intra.42.fr/users/31db88064cedd928d3c33b198952b971/medium_shemayet.jpg",
+      "small": "https://cdn.intra.42.fr/users/77b4b507bb5c19efdf249aece14cb1e3/small_shemayet.jpg",
+      "micro": "https://cdn.intra.42.fr/users/de28d3ad99d64d5951b62e5d2b341bc9/micro_shemayet.jpg"
+    }
+  },
+  "staff?": false,
+  "correction_point": 5,
+  "pool_month": "march",
+  "pool_year": "2023",
+  "location": null,
+  "wallet": 0,
+  "anonymize_date": "2026-02-17T00:00:00.000+04:00",
+  "data_erasure_date": "2026-02-17T00:00:00.000+04:00",
+  "created_at": "2023-02-13T09:47:06.801Z",
+  "updated_at": "2023-02-13T10:46:40.642Z",
+  "alumnized_at": null,
+  "alumni?": false,
+  "active?": false,
+  "groups": [],
+  "cursus_users": [
+    {
+      "grade": null,
+      "level": 0,
+      "skills": [],
+      "blackholed_at": null,
+      "id": 206118,
+      "begin_at": "2023-02-20T04:42:00.000Z",
+      "end_at": "2023-03-16T14:00:00.000Z",
+      "cursus_id": 9,
+      "has_coalition": true,
+      "created_at": "2023-02-13T09:47:08.109Z",
+      "updated_at": "2023-02-13T09:47:08.109Z",
+      "user": {
+        "id": 145687,
+        "email": "shemayet@student.42abudhabi.ae",
+        "login": "shemayet",
+        "first_name": "Salman",
+        "last_name": "Hemayet Uddin",
+        "usual_full_name": "Salman Hemayet Uddin",
+        "usual_first_name": null,
+        "url": "https://api.intra.42.fr/v2/users/shemayet",
+        "phone": "hidden",
+        "displayname": "Salman Hemayet Uddin",
+        "kind": "student",
+        "image": {
+          "link": "https://cdn.intra.42.fr/users/283e27c4c8d5b2a292e4d9a39cc17344/shemayet.jpg",
+          "versions": {
+            "large": "https://cdn.intra.42.fr/users/3eea53e026d9be0f33a2bea5b52be8f1/large_shemayet.jpg",
+            "medium": "https://cdn.intra.42.fr/users/31db88064cedd928d3c33b198952b971/medium_shemayet.jpg",
+            "small": "https://cdn.intra.42.fr/users/77b4b507bb5c19efdf249aece14cb1e3/small_shemayet.jpg",
+            "micro": "https://cdn.intra.42.fr/users/de28d3ad99d64d5951b62e5d2b341bc9/micro_shemayet.jpg"
+          }
+        },
+        "staff?": false,
+        "correction_point": 5,
+        "pool_month": "march",
+        "pool_year": "2023",
+        "location": null,
+        "wallet": 0,
+        "anonymize_date": "2026-02-17T00:00:00.000+04:00",
+        "data_erasure_date": "2026-02-17T00:00:00.000+04:00",
+        "created_at": "2023-02-13T09:47:06.801Z",
+        "updated_at": "2023-02-13T10:46:40.642Z",
+        "alumnized_at": null,
+        "alumni?": false,
+        "active?": false
+      },
+      "cursus": {
+        "id": 9,
+        "created_at": "2015-11-04T10:58:13.979Z",
+        "name": "C Piscine",
+        "slug": "c-piscine",
+        "kind": "piscine"
+      }
+    }
+  ],
+  "projects_users": [],
+  "languages_users": [
+    {
+      "id": 733827,
+      "language_id": 2,
+      "user_id": 145687,
+      "position": 1,
+      "created_at": "2023-02-13T09:47:07.558Z"
+    }
+  ],
+  "achievements": [],
+  "titles": [],
+  "titles_users": [],
+  "partnerships": [],
+  "patroned": [],
+  "patroning": [],
+  "expertises_users": [],
+  "roles": [],
+  "campus": [
+    {
+      "id": 43,
+      "name": "Abu Dhabi",
+      "time_zone": "Asia/Dubai",
+      "language": {
+        "id": 2,
+        "name": "English",
+        "identifier": "en",
+        "created_at": "2015-04-14T16:07:38.122Z",
+        "updated_at": "2023-02-16T11:08:11.620Z"
+      },
+      "users_count": 1500,
+      "vogsphere_id": 30,
+      "country": "United Arab Emirates",
+      "address": "Mina Zayed, Warehouse District ",
+      "zip": "00000",
+      "city": "Abu Dhabi",
+      "website": "https://42abudhabi.ae/",
+      "facebook": "",
+      "twitter": "",
+      "active": true,
+      "public": true,
+      "email_extension": "42abudhabi.ae",
+      "default_hidden_phone": false
+    }
+  ],
+  "campus_users": [
+    {
+      "id": 137394,
+      "user_id": 145687,
+      "campus_id": 43,
+      "is_primary": true,
+      "created_at": "2023-02-13T09:47:06.845Z",
+      "updated_at": "2023-02-13T09:47:06.845Z"
+    }
+  ]
+}
