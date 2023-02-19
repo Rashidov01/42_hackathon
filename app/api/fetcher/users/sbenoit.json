@@ -1,0 +1,1219 @@
+{
+  "id": 54860,
+  "email": "sbenoit@student.42yerevan.am",
+  "login": "sbenoit",
+  "first_name": "Sebastien",
+  "last_name": "Benoit",
+  "usual_full_name": "Sebastien Benoit",
+  "usual_first_name": null,
+  "url": "https://api.intra.42.fr/v2/users/sbenoit",
+  "phone": "hidden",
+  "displayname": "Sebastien Benoit",
+  "kind": "student",
+  "image": {
+    "link": null,
+    "versions": {
+      "large": null,
+      "medium": null,
+      "small": null,
+      "micro": null
+    }
+  },
+  "staff?": false,
+  "correction_point": 5,
+  "pool_month": "july",
+  "pool_year": "2017",
+  "location": null,
+  "wallet": 0,
+  "anonymize_date": "2026-02-07T00:00:00.000+01:00",
+  "data_erasure_date": "2026-02-07T00:00:00.000+01:00",
+  "created_at": "2019-04-15T12:43:29.713Z",
+  "updated_at": "2023-02-02T16:47:00.229Z",
+  "alumnized_at": null,
+  "alumni?": false,
+  "active?": true,
+  "groups": [],
+  "cursus_users": [
+    {
+      "grade": "Cadet",
+      "level": 0.22,
+      "skills": [
+        {
+          "id": 2,
+          "name": "Imperative programming",
+          "level": 0.26
+        },
+        {
+          "id": 3,
+          "name": "Rigor",
+          "level": 0.26
+        },
+        {
+          "id": 4,
+          "name": "Unix",
+          "level": 0.13
+        }
+      ],
+      "blackholed_at": null,
+      "id": 102103,
+      "begin_at": "2020-09-29T14:16:00.000Z",
+      "end_at": null,
+      "cursus_id": 1,
+      "has_coalition": false,
+      "created_at": "2020-09-29T14:16:17.225Z",
+      "updated_at": "2023-02-02T16:45:16.215Z",
+      "user": {
+        "id": 54860,
+        "email": "sbenoit@student.42yerevan.am",
+        "login": "sbenoit",
+        "first_name": "Sebastien",
+        "last_name": "Benoit",
+        "usual_full_name": "Sebastien Benoit",
+        "usual_first_name": null,
+        "url": "https://api.intra.42.fr/v2/users/sbenoit",
+        "phone": "hidden",
+        "displayname": "Sebastien Benoit",
+        "kind": "student",
+        "image": {
+          "link": null,
+          "versions": {
+            "large": null,
+            "medium": null,
+            "small": null,
+            "micro": null
+          }
+        },
+        "staff?": false,
+        "correction_point": 5,
+        "pool_month": "july",
+        "pool_year": "2017",
+        "location": null,
+        "wallet": 0,
+        "anonymize_date": "2026-02-07T00:00:00.000+01:00",
+        "data_erasure_date": "2026-02-07T00:00:00.000+01:00",
+        "created_at": "2019-04-15T12:43:29.713Z",
+        "updated_at": "2023-02-02T16:47:00.229Z",
+        "alumnized_at": null,
+        "alumni?": false,
+        "active?": true
+      },
+      "cursus": {
+        "id": 1,
+        "created_at": "2014-11-02T16:43:38.480Z",
+        "name": "42",
+        "slug": "42",
+        "kind": "main_deprecated"
+      }
+    },
+    {
+      "grade": null,
+      "level": 0,
+      "skills": [],
+      "blackholed_at": null,
+      "id": 102108,
+      "begin_at": "2020-09-29T17:36:00.000Z",
+      "end_at": null,
+      "cursus_id": 4,
+      "has_coalition": true,
+      "created_at": "2020-09-29T17:36:18.962Z",
+      "updated_at": "2020-09-29T17:36:18.962Z",
+      "user": {
+        "id": 54860,
+        "email": "sbenoit@student.42yerevan.am",
+        "login": "sbenoit",
+        "first_name": "Sebastien",
+        "last_name": "Benoit",
+        "usual_full_name": "Sebastien Benoit",
+        "usual_first_name": null,
+        "url": "https://api.intra.42.fr/v2/users/sbenoit",
+        "phone": "hidden",
+        "displayname": "Sebastien Benoit",
+        "kind": "student",
+        "image": {
+          "link": null,
+          "versions": {
+            "large": null,
+            "medium": null,
+            "small": null,
+            "micro": null
+          }
+        },
+        "staff?": false,
+        "correction_point": 5,
+        "pool_month": "july",
+        "pool_year": "2017",
+        "location": null,
+        "wallet": 0,
+        "anonymize_date": "2026-02-07T00:00:00.000+01:00",
+        "data_erasure_date": "2026-02-07T00:00:00.000+01:00",
+        "created_at": "2019-04-15T12:43:29.713Z",
+        "updated_at": "2023-02-02T16:47:00.229Z",
+        "alumnized_at": null,
+        "alumni?": false,
+        "active?": true
+      },
+      "cursus": {
+        "id": 4,
+        "created_at": "2015-05-01T17:46:08.433Z",
+        "name": "Piscine C",
+        "slug": "piscine-c",
+        "kind": "piscine_deprecated"
+      }
+    },
+    {
+      "grade": "Learner",
+      "level": 0,
+      "skills": [],
+      "blackholed_at": "2020-12-26T15:24:00.000Z",
+      "id": 101320,
+      "begin_at": "2020-09-10T14:24:00.000Z",
+      "end_at": "2020-11-27T09:00:13.602Z",
+      "cursus_id": 21,
+      "has_coalition": false,
+      "created_at": "2020-09-10T14:24:36.072Z",
+      "updated_at": "2020-11-27T09:00:12.614Z",
+      "user": {
+        "id": 54860,
+        "email": "sbenoit@student.42yerevan.am",
+        "login": "sbenoit",
+        "first_name": "Sebastien",
+        "last_name": "Benoit",
+        "usual_full_name": "Sebastien Benoit",
+        "usual_first_name": null,
+        "url": "https://api.intra.42.fr/v2/users/sbenoit",
+        "phone": "hidden",
+        "displayname": "Sebastien Benoit",
+        "kind": "student",
+        "image": {
+          "link": null,
+          "versions": {
+            "large": null,
+            "medium": null,
+            "small": null,
+            "micro": null
+          }
+        },
+        "staff?": false,
+        "correction_point": 5,
+        "pool_month": "july",
+        "pool_year": "2017",
+        "location": null,
+        "wallet": 0,
+        "anonymize_date": "2026-02-07T00:00:00.000+01:00",
+        "data_erasure_date": "2026-02-07T00:00:00.000+01:00",
+        "created_at": "2019-04-15T12:43:29.713Z",
+        "updated_at": "2023-02-02T16:47:00.229Z",
+        "alumnized_at": null,
+        "alumni?": false,
+        "active?": true
+      },
+      "cursus": {
+        "id": 21,
+        "created_at": "2019-07-29T08:45:17.896Z",
+        "name": "42cursus",
+        "slug": "42cursus",
+        "kind": "main"
+      }
+    }
+  ],
+  "projects_users": [
+    {
+      "id": 2137121,
+      "occurrence": 0,
+      "final_mark": 0,
+      "status": "finished",
+      "validated?": false,
+      "current_team_id": 3516283,
+      "project": {
+        "id": 817,
+        "name": "42 Commandements",
+        "slug": "42-formation-pole-emploi-42-commandements",
+        "parent_id": null
+      },
+      "cursus_ids": [
+        1
+      ],
+      "marked_at": "2021-09-30T15:19:20.292Z",
+      "marked": true,
+      "retriable_at": "2021-09-30T15:39:20.319Z",
+      "created_at": "2021-03-23T14:36:42.131Z",
+      "updated_at": "2021-09-30T15:20:14.777Z"
+    },
+    {
+      "id": 2002693,
+      "occurrence": 0,
+      "final_mark": 16,
+      "status": "finished",
+      "validated?": false,
+      "current_team_id": 3330757,
+      "project": {
+        "id": 406,
+        "name": "Exam02",
+        "slug": "piscine-c-exam02",
+        "parent_id": null
+      },
+      "cursus_ids": [
+        4
+      ],
+      "marked_at": "2020-09-30T10:07:15.412Z",
+      "marked": true,
+      "retriable_at": "2020-09-30T10:07:15.433Z",
+      "created_at": "2020-09-30T09:29:13.053Z",
+      "updated_at": "2020-09-30T16:00:24.804Z"
+    },
+    {
+      "id": 2002144,
+      "occurrence": 1,
+      "final_mark": 0,
+      "status": "finished",
+      "validated?": false,
+      "current_team_id": 3514797,
+      "project": {
+        "id": 11,
+        "name": "C Exam Alone In The Dark - Beginner",
+        "slug": "c-exam-alone-in-the-dark-beginner",
+        "parent_id": null
+      },
+      "cursus_ids": [
+        1
+      ],
+      "marked_at": "2020-09-29T16:15:49.640Z",
+      "marked": true,
+      "retriable_at": "2021-09-30T15:19:20.537Z",
+      "created_at": "2020-09-29T16:14:44.263Z",
+      "updated_at": "2021-09-30T15:19:20.559Z"
+    },
+    {
+      "id": 2002138,
+      "occurrence": 0,
+      "final_mark": 0,
+      "status": "finished",
+      "validated?": false,
+      "current_team_id": 3330053,
+      "project": {
+        "id": 1012,
+        "name": "C Exam Alone In The Dark - Intermediate",
+        "slug": "c-exam-alone-in-the-dark-intermediate",
+        "parent_id": null
+      },
+      "cursus_ids": [
+        1
+      ],
+      "marked_at": "2020-09-29T16:15:49.885Z",
+      "marked": true,
+      "retriable_at": "2020-09-29T16:15:49.909Z",
+      "created_at": "2020-09-29T16:11:44.805Z",
+      "updated_at": "2020-09-29T16:15:49.930Z"
+    },
+    {
+      "id": 2002012,
+      "occurrence": 1,
+      "final_mark": 0,
+      "status": "finished",
+      "validated?": false,
+      "current_team_id": 3514738,
+      "project": {
+        "id": 756,
+        "name": "Piscine Reloaded",
+        "slug": "piscine-reloaded",
+        "parent_id": null
+      },
+      "cursus_ids": [
+        1
+      ],
+      "marked_at": "2020-10-01T15:25:16.124Z",
+      "marked": true,
+      "retriable_at": "2021-03-23T13:56:45.965Z",
+      "created_at": "2020-09-29T14:14:54.842Z",
+      "updated_at": "2021-03-22T14:10:40.527Z"
+    },
+    {
+      "id": 2000042,
+      "occurrence": 0,
+      "final_mark": 0,
+      "status": "finished",
+      "validated?": false,
+      "current_team_id": 3326977,
+      "project": {
+        "id": 1318,
+        "name": "netwhat",
+        "slug": "netwhat",
+        "parent_id": null
+      },
+      "cursus_ids": [
+        21
+      ],
+      "marked_at": "2020-11-27T09:02:27.263Z",
+      "marked": true,
+      "retriable_at": "2020-11-28T09:02:27.287Z",
+      "created_at": "2020-09-27T13:03:11.865Z",
+      "updated_at": "2020-11-27T09:02:27.304Z"
+    },
+    {
+      "id": 2000037,
+      "occurrence": 0,
+      "final_mark": 0,
+      "status": "finished",
+      "validated?": false,
+      "current_team_id": 3326970,
+      "project": {
+        "id": 1316,
+        "name": "ft_printf",
+        "slug": "42cursus-ft_printf",
+        "parent_id": null
+      },
+      "cursus_ids": [
+        21
+      ],
+      "marked_at": "2020-11-27T09:02:27.490Z",
+      "marked": true,
+      "retriable_at": "2020-11-28T09:02:27.511Z",
+      "created_at": "2020-09-27T12:54:37.149Z",
+      "updated_at": "2020-11-27T09:02:27.525Z"
+    },
+    {
+      "id": 1982855,
+      "occurrence": 0,
+      "final_mark": 0,
+      "status": "finished",
+      "validated?": false,
+      "current_team_id": 3305215,
+      "project": {
+        "id": 1314,
+        "name": "Libft",
+        "slug": "42cursus-libft",
+        "parent_id": null
+      },
+      "cursus_ids": [
+        21
+      ],
+      "marked_at": "2020-09-27T12:47:31.356Z",
+      "marked": true,
+      "retriable_at": "2020-09-28T12:47:31.380Z",
+      "created_at": "2020-09-11T16:36:35.677Z",
+      "updated_at": "2020-09-27T12:47:31.395Z"
+    },
+    {
+      "id": 1982839,
+      "occurrence": 2,
+      "final_mark": 50,
+      "status": "finished",
+      "validated?": false,
+      "current_team_id": 3330735,
+      "project": {
+        "id": 1320,
+        "name": "Exam Rank 02",
+        "slug": "exam-rank-02",
+        "parent_id": null
+      },
+      "cursus_ids": [
+        21
+      ],
+      "marked_at": "2020-09-11T16:55:00.265Z",
+      "marked": true,
+      "retriable_at": "2020-11-27T09:02:27.037Z",
+      "created_at": "2020-09-11T16:23:19.493Z",
+      "updated_at": "2020-11-27T09:02:27.057Z"
+    },
+    {
+      "id": 2002213,
+      "occurrence": 0,
+      "final_mark": null,
+      "status": "in_progress",
+      "validated?": null,
+      "current_team_id": 3330179,
+      "project": {
+        "id": 404,
+        "name": "Exam00",
+        "slug": "piscine-c-exam00",
+        "parent_id": null
+      },
+      "cursus_ids": [
+        4
+      ],
+      "marked_at": null,
+      "marked": false,
+      "retriable_at": null,
+      "created_at": "2020-09-29T17:35:28.957Z",
+      "updated_at": "2020-09-29T17:35:29.097Z"
+    },
+    {
+      "id": 2002683,
+      "occurrence": 0,
+      "final_mark": null,
+      "status": "in_progress",
+      "validated?": null,
+      "current_team_id": 3330749,
+      "project": {
+        "id": 405,
+        "name": "Exam01",
+        "slug": "piscine-c-exam01",
+        "parent_id": null
+      },
+      "cursus_ids": [
+        4
+      ],
+      "marked_at": null,
+      "marked": false,
+      "retriable_at": null,
+      "created_at": "2020-09-30T09:24:50.182Z",
+      "updated_at": "2020-09-30T09:24:50.385Z"
+    },
+    {
+      "id": 2136763,
+      "occurrence": 0,
+      "final_mark": null,
+      "status": "searching_a_group",
+      "validated?": null,
+      "current_team_id": null,
+      "project": {
+        "id": 977,
+        "name": "ft_zenko",
+        "slug": "ft_zenko",
+        "parent_id": null
+      },
+      "cursus_ids": [
+        1
+      ],
+      "marked_at": null,
+      "marked": false,
+      "retriable_at": null,
+      "created_at": "2021-03-23T09:49:43.230Z",
+      "updated_at": "2021-03-23T09:49:43.230Z"
+    },
+    {
+      "id": 2135877,
+      "occurrence": 0,
+      "final_mark": null,
+      "status": "finished",
+      "validated?": null,
+      "current_team_id": 3514772,
+      "project": {
+        "id": 411,
+        "name": "Electronics",
+        "slug": "electronics",
+        "parent_id": null
+      },
+      "cursus_ids": [
+        1
+      ],
+      "marked_at": null,
+      "marked": false,
+      "retriable_at": "2021-09-30T15:19:20.868Z",
+      "created_at": "2021-03-22T14:15:33.736Z",
+      "updated_at": "2021-09-30T15:19:20.876Z"
+    },
+    {
+      "id": 2053932,
+      "occurrence": 0,
+      "final_mark": null,
+      "status": "waiting_for_correction",
+      "validated?": null,
+      "current_team_id": 3404629,
+      "project": {
+        "id": 154,
+        "name": "Day 00",
+        "slug": "piscine-c-day-00",
+        "parent_id": null
+      },
+      "cursus_ids": [
+        4
+      ],
+      "marked_at": null,
+      "marked": false,
+      "retriable_at": "2021-10-04T00:00:15.585Z",
+      "created_at": "2020-12-08T14:16:51.183Z",
+      "updated_at": "2021-10-04T00:00:15.588Z"
+    }
+  ],
+  "languages_users": [
+    {
+      "id": 357991,
+      "language_id": 1,
+      "user_id": 54860,
+      "position": 1,
+      "created_at": "2021-03-23T13:54:07.884Z"
+    },
+    {
+      "id": 357992,
+      "language_id": 9,
+      "user_id": 54860,
+      "position": 2,
+      "created_at": "2021-03-23T13:54:07.995Z"
+    },
+    {
+      "id": 362958,
+      "language_id": 11,
+      "user_id": 54860,
+      "position": 3,
+      "created_at": "2021-04-08T13:53:52.406Z"
+    },
+    {
+      "id": 372694,
+      "language_id": 2,
+      "user_id": 54860,
+      "position": 4,
+      "created_at": "2021-05-27T11:55:48.655Z"
+    },
+    {
+      "id": 459006,
+      "language_id": 16,
+      "user_id": 54860,
+      "position": 5,
+      "created_at": "2021-11-19T16:50:32.015Z"
+    }
+  ],
+  "achievements": [
+    {
+      "id": 40,
+      "name": "404 - Sleep not found",
+      "description": "Logged for 24h straight",
+      "tier": "easy",
+      "kind": "scolarity",
+      "visible": true,
+      "image": "/uploads/achievement/image/40/SCO001.svg",
+      "nbr_of_success": null,
+      "users_url": "https://api.intra.42.fr/v2/achievements/40/users"
+    },
+    {
+      "id": 41,
+      "name": "All work and no play makes Jack a dull boy",
+      "description": "Logged for a total of 90 hours over a week.",
+      "tier": "none",
+      "kind": "scolarity",
+      "visible": true,
+      "image": "/uploads/achievement/image/41/SCO001.svg",
+      "nbr_of_success": null,
+      "users_url": "https://api.intra.42.fr/v2/achievements/41/users"
+    },
+    {
+      "id": 4,
+      "name": "Code Explorer",
+      "description": "Valided your first project.",
+      "tier": "none",
+      "kind": "project",
+      "visible": true,
+      "image": "/uploads/achievement/image/4/PRO002.svg",
+      "nbr_of_success": 1,
+      "users_url": "https://api.intra.42.fr/v2/achievements/4/users"
+    },
+    {
+      "id": 44,
+      "name": "Curious wanderer",
+      "description": "S'être logué une fois dans chaque cluster.",
+      "tier": "none",
+      "kind": "scolarity",
+      "visible": false,
+      "image": "/uploads/achievement/image/44/SCO002.svg",
+      "nbr_of_success": null,
+      "users_url": "https://api.intra.42.fr/v2/achievements/44/users"
+    },
+    {
+      "id": 45,
+      "name": "Home is where the code is",
+      "description": "Logged into the same cluster for a month in a row",
+      "tier": "none",
+      "kind": "scolarity",
+      "visible": true,
+      "image": "/uploads/achievement/image/45/SCO002.svg",
+      "nbr_of_success": null,
+      "users_url": "https://api.intra.42.fr/v2/achievements/45/users"
+    },
+    {
+      "id": 155,
+      "name": "Je voudrais un croissant",
+      "description": "Visited 42 campus in Paris.",
+      "tier": "none",
+      "kind": "scolarity",
+      "visible": true,
+      "image": "/uploads/achievement/image/155/BADGE_SCOLARITY_paris.svg",
+      "nbr_of_success": null,
+      "users_url": "https://api.intra.42.fr/v2/achievements/155/users"
+    },
+    {
+      "id": 39,
+      "name": "Sleep is for the weak",
+      "description": "Conquered the achievements \"404 - Sleep not found\" and \"All work and no play makes Jack a dull boy\"",
+      "tier": "none",
+      "kind": "scolarity",
+      "visible": true,
+      "image": "/uploads/achievement/image/39/SCO001.svg",
+      "nbr_of_success": null,
+      "users_url": "https://api.intra.42.fr/v2/achievements/39/users"
+    },
+    {
+      "id": 1,
+      "name": "Welcome, Cadet !",
+      "description": "You have passed the C Piscine! Welcome to 42!",
+      "tier": "none",
+      "kind": "project",
+      "visible": true,
+      "image": "/uploads/achievement/image/1/PRO001.svg",
+      "nbr_of_success": null,
+      "users_url": "https://api.intra.42.fr/v2/achievements/1/users"
+    },
+    {
+      "id": 218,
+      "name": "Welcome, Learner !",
+      "description": "You passed the C Piscine. Welcome at 42!",
+      "tier": "none",
+      "kind": "project",
+      "visible": true,
+      "image": "/uploads/achievement/image/218/PRO001-2.svg",
+      "nbr_of_success": null,
+      "users_url": "https://api.intra.42.fr/v2/achievements/218/users"
+    }
+  ],
+  "titles": [],
+  "titles_users": [],
+  "partnerships": [],
+  "patroned": [],
+  "patroning": [],
+  "expertises_users": [
+    {
+      "id": 52528,
+      "expertise_id": 55,
+      "interested": false,
+      "value": 5,
+      "contact_me": false,
+      "created_at": "2021-03-22T11:15:11.753Z",
+      "user_id": 54860
+    },
+    {
+      "id": 52414,
+      "expertise_id": 5,
+      "interested": true,
+      "value": 4,
+      "contact_me": false,
+      "created_at": "2021-03-19T15:12:51.671Z",
+      "user_id": 54860
+    },
+    {
+      "id": 52413,
+      "expertise_id": 3,
+      "interested": true,
+      "value": 4,
+      "contact_me": false,
+      "created_at": "2021-03-19T15:11:46.405Z",
+      "user_id": 54860
+    },
+    {
+      "id": 52412,
+      "expertise_id": 2,
+      "interested": true,
+      "value": 4,
+      "contact_me": false,
+      "created_at": "2021-03-19T15:11:26.045Z",
+      "user_id": 54860
+    },
+    {
+      "id": 52411,
+      "expertise_id": 52,
+      "interested": true,
+      "value": 4,
+      "contact_me": false,
+      "created_at": "2021-03-19T15:10:58.510Z",
+      "user_id": 54860
+    }
+  ],
+  "roles": [],
+  "campus": [
+    {
+      "id": 48,
+      "name": "Mulhouse",
+      "time_zone": "Europe/Paris",
+      "language": {
+        "id": 1,
+        "name": "Français",
+        "identifier": "fr",
+        "created_at": "2014-11-02T16:43:38.466Z",
+        "updated_at": "2023-01-23T12:29:51.845Z"
+      },
+      "users_count": 428,
+      "vogsphere_id": 39,
+      "country": "France",
+      "address": "30 Rue François Spoerry",
+      "zip": "68100",
+      "city": "Mulhouse",
+      "website": "https://42mulhouse.fr",
+      "facebook": "https://www.facebook.com/42Mulhouse",
+      "twitter": "https://twitter.com/42MulhouseGE",
+      "active": true,
+      "public": true,
+      "email_extension": "42mulhouse.fr",
+      "default_hidden_phone": false
+    },
+    {
+      "id": 1,
+      "name": "Paris",
+      "time_zone": "Europe/Paris",
+      "language": {
+        "id": 1,
+        "name": "Français",
+        "identifier": "fr",
+        "created_at": "2014-11-02T16:43:38.466Z",
+        "updated_at": "2023-02-15T15:57:41.175Z"
+      },
+      "users_count": 25527,
+      "vogsphere_id": 1,
+      "country": "France",
+      "address": "96, boulevard Bessières",
+      "zip": "75017",
+      "city": "Paris",
+      "website": "http://www.42.fr/",
+      "facebook": "https://facebook.com/42born2code",
+      "twitter": "https://twitter.com/42born2code",
+      "active": true,
+      "public": true,
+      "email_extension": "42.fr",
+      "default_hidden_phone": false
+    },
+    {
+      "id": 50,
+      "name": "Kocaeli",
+      "time_zone": "Europe/Istanbul",
+      "language": {
+        "id": 18,
+        "name": "Turkish",
+        "identifier": "tr",
+        "created_at": "2021-08-20T10:50:01.782Z",
+        "updated_at": "2023-01-30T07:13:51.353Z"
+      },
+      "users_count": 1508,
+      "vogsphere_id": 37,
+      "country": "Turkey",
+      "address": "Muallimköy Mahallesi, Deniz Cd. No:143-5, 41400 Gebze/Kocaeli",
+      "zip": "41000",
+      "city": "Kocaeli",
+      "website": "http://www.42kocaeli.com.tr",
+      "facebook": "",
+      "twitter": "",
+      "active": true,
+      "public": true,
+      "email_extension": "42kocaeli.com.tr",
+      "default_hidden_phone": false
+    },
+    {
+      "id": 46,
+      "name": "Barcelona",
+      "time_zone": "Europe/Madrid",
+      "language": {
+        "id": 11,
+        "name": "Spanish",
+        "identifier": "es",
+        "created_at": "2019-08-09T15:14:32.544Z",
+        "updated_at": "2023-02-17T15:46:25.161Z"
+      },
+      "users_count": 1708,
+      "vogsphere_id": 38,
+      "country": "Spain",
+      "address": "Parc Tecnològic de Barcelona Activa, Carrer Albert Einstein",
+      "zip": "08042",
+      "city": "Barcelona",
+      "website": "https://www.42barcelona.com",
+      "facebook": "",
+      "twitter": "",
+      "active": true,
+      "public": true,
+      "email_extension": "42barcelona.com",
+      "default_hidden_phone": true
+    },
+    {
+      "id": 49,
+      "name": "Istanbul",
+      "time_zone": "Europe/Istanbul",
+      "language": {
+        "id": 18,
+        "name": "Turkish",
+        "identifier": "tr",
+        "created_at": "2021-08-20T10:50:01.782Z",
+        "updated_at": "2023-02-11T20:41:29.635Z"
+      },
+      "users_count": 2352,
+      "vogsphere_id": 36,
+      "country": "Turkey",
+      "address": "Ayazağa Mah. Azerbaycan Cad. Vadistanbul İş Blokları 2B Blok Kat 3 Sarıyer",
+      "zip": "34000",
+      "city": "Istanbul",
+      "website": "http://www.42istanbul.com.tr",
+      "facebook": "",
+      "twitter": "",
+      "active": true,
+      "public": true,
+      "email_extension": "42istanbul.com.tr",
+      "default_hidden_phone": false
+    },
+    {
+      "id": 36,
+      "name": "Adelaide",
+      "time_zone": "Australia/Adelaide",
+      "language": {
+        "id": 2,
+        "name": "English",
+        "identifier": "en",
+        "created_at": "2015-04-14T16:07:38.122Z",
+        "updated_at": "2023-01-29T21:43:30.271Z"
+      },
+      "users_count": 873,
+      "vogsphere_id": 33,
+      "country": "Australia",
+      "address": "Level 2 and 3 - 24 Pitt St",
+      "zip": "5000",
+      "city": "Adelaide",
+      "website": "http://www.42adel.org.au",
+      "facebook": "",
+      "twitter": "",
+      "active": true,
+      "public": true,
+      "email_extension": "42adel.org.au",
+      "default_hidden_phone": false
+    },
+    {
+      "id": 33,
+      "name": "Bangkok",
+      "time_zone": "Asia/Bangkok",
+      "language": {
+        "id": 2,
+        "name": "English",
+        "identifier": "en",
+        "created_at": "2015-04-14T16:07:38.122Z",
+        "updated_at": "2023-02-16T07:41:15.726Z"
+      },
+      "users_count": 1942,
+      "vogsphere_id": 31,
+      "country": "Thailand",
+      "address": "1 Thanon Chalong Krung, Lat Krabang",
+      "zip": "10520",
+      "city": "Bangkok",
+      "website": "https://www.42bangkok.com/",
+      "facebook": "https://www.facebook.com/42Bangkok/",
+      "twitter": "https://twitter.com/42bangkok",
+      "active": true,
+      "public": true,
+      "email_extension": "42bangkok.com",
+      "default_hidden_phone": false
+    },
+    {
+      "id": 40,
+      "name": "Urduliz",
+      "time_zone": "Europe/Madrid",
+      "language": {
+        "id": 11,
+        "name": "Spanish",
+        "identifier": "es",
+        "created_at": "2019-08-09T15:14:32.544Z",
+        "updated_at": "2023-02-13T12:03:22.128Z"
+      },
+      "users_count": 1026,
+      "vogsphere_id": 32,
+      "country": "Spain",
+      "address": "Aita Gotzon Kalea 37",
+      "zip": "48610",
+      "city": "Urduliz",
+      "website": "https://42urduliz.com/",
+      "facebook": "",
+      "twitter": "https://twitter.com/42UrdulizFTef",
+      "active": true,
+      "public": true,
+      "email_extension": "42urduliz.com",
+      "default_hidden_phone": true
+    },
+    {
+      "id": 38,
+      "name": "Lisboa",
+      "time_zone": "Europe/Lisbon",
+      "language": {
+        "id": 9,
+        "name": "Portuguese",
+        "identifier": "pt",
+        "created_at": "2019-01-29T15:17:48.227Z",
+        "updated_at": "2023-02-16T14:28:23.147Z"
+      },
+      "users_count": 1801,
+      "vogsphere_id": 25,
+      "country": "Portugal",
+      "address": "Rua Neves Ferreira, 13B",
+      "zip": "1170-273",
+      "city": "Lisboa",
+      "website": "http://www.42lisboa.com",
+      "facebook": "https://www.facebook.com/42-Lisboa-100970235020298/",
+      "twitter": "https://twitter.com/42lisboa",
+      "active": true,
+      "public": true,
+      "email_extension": "42lisboa.com",
+      "default_hidden_phone": false
+    },
+    {
+      "id": 43,
+      "name": "Abu Dhabi",
+      "time_zone": "Asia/Dubai",
+      "language": {
+        "id": 2,
+        "name": "English",
+        "identifier": "en",
+        "created_at": "2015-04-14T16:07:38.122Z",
+        "updated_at": "2023-02-16T11:08:11.620Z"
+      },
+      "users_count": 1500,
+      "vogsphere_id": 30,
+      "country": "United Arab Emirates",
+      "address": "Mina Zayed, Warehouse District ",
+      "zip": "00000",
+      "city": "Abu Dhabi",
+      "website": "https://42abudhabi.ae/",
+      "facebook": "",
+      "twitter": "",
+      "active": true,
+      "public": true,
+      "email_extension": "42abudhabi.ae",
+      "default_hidden_phone": false
+    },
+    {
+      "id": 44,
+      "name": "Wolfsburg",
+      "time_zone": "Europe/Berlin",
+      "language": {
+        "id": 2,
+        "name": "English",
+        "identifier": "en",
+        "created_at": "2015-04-14T16:07:38.122Z",
+        "updated_at": "2023-02-17T15:46:22.167Z"
+      },
+      "users_count": 2475,
+      "vogsphere_id": 29,
+      "country": "Germany",
+      "address": "Porschestraße 2c",
+      "zip": "38440",
+      "city": "Wolfsburg",
+      "website": "http://42wolfsburg.de/",
+      "facebook": "",
+      "twitter": "",
+      "active": true,
+      "public": true,
+      "email_extension": "42wolfsburg.de",
+      "default_hidden_phone": false
+    },
+    {
+      "id": 34,
+      "name": "Kuala Lumpur",
+      "time_zone": "Asia/Kuala_Lumpur",
+      "language": {
+        "id": 2,
+        "name": "English",
+        "identifier": "en",
+        "created_at": "2015-04-14T16:07:38.122Z",
+        "updated_at": "2023-02-05T17:26:27.003Z"
+      },
+      "users_count": 854,
+      "vogsphere_id": 26,
+      "country": "Malaysia",
+      "address": "Sunway FutureX",
+      "zip": "47500",
+      "city": "Kuala Lumpur",
+      "website": "42kl.edu.my",
+      "facebook": "https://www.facebook.com/42kualalumpur/",
+      "twitter": "https://twitter.com/42kualalumpur",
+      "active": true,
+      "public": true,
+      "email_extension": "42kl.edu.my",
+      "default_hidden_phone": false
+    },
+    {
+      "id": 12,
+      "name": "19",
+      "time_zone": "Europe/Brussels",
+      "language": {
+        "id": 2,
+        "name": "English",
+        "identifier": "en",
+        "created_at": "2015-04-14T16:07:38.122Z",
+        "updated_at": "2023-02-17T12:37:24.594Z"
+      },
+      "users_count": 2010,
+      "vogsphere_id": 5,
+      "country": "Belgium",
+      "address": "Cantersteen 10/12",
+      "zip": "1000",
+      "city": "Brussels",
+      "website": "https://www.campus19.be",
+      "facebook": "https://www.facebook.com/19network42/",
+      "twitter": "https://twitter.com/19network42/",
+      "active": true,
+      "public": true,
+      "email_extension": "s19.be",
+      "default_hidden_phone": false
+    },
+    {
+      "id": 32,
+      "name": "Yerevan",
+      "time_zone": "Asia/Yerevan",
+      "language": {
+        "id": 2,
+        "name": "English",
+        "identifier": "en",
+        "created_at": "2015-04-14T16:07:38.122Z",
+        "updated_at": "2023-02-07T10:31:31.186Z"
+      },
+      "users_count": 1646,
+      "vogsphere_id": 22,
+      "country": "Armenia",
+      "address": "16 Halabyan St",
+      "zip": "0038",
+      "city": "Yerevan",
+      "website": "https://42yerevan.am/",
+      "facebook": "",
+      "twitter": "",
+      "active": true,
+      "public": true,
+      "email_extension": "42yerevan.am",
+      "default_hidden_phone": false
+    },
+    {
+      "id": 30,
+      "name": "Rome",
+      "time_zone": "Europe/Rome",
+      "language": {
+        "id": 16,
+        "name": "Italian",
+        "identifier": "it",
+        "created_at": "2020-03-12T13:30:39.859Z",
+        "updated_at": "2023-02-16T14:28:25.927Z"
+      },
+      "users_count": 1862,
+      "vogsphere_id": 24,
+      "country": "Italy",
+      "address": "Via Marsala 29H Termini train station",
+      "zip": "00185",
+      "city": "Roma",
+      "website": "https://www.42roma.it",
+      "facebook": "",
+      "twitter": "",
+      "active": true,
+      "public": true,
+      "email_extension": "42roma.it",
+      "default_hidden_phone": true
+    }
+  ],
+  "campus_users": [
+    {
+      "id": 93299,
+      "user_id": 54860,
+      "campus_id": 48,
+      "is_primary": false,
+      "created_at": "2021-11-05T14:05:10.880Z",
+      "updated_at": "2021-11-05T14:05:17.236Z"
+    },
+    {
+      "id": 45491,
+      "user_id": 54860,
+      "campus_id": 1,
+      "is_primary": false,
+      "created_at": "2019-04-15T12:43:29.778Z",
+      "updated_at": "2021-09-28T12:45:19.750Z"
+    },
+    {
+      "id": 91039,
+      "user_id": 54860,
+      "campus_id": 50,
+      "is_primary": false,
+      "created_at": "2021-09-20T09:36:29.151Z",
+      "updated_at": "2021-09-20T09:37:49.486Z"
+    },
+    {
+      "id": 90287,
+      "user_id": 54860,
+      "campus_id": 46,
+      "is_primary": false,
+      "created_at": "2021-09-13T20:47:42.407Z",
+      "updated_at": "2021-09-13T20:47:45.416Z"
+    },
+    {
+      "id": 85699,
+      "user_id": 54860,
+      "campus_id": 49,
+      "is_primary": false,
+      "created_at": "2021-07-27T15:10:58.382Z",
+      "updated_at": "2021-07-27T15:11:05.642Z"
+    },
+    {
+      "id": 81647,
+      "user_id": 54860,
+      "campus_id": 36,
+      "is_primary": false,
+      "created_at": "2021-06-09T09:11:46.117Z",
+      "updated_at": "2021-06-09T09:54:13.783Z"
+    },
+    {
+      "id": 81004,
+      "user_id": 54860,
+      "campus_id": 33,
+      "is_primary": false,
+      "created_at": "2021-05-27T11:55:44.740Z",
+      "updated_at": "2021-05-27T11:55:48.608Z"
+    },
+    {
+      "id": 79502,
+      "user_id": 54860,
+      "campus_id": 40,
+      "is_primary": false,
+      "created_at": "2021-04-08T13:53:47.692Z",
+      "updated_at": "2021-04-08T13:53:52.360Z"
+    },
+    {
+      "id": 72253,
+      "user_id": 54860,
+      "campus_id": 38,
+      "is_primary": false,
+      "created_at": "2020-10-20T08:10:51.136Z",
+      "updated_at": "2021-03-24T08:43:18.672Z"
+    },
+    {
+      "id": 76260,
+      "user_id": 54860,
+      "campus_id": 43,
+      "is_primary": false,
+      "created_at": "2021-02-06T16:45:52.754Z",
+      "updated_at": "2021-02-06T16:45:57.139Z"
+    },
+    {
+      "id": 74761,
+      "user_id": 54860,
+      "campus_id": 44,
+      "is_primary": false,
+      "created_at": "2021-01-14T08:30:10.127Z",
+      "updated_at": "2021-01-14T09:00:24.654Z"
+    },
+    {
+      "id": 74320,
+      "user_id": 54860,
+      "campus_id": 34,
+      "is_primary": false,
+      "created_at": "2020-12-08T13:05:07.483Z",
+      "updated_at": "2020-12-08T13:05:31.051Z"
+    },
+    {
+      "id": 72289,
+      "user_id": 54860,
+      "campus_id": 12,
+      "is_primary": false,
+      "created_at": "2020-10-27T11:12:20.288Z",
+      "updated_at": "2020-10-27T11:12:32.871Z"
+    },
+    {
+      "id": 70025,
+      "user_id": 54860,
+      "campus_id": 32,
+      "is_primary": false,
+      "created_at": "2020-09-10T13:42:54.211Z",
+      "updated_at": "2020-09-10T13:42:57.161Z"
+    },
+    {
+      "id": 70435,
+      "user_id": 54860,
+      "campus_id": 30,
+      "is_primary": true,
+      "created_at": "2020-09-27T12:45:02.105Z",
+      "updated_at": "2021-11-19T16:50:31.946Z"
+    }
+  ]
+}

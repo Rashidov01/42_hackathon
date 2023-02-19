@@ -1,0 +1,110 @@
+@import "../../sass/mixins.scss";
+
+.aside {
+  padding: 40px 20px 20px;
+  height: 100vh !important;
+  min-height: 100vh;
+  width: 100%;
+  transition: 0.4s;
+  display: flex;
+  flex-direction: column;
+  border-right: 2px solid #495464;
+  text-align: center;
+}
+
+.aside-header {
+  margin-bottom: 20px;
+}
+
+.aside-header__img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.aside-main__seat {
+  font-family: "Anonymous Pro", monospace;
+  color: #1687a7;
+  font-size: 23px;
+  font-weight: 600;
+}
+
+.aside-list {
+  @include list-unstyled;
+  padding: 25px 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.aside-list__item {
+  width: 100%;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 5px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.aside-list__text,
+.timer-title {
+  margin: 0;
+  margin-bottom: 12px;
+  font-size: 12px;
+  font-weight: 600;
+  text-align: left;
+}
+
+.aside-list__out {
+  padding: 5px;
+  color: #1687a7;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: "Anonymous Pro", monospace;
+  background-color: #303841;
+  border-radius: 6px;
+  display: block;
+  width: 100%;
+}
+
+// timer
+.aside-footer {
+  margin-top: auto;
+}
+
+.timer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: left;
+}
+
+.aside-item__timer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.timer-text {
+  font-size: 20px;
+}
+
+.timer-holder {
+  width: calc(33.3% - 10px);
+  text-align: center;
+}
+
+.timer-item {
+  margin-top: auto;
+}
+
+.timer-name {
+  margin-bottom: 10px;
+}

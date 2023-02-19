@@ -1,0 +1,148 @@
+{
+  "id": 145760,
+  "email": "roimoren@student.42abudhabi.ae",
+  "login": "roimoren",
+  "first_name": "Roilerie Andrea",
+  "last_name": "Moreno",
+  "usual_full_name": "Roilerie Andrea Moreno",
+  "usual_first_name": null,
+  "url": "https://api.intra.42.fr/v2/users/roimoren",
+  "phone": "hidden",
+  "displayname": "Roilerie Andrea Moreno",
+  "kind": "student",
+  "image": {
+    "link": "https://cdn.intra.42.fr/users/91edfba4ee0c3d1bf1a7e6f1bc93d822/roimoren.jpg",
+    "versions": {
+      "large": "https://cdn.intra.42.fr/users/46d6200fcd8db58e0ffd13e5d20021ae/large_roimoren.jpg",
+      "medium": "https://cdn.intra.42.fr/users/e95aae532ab54be36dfd4b52eb6c855c/medium_roimoren.jpg",
+      "small": "https://cdn.intra.42.fr/users/32dbd90b7af28dac9a79943ebc639fc8/small_roimoren.jpg",
+      "micro": "https://cdn.intra.42.fr/users/8f0edae9b9cea897dca4faa3f58ef20d/micro_roimoren.jpg"
+    }
+  },
+  "staff?": false,
+  "correction_point": 5,
+  "pool_month": "march",
+  "pool_year": "2023",
+  "location": null,
+  "wallet": 0,
+  "anonymize_date": "2026-02-16T00:00:00.000+04:00",
+  "data_erasure_date": "2026-02-16T00:00:00.000+04:00",
+  "created_at": "2023-02-16T10:30:44.699Z",
+  "updated_at": "2023-02-16T11:13:58.183Z",
+  "alumnized_at": null,
+  "alumni?": false,
+  "active?": false,
+  "groups": [],
+  "cursus_users": [
+    {
+      "grade": null,
+      "level": 0,
+      "skills": [],
+      "blackholed_at": null,
+      "id": 206672,
+      "begin_at": "2023-02-20T04:42:00.000Z",
+      "end_at": "2023-03-16T14:00:00.000Z",
+      "cursus_id": 9,
+      "has_coalition": true,
+      "created_at": "2023-02-16T10:30:45.956Z",
+      "updated_at": "2023-02-16T10:30:45.956Z",
+      "user": {
+        "id": 145760,
+        "email": "roimoren@student.42abudhabi.ae",
+        "login": "roimoren",
+        "first_name": "Roilerie Andrea",
+        "last_name": "Moreno",
+        "usual_full_name": "Roilerie Andrea Moreno",
+        "usual_first_name": null,
+        "url": "https://api.intra.42.fr/v2/users/roimoren",
+        "phone": "hidden",
+        "displayname": "Roilerie Andrea Moreno",
+        "kind": "student",
+        "image": {
+          "link": "https://cdn.intra.42.fr/users/91edfba4ee0c3d1bf1a7e6f1bc93d822/roimoren.jpg",
+          "versions": {
+            "large": "https://cdn.intra.42.fr/users/46d6200fcd8db58e0ffd13e5d20021ae/large_roimoren.jpg",
+            "medium": "https://cdn.intra.42.fr/users/e95aae532ab54be36dfd4b52eb6c855c/medium_roimoren.jpg",
+            "small": "https://cdn.intra.42.fr/users/32dbd90b7af28dac9a79943ebc639fc8/small_roimoren.jpg",
+            "micro": "https://cdn.intra.42.fr/users/8f0edae9b9cea897dca4faa3f58ef20d/micro_roimoren.jpg"
+          }
+        },
+        "staff?": false,
+        "correction_point": 5,
+        "pool_month": "march",
+        "pool_year": "2023",
+        "location": null,
+        "wallet": 0,
+        "anonymize_date": "2026-02-16T00:00:00.000+04:00",
+        "data_erasure_date": "2026-02-16T00:00:00.000+04:00",
+        "created_at": "2023-02-16T10:30:44.699Z",
+        "updated_at": "2023-02-16T11:13:58.183Z",
+        "alumnized_at": null,
+        "alumni?": false,
+        "active?": false
+      },
+      "cursus": {
+        "id": 9,
+        "created_at": "2015-11-04T10:58:13.979Z",
+        "name": "C Piscine",
+        "slug": "c-piscine",
+        "kind": "piscine"
+      }
+    }
+  ],
+  "projects_users": [],
+  "languages_users": [
+    {
+      "id": 736874,
+      "language_id": 2,
+      "user_id": 145760,
+      "position": 1,
+      "created_at": "2023-02-16T10:30:45.376Z"
+    }
+  ],
+  "achievements": [],
+  "titles": [],
+  "titles_users": [],
+  "partnerships": [],
+  "patroned": [],
+  "patroning": [],
+  "expertises_users": [],
+  "roles": [],
+  "campus": [
+    {
+      "id": 43,
+      "name": "Abu Dhabi",
+      "time_zone": "Asia/Dubai",
+      "language": {
+        "id": 2,
+        "name": "English",
+        "identifier": "en",
+        "created_at": "2015-04-14T16:07:38.122Z",
+        "updated_at": "2023-02-16T11:08:11.620Z"
+      },
+      "users_count": 1500,
+      "vogsphere_id": 30,
+      "country": "United Arab Emirates",
+      "address": "Mina Zayed, Warehouse District ",
+      "zip": "00000",
+      "city": "Abu Dhabi",
+      "website": "https://42abudhabi.ae/",
+      "facebook": "",
+      "twitter": "",
+      "active": true,
+      "public": true,
+      "email_extension": "42abudhabi.ae",
+      "default_hidden_phone": false
+    }
+  ],
+  "campus_users": [
+    {
+      "id": 137471,
+      "user_id": 145760,
+      "campus_id": 43,
+      "is_primary": true,
+      "created_at": "2023-02-16T10:30:44.748Z",
+      "updated_at": "2023-02-16T10:30:44.748Z"
+    }
+  ]
+}

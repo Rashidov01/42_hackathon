@@ -1,0 +1,215 @@
+{
+  "id": 101652,
+  "email": "snorqobi@student.42abudhabi.ae",
+  "login": "snorqobi",
+  "first_name": "Sherzod",
+  "last_name": "Norqobilov",
+  "usual_full_name": "Sherzod Norqobilov",
+  "usual_first_name": null,
+  "url": "https://api.intra.42.fr/v2/users/snorqobi",
+  "phone": "hidden",
+  "displayname": "Sherzod Norqobilov",
+  "kind": "student",
+  "image": {
+    "link": "https://cdn.intra.42.fr/users/b03ca2cddbaf82d6d7b15882d8c6e01e/snorqobi.jpg",
+    "versions": {
+      "large": "https://cdn.intra.42.fr/users/dc1b6a8078c5ab7e24085c06411be73c/large_snorqobi.jpg",
+      "medium": "https://cdn.intra.42.fr/users/fef500f40f5b290292f279dc9b68878a/medium_snorqobi.jpg",
+      "small": "https://cdn.intra.42.fr/users/421ec7d2c80ac3a5d4a85fddec4a3f9f/small_snorqobi.jpg",
+      "micro": "https://cdn.intra.42.fr/users/89eac50d600011ec839fe8e175d1da6a/micro_snorqobi.jpg"
+    }
+  },
+  "staff?": false,
+  "correction_point": 5,
+  "pool_month": "november",
+  "pool_year": "2021",
+  "location": null,
+  "wallet": 0,
+  "anonymize_date": "2024-11-16T00:00:00.000+04:00",
+  "data_erasure_date": "2024-11-16T00:00:00.000+04:00",
+  "created_at": "2021-11-04T12:34:06.040Z",
+  "updated_at": "2021-11-08T14:04:10.851Z",
+  "alumnized_at": null,
+  "alumni?": false,
+  "active?": false,
+  "groups": [],
+  "cursus_users": [
+    {
+      "grade": null,
+      "level": 0,
+      "skills": [],
+      "blackholed_at": null,
+      "id": 145693,
+      "begin_at": "2021-11-04T12:35:11.000Z",
+      "end_at": "2021-11-25T14:00:00.000Z",
+      "cursus_id": 9,
+      "has_coalition": true,
+      "created_at": "2021-11-04T12:34:11.724Z",
+      "updated_at": "2021-11-29T07:54:45.480Z",
+      "user": {
+        "id": 101652,
+        "email": "snorqobi@student.42abudhabi.ae",
+        "login": "snorqobi",
+        "first_name": "Sherzod",
+        "last_name": "Norqobilov",
+        "usual_full_name": "Sherzod Norqobilov",
+        "usual_first_name": null,
+        "url": "https://api.intra.42.fr/v2/users/snorqobi",
+        "phone": "hidden",
+        "displayname": "Sherzod Norqobilov",
+        "kind": "student",
+        "image": {
+          "link": "https://cdn.intra.42.fr/users/b03ca2cddbaf82d6d7b15882d8c6e01e/snorqobi.jpg",
+          "versions": {
+            "large": "https://cdn.intra.42.fr/users/dc1b6a8078c5ab7e24085c06411be73c/large_snorqobi.jpg",
+            "medium": "https://cdn.intra.42.fr/users/fef500f40f5b290292f279dc9b68878a/medium_snorqobi.jpg",
+            "small": "https://cdn.intra.42.fr/users/421ec7d2c80ac3a5d4a85fddec4a3f9f/small_snorqobi.jpg",
+            "micro": "https://cdn.intra.42.fr/users/89eac50d600011ec839fe8e175d1da6a/micro_snorqobi.jpg"
+          }
+        },
+        "staff?": false,
+        "correction_point": 5,
+        "pool_month": "november",
+        "pool_year": "2021",
+        "location": null,
+        "wallet": 0,
+        "anonymize_date": "2024-11-16T00:00:00.000+04:00",
+        "data_erasure_date": "2024-11-16T00:00:00.000+04:00",
+        "created_at": "2021-11-04T12:34:06.040Z",
+        "updated_at": "2021-11-08T14:04:10.851Z",
+        "alumnized_at": null,
+        "alumni?": false,
+        "active?": false
+      },
+      "cursus": {
+        "id": 9,
+        "created_at": "2015-11-04T10:58:13.979Z",
+        "name": "C Piscine",
+        "slug": "c-piscine",
+        "kind": "piscine"
+      }
+    }
+  ],
+  "projects_users": [
+    {
+      "id": 2418487,
+      "occurrence": 0,
+      "final_mark": 0,
+      "status": "finished",
+      "validated?": false,
+      "current_team_id": 3895460,
+      "project": {
+        "id": 1304,
+        "name": "C Piscine Final Exam",
+        "slug": "c-piscine-final-exam",
+        "parent_id": null
+      },
+      "cursus_ids": [
+        9
+      ],
+      "marked_at": "2021-11-25T14:02:28.084Z",
+      "marked": true,
+      "retriable_at": null,
+      "created_at": "2021-11-24T08:35:33.782Z",
+      "updated_at": "2021-11-25T14:02:28.206Z"
+    },
+    {
+      "id": 2409980,
+      "occurrence": 0,
+      "final_mark": 0,
+      "status": "finished",
+      "validated?": false,
+      "current_team_id": 3884886,
+      "project": {
+        "id": 1303,
+        "name": "C Piscine Exam 02",
+        "slug": "c-piscine-exam-02",
+        "parent_id": null
+      },
+      "cursus_ids": [
+        9
+      ],
+      "marked_at": "2021-11-25T14:02:30.136Z",
+      "marked": true,
+      "retriable_at": null,
+      "created_at": "2021-11-17T11:11:06.672Z",
+      "updated_at": "2021-11-25T14:02:30.172Z"
+    },
+    {
+      "id": 2398932,
+      "occurrence": 0,
+      "final_mark": 0,
+      "status": "finished",
+      "validated?": false,
+      "current_team_id": 3869793,
+      "project": {
+        "id": 1255,
+        "name": "C Piscine Shell 00",
+        "slug": "c-piscine-shell-00",
+        "parent_id": null
+      },
+      "cursus_ids": [
+        9
+      ],
+      "marked_at": "2021-11-25T14:02:34.242Z",
+      "marked": true,
+      "retriable_at": "2021-11-25T14:22:34.282Z",
+      "created_at": "2021-11-04T12:42:29.656Z",
+      "updated_at": "2021-11-25T14:03:22.849Z"
+    }
+  ],
+  "languages_users": [
+    {
+      "id": 453585,
+      "language_id": 2,
+      "user_id": 101652,
+      "position": 1,
+      "created_at": "2021-11-04T12:34:06.153Z"
+    }
+  ],
+  "achievements": [],
+  "titles": [],
+  "titles_users": [],
+  "partnerships": [],
+  "patroned": [],
+  "patroning": [],
+  "expertises_users": [],
+  "roles": [],
+  "campus": [
+    {
+      "id": 43,
+      "name": "Abu Dhabi",
+      "time_zone": "Asia/Dubai",
+      "language": {
+        "id": 2,
+        "name": "English",
+        "identifier": "en",
+        "created_at": "2015-04-14T16:07:38.122Z",
+        "updated_at": "2023-02-16T11:08:11.620Z"
+      },
+      "users_count": 1500,
+      "vogsphere_id": 30,
+      "country": "United Arab Emirates",
+      "address": "Mina Zayed, Warehouse District ",
+      "zip": "00000",
+      "city": "Abu Dhabi",
+      "website": "https://42abudhabi.ae/",
+      "facebook": "",
+      "twitter": "",
+      "active": true,
+      "public": true,
+      "email_extension": "42abudhabi.ae",
+      "default_hidden_phone": false
+    }
+  ],
+  "campus_users": [
+    {
+      "id": 93227,
+      "user_id": 101652,
+      "campus_id": 43,
+      "is_primary": true,
+      "created_at": "2021-11-04T12:34:06.061Z",
+      "updated_at": "2021-11-04T12:34:06.061Z"
+    }
+  ]
+}

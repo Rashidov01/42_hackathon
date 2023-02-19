@@ -1,0 +1,148 @@
+{
+  "id": 145615,
+  "email": "avinayak@student.42abudhabi.ae",
+  "login": "avinayak",
+  "first_name": "Aadharsh",
+  "last_name": "Vinayak",
+  "usual_full_name": "Aadharsh Vinayak",
+  "usual_first_name": null,
+  "url": "https://api.intra.42.fr/v2/users/avinayak",
+  "phone": "hidden",
+  "displayname": "Aadharsh Vinayak",
+  "kind": "student",
+  "image": {
+    "link": "https://cdn.intra.42.fr/users/72365de1b4c74b5291d744d177a0f795/avinayak.jpg",
+    "versions": {
+      "large": "https://cdn.intra.42.fr/users/bec6d3b66876efbbc01d63905725f9d6/large_avinayak.jpg",
+      "medium": "https://cdn.intra.42.fr/users/0b15bb2500eb8429e2914cf6bf05084a/medium_avinayak.jpg",
+      "small": "https://cdn.intra.42.fr/users/e6fe9a68b9b15b794c6c287ec0ea7dfe/small_avinayak.jpg",
+      "micro": "https://cdn.intra.42.fr/users/024130e2cfbf03bc4ee34a187faf7d37/micro_avinayak.jpg"
+    }
+  },
+  "staff?": false,
+  "correction_point": 5,
+  "pool_month": "march",
+  "pool_year": "2023",
+  "location": null,
+  "wallet": 0,
+  "anonymize_date": "2026-02-13T00:00:00.000+04:00",
+  "data_erasure_date": "2026-02-13T00:00:00.000+04:00",
+  "created_at": "2023-02-13T09:08:06.256Z",
+  "updated_at": "2023-02-13T09:08:17.076Z",
+  "alumnized_at": null,
+  "alumni?": false,
+  "active?": false,
+  "groups": [],
+  "cursus_users": [
+    {
+      "grade": null,
+      "level": 0,
+      "skills": [],
+      "blackholed_at": null,
+      "id": 206044,
+      "begin_at": "2023-02-20T04:42:00.000Z",
+      "end_at": "2023-03-16T14:00:00.000Z",
+      "cursus_id": 9,
+      "has_coalition": true,
+      "created_at": "2023-02-13T09:08:17.246Z",
+      "updated_at": "2023-02-13T09:08:17.246Z",
+      "user": {
+        "id": 145615,
+        "email": "avinayak@student.42abudhabi.ae",
+        "login": "avinayak",
+        "first_name": "Aadharsh",
+        "last_name": "Vinayak",
+        "usual_full_name": "Aadharsh Vinayak",
+        "usual_first_name": null,
+        "url": "https://api.intra.42.fr/v2/users/avinayak",
+        "phone": "hidden",
+        "displayname": "Aadharsh Vinayak",
+        "kind": "student",
+        "image": {
+          "link": "https://cdn.intra.42.fr/users/72365de1b4c74b5291d744d177a0f795/avinayak.jpg",
+          "versions": {
+            "large": "https://cdn.intra.42.fr/users/bec6d3b66876efbbc01d63905725f9d6/large_avinayak.jpg",
+            "medium": "https://cdn.intra.42.fr/users/0b15bb2500eb8429e2914cf6bf05084a/medium_avinayak.jpg",
+            "small": "https://cdn.intra.42.fr/users/e6fe9a68b9b15b794c6c287ec0ea7dfe/small_avinayak.jpg",
+            "micro": "https://cdn.intra.42.fr/users/024130e2cfbf03bc4ee34a187faf7d37/micro_avinayak.jpg"
+          }
+        },
+        "staff?": false,
+        "correction_point": 5,
+        "pool_month": "march",
+        "pool_year": "2023",
+        "location": null,
+        "wallet": 0,
+        "anonymize_date": "2026-02-13T00:00:00.000+04:00",
+        "data_erasure_date": "2026-02-13T00:00:00.000+04:00",
+        "created_at": "2023-02-13T09:08:06.256Z",
+        "updated_at": "2023-02-13T09:08:17.076Z",
+        "alumnized_at": null,
+        "alumni?": false,
+        "active?": false
+      },
+      "cursus": {
+        "id": 9,
+        "created_at": "2015-11-04T10:58:13.979Z",
+        "name": "C Piscine",
+        "slug": "c-piscine",
+        "kind": "piscine"
+      }
+    }
+  ],
+  "projects_users": [],
+  "languages_users": [
+    {
+      "id": 733702,
+      "language_id": 2,
+      "user_id": 145615,
+      "position": 1,
+      "created_at": "2023-02-13T09:08:16.731Z"
+    }
+  ],
+  "achievements": [],
+  "titles": [],
+  "titles_users": [],
+  "partnerships": [],
+  "patroned": [],
+  "patroning": [],
+  "expertises_users": [],
+  "roles": [],
+  "campus": [
+    {
+      "id": 43,
+      "name": "Abu Dhabi",
+      "time_zone": "Asia/Dubai",
+      "language": {
+        "id": 2,
+        "name": "English",
+        "identifier": "en",
+        "created_at": "2015-04-14T16:07:38.122Z",
+        "updated_at": "2023-02-16T11:08:11.620Z"
+      },
+      "users_count": 1500,
+      "vogsphere_id": 30,
+      "country": "United Arab Emirates",
+      "address": "Mina Zayed, Warehouse District ",
+      "zip": "00000",
+      "city": "Abu Dhabi",
+      "website": "https://42abudhabi.ae/",
+      "facebook": "",
+      "twitter": "",
+      "active": true,
+      "public": true,
+      "email_extension": "42abudhabi.ae",
+      "default_hidden_phone": false
+    }
+  ],
+  "campus_users": [
+    {
+      "id": 137322,
+      "user_id": 145615,
+      "campus_id": 43,
+      "is_primary": true,
+      "created_at": "2023-02-13T09:08:06.280Z",
+      "updated_at": "2023-02-13T09:08:06.280Z"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+.custom-table {
+  .ant-table-wrapper table {
+    border-radius: 20px !important;
+  }
+
+  .ant-table {
+    background-color: #393e46;
+  }
+
+  .ant-table-tbody > tr > td {
+    border: none;
+  }
+
+  .ant-table-row {
+    background-color: #303841;
+
+    &:hover > td {
+      background-color: #303841;
+    }
+  }
+
+  .ant-table-row:hover > td {
+    opacity: 0.1;
+  }
+
+  .ant-table-thead > tr > th {
+    background-color: #393e46;
+    border: none;
+  }
+}

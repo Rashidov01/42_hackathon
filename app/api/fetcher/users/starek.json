@@ -1,0 +1,148 @@
+{
+  "id": 90115,
+  "email": "starek@student.42abudhabi.ae",
+  "login": "starek",
+  "first_name": "Siba",
+  "last_name": "Tarek",
+  "usual_full_name": "Siba Tarek",
+  "usual_first_name": null,
+  "url": "https://api.intra.42.fr/v2/users/starek",
+  "phone": "hidden",
+  "displayname": "Siba Tarek",
+  "kind": "student",
+  "image": {
+    "link": "https://cdn.intra.42.fr/users/b4dda5e49fcf0b9f72f1b41984673126/starek.jpg",
+    "versions": {
+      "large": "https://cdn.intra.42.fr/users/e4c20e7b4f9ed3d89f56f894e61a859b/large_starek.jpg",
+      "medium": "https://cdn.intra.42.fr/users/4a7a354ec95348f2d2f69424a04aaa2e/medium_starek.jpg",
+      "small": "https://cdn.intra.42.fr/users/cc9411ac890a0d331b6b21d55b59f653/small_starek.jpg",
+      "micro": "https://cdn.intra.42.fr/users/9dad1135af658d17bb95e7bae89729cb/micro_starek.jpg"
+    }
+  },
+  "staff?": false,
+  "correction_point": 5,
+  "pool_month": "july",
+  "pool_year": "2021",
+  "location": null,
+  "wallet": 0,
+  "anonymize_date": "2024-06-09T00:00:00.000+04:00",
+  "data_erasure_date": "2024-06-09T00:00:00.000+04:00",
+  "created_at": "2021-06-09T08:40:37.559Z",
+  "updated_at": "2021-06-09T08:59:46.972Z",
+  "alumnized_at": null,
+  "alumni?": false,
+  "active?": false,
+  "groups": [],
+  "cursus_users": [
+    {
+      "grade": null,
+      "level": 0,
+      "skills": [],
+      "blackholed_at": null,
+      "id": 124862,
+      "begin_at": "2021-06-20T04:42:00.000Z",
+      "end_at": "2021-07-15T14:00:00.000Z",
+      "cursus_id": 9,
+      "has_coalition": true,
+      "created_at": "2021-06-09T08:40:40.285Z",
+      "updated_at": "2021-06-09T08:40:40.285Z",
+      "user": {
+        "id": 90115,
+        "email": "starek@student.42abudhabi.ae",
+        "login": "starek",
+        "first_name": "Siba",
+        "last_name": "Tarek",
+        "usual_full_name": "Siba Tarek",
+        "usual_first_name": null,
+        "url": "https://api.intra.42.fr/v2/users/starek",
+        "phone": "hidden",
+        "displayname": "Siba Tarek",
+        "kind": "student",
+        "image": {
+          "link": "https://cdn.intra.42.fr/users/b4dda5e49fcf0b9f72f1b41984673126/starek.jpg",
+          "versions": {
+            "large": "https://cdn.intra.42.fr/users/e4c20e7b4f9ed3d89f56f894e61a859b/large_starek.jpg",
+            "medium": "https://cdn.intra.42.fr/users/4a7a354ec95348f2d2f69424a04aaa2e/medium_starek.jpg",
+            "small": "https://cdn.intra.42.fr/users/cc9411ac890a0d331b6b21d55b59f653/small_starek.jpg",
+            "micro": "https://cdn.intra.42.fr/users/9dad1135af658d17bb95e7bae89729cb/micro_starek.jpg"
+          }
+        },
+        "staff?": false,
+        "correction_point": 5,
+        "pool_month": "july",
+        "pool_year": "2021",
+        "location": null,
+        "wallet": 0,
+        "anonymize_date": "2024-06-09T00:00:00.000+04:00",
+        "data_erasure_date": "2024-06-09T00:00:00.000+04:00",
+        "created_at": "2021-06-09T08:40:37.559Z",
+        "updated_at": "2021-06-09T08:59:46.972Z",
+        "alumnized_at": null,
+        "alumni?": false,
+        "active?": false
+      },
+      "cursus": {
+        "id": 9,
+        "created_at": "2015-11-04T10:58:13.979Z",
+        "name": "C Piscine",
+        "slug": "c-piscine",
+        "kind": "piscine"
+      }
+    }
+  ],
+  "projects_users": [],
+  "languages_users": [
+    {
+      "id": 375545,
+      "language_id": 2,
+      "user_id": 90115,
+      "position": 1,
+      "created_at": "2021-06-09T08:40:37.669Z"
+    }
+  ],
+  "achievements": [],
+  "titles": [],
+  "titles_users": [],
+  "partnerships": [],
+  "patroned": [],
+  "patroning": [],
+  "expertises_users": [],
+  "roles": [],
+  "campus": [
+    {
+      "id": 43,
+      "name": "Abu Dhabi",
+      "time_zone": "Asia/Dubai",
+      "language": {
+        "id": 2,
+        "name": "English",
+        "identifier": "en",
+        "created_at": "2015-04-14T16:07:38.122Z",
+        "updated_at": "2023-02-16T11:08:11.620Z"
+      },
+      "users_count": 1500,
+      "vogsphere_id": 30,
+      "country": "United Arab Emirates",
+      "address": "Mina Zayed, Warehouse District ",
+      "zip": "00000",
+      "city": "Abu Dhabi",
+      "website": "https://42abudhabi.ae/",
+      "facebook": "",
+      "twitter": "",
+      "active": true,
+      "public": true,
+      "email_extension": "42abudhabi.ae",
+      "default_hidden_phone": false
+    }
+  ],
+  "campus_users": [
+    {
+      "id": 81646,
+      "user_id": 90115,
+      "campus_id": 43,
+      "is_primary": true,
+      "created_at": "2021-06-09T08:40:37.577Z",
+      "updated_at": "2021-06-09T08:40:37.577Z"
+    }
+  ]
+}

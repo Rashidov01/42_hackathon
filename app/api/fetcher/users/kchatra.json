@@ -1,0 +1,171 @@
+{
+  "id": 93246,
+  "email": "kchatra@student.42abudhabi.ae",
+  "login": "kchatra",
+  "first_name": "Karam",
+  "last_name": "Chatra",
+  "usual_full_name": "Karam Chatra",
+  "usual_first_name": null,
+  "url": "https://api.intra.42.fr/v2/users/kchatra",
+  "phone": "hidden",
+  "displayname": "Karam Chatra",
+  "kind": "student",
+  "image": {
+    "link": "https://cdn.intra.42.fr/users/ce58e479c99eb12f85566903a57d40dc/kchatra.jpg",
+    "versions": {
+      "large": "https://cdn.intra.42.fr/users/233171969fb50b5db248bd115de5d146/large_kchatra.jpg",
+      "medium": "https://cdn.intra.42.fr/users/44d06cafe77f74d058d97e9b94faeeca/medium_kchatra.jpg",
+      "small": "https://cdn.intra.42.fr/users/2e5b46b54c1960e3caa4c675cdf469d0/small_kchatra.jpg",
+      "micro": "https://cdn.intra.42.fr/users/ba4c6c5736752c2a9916f9628564ccc1/micro_kchatra.jpg"
+    }
+  },
+  "staff?": false,
+  "correction_point": 4,
+  "pool_month": "august",
+  "pool_year": "2021",
+  "location": null,
+  "wallet": 0,
+  "anonymize_date": "2024-08-03T00:00:00.000+04:00",
+  "data_erasure_date": "2024-08-03T00:00:00.000+04:00",
+  "created_at": "2021-07-13T11:37:02.430Z",
+  "updated_at": "2021-08-03T07:34:37.495Z",
+  "alumnized_at": null,
+  "alumni?": false,
+  "active?": false,
+  "groups": [],
+  "cursus_users": [
+    {
+      "grade": null,
+      "level": 0,
+      "skills": [],
+      "blackholed_at": null,
+      "id": 129395,
+      "begin_at": "2021-08-01T04:42:00.000Z",
+      "end_at": "2021-08-26T14:00:00.000Z",
+      "cursus_id": 9,
+      "has_coalition": true,
+      "created_at": "2021-07-13T11:37:04.821Z",
+      "updated_at": "2021-07-13T11:37:04.821Z",
+      "user": {
+        "id": 93246,
+        "email": "kchatra@student.42abudhabi.ae",
+        "login": "kchatra",
+        "first_name": "Karam",
+        "last_name": "Chatra",
+        "usual_full_name": "Karam Chatra",
+        "usual_first_name": null,
+        "url": "https://api.intra.42.fr/v2/users/kchatra",
+        "phone": "hidden",
+        "displayname": "Karam Chatra",
+        "kind": "student",
+        "image": {
+          "link": "https://cdn.intra.42.fr/users/ce58e479c99eb12f85566903a57d40dc/kchatra.jpg",
+          "versions": {
+            "large": "https://cdn.intra.42.fr/users/233171969fb50b5db248bd115de5d146/large_kchatra.jpg",
+            "medium": "https://cdn.intra.42.fr/users/44d06cafe77f74d058d97e9b94faeeca/medium_kchatra.jpg",
+            "small": "https://cdn.intra.42.fr/users/2e5b46b54c1960e3caa4c675cdf469d0/small_kchatra.jpg",
+            "micro": "https://cdn.intra.42.fr/users/ba4c6c5736752c2a9916f9628564ccc1/micro_kchatra.jpg"
+          }
+        },
+        "staff?": false,
+        "correction_point": 4,
+        "pool_month": "august",
+        "pool_year": "2021",
+        "location": null,
+        "wallet": 0,
+        "anonymize_date": "2024-08-03T00:00:00.000+04:00",
+        "data_erasure_date": "2024-08-03T00:00:00.000+04:00",
+        "created_at": "2021-07-13T11:37:02.430Z",
+        "updated_at": "2021-08-03T07:34:37.495Z",
+        "alumnized_at": null,
+        "alumni?": false,
+        "active?": false
+      },
+      "cursus": {
+        "id": 9,
+        "created_at": "2015-11-04T10:58:13.979Z",
+        "name": "C Piscine",
+        "slug": "c-piscine",
+        "kind": "piscine"
+      }
+    }
+  ],
+  "projects_users": [
+    {
+      "id": 2269740,
+      "occurrence": 2,
+      "final_mark": 10,
+      "status": "finished",
+      "validated?": false,
+      "current_team_id": 3694738,
+      "project": {
+        "id": 1255,
+        "name": "C Piscine Shell 00",
+        "slug": "c-piscine-shell-00",
+        "parent_id": null
+      },
+      "cursus_ids": [
+        9
+      ],
+      "marked_at": "2021-08-02T10:07:32.295Z",
+      "marked": true,
+      "retriable_at": "2021-08-26T15:02:35.610Z",
+      "created_at": "2021-08-01T07:41:18.700Z",
+      "updated_at": "2021-08-26T14:03:39.781Z"
+    }
+  ],
+  "languages_users": [
+    {
+      "id": 387712,
+      "language_id": 2,
+      "user_id": 93246,
+      "position": 1,
+      "created_at": "2021-07-13T11:37:02.597Z"
+    }
+  ],
+  "achievements": [],
+  "titles": [],
+  "titles_users": [],
+  "partnerships": [],
+  "patroned": [],
+  "patroning": [],
+  "expertises_users": [],
+  "roles": [],
+  "campus": [
+    {
+      "id": 43,
+      "name": "Abu Dhabi",
+      "time_zone": "Asia/Dubai",
+      "language": {
+        "id": 2,
+        "name": "English",
+        "identifier": "en",
+        "created_at": "2015-04-14T16:07:38.122Z",
+        "updated_at": "2023-02-16T11:08:11.620Z"
+      },
+      "users_count": 1500,
+      "vogsphere_id": 30,
+      "country": "United Arab Emirates",
+      "address": "Mina Zayed, Warehouse District ",
+      "zip": "00000",
+      "city": "Abu Dhabi",
+      "website": "https://42abudhabi.ae/",
+      "facebook": "",
+      "twitter": "",
+      "active": true,
+      "public": true,
+      "email_extension": "42abudhabi.ae",
+      "default_hidden_phone": false
+    }
+  ],
+  "campus_users": [
+    {
+      "id": 84793,
+      "user_id": 93246,
+      "campus_id": 43,
+      "is_primary": true,
+      "created_at": "2021-07-13T11:37:02.475Z",
+      "updated_at": "2021-07-13T11:37:02.475Z"
+    }
+  ]
+}

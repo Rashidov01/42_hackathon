@@ -1,0 +1,281 @@
+{
+  "id": 108687,
+  "email": "abalkath@student.42abudhabi.ae",
+  "login": "abalkath",
+  "first_name": "Abdulrahman",
+  "last_name": "Alkatheeri",
+  "usual_full_name": "Abdulrahman Alkatheeri",
+  "usual_first_name": null,
+  "url": "https://api.intra.42.fr/v2/users/abalkath",
+  "phone": "hidden",
+  "displayname": "Abdulrahman Alkatheeri",
+  "kind": "student",
+  "image": {
+    "link": "https://cdn.intra.42.fr/users/8baa41c61e85697152f301c0ec6634fa/abalkath.jpg",
+    "versions": {
+      "large": "https://cdn.intra.42.fr/users/30426a49c20ecbcc467d54257d120723/large_abalkath.jpg",
+      "medium": "https://cdn.intra.42.fr/users/668e48f288685c51d2af3f464550dbc1/medium_abalkath.jpg",
+      "small": "https://cdn.intra.42.fr/users/22f06d991e18acf1c3085e4bc6e111cd/small_abalkath.jpg",
+      "micro": "https://cdn.intra.42.fr/users/d066de1051fa8c75c0027750b835d34c/micro_abalkath.jpg"
+    }
+  },
+  "staff?": false,
+  "correction_point": 6,
+  "pool_month": "march",
+  "pool_year": "2022",
+  "location": null,
+  "wallet": 0,
+  "anonymize_date": "2025-03-13T00:00:00.000+04:00",
+  "data_erasure_date": "2025-03-13T00:00:00.000+04:00",
+  "created_at": "2022-03-01T08:28:07.252Z",
+  "updated_at": "2022-03-14T18:05:00.454Z",
+  "alumnized_at": null,
+  "alumni?": false,
+  "active?": false,
+  "groups": [],
+  "cursus_users": [
+    {
+      "grade": null,
+      "level": 0,
+      "skills": [],
+      "blackholed_at": null,
+      "id": 161707,
+      "begin_at": "2022-03-07T04:42:00.000Z",
+      "end_at": "2022-03-31T14:00:00.000Z",
+      "cursus_id": 9,
+      "has_coalition": true,
+      "created_at": "2022-03-01T08:28:09.011Z",
+      "updated_at": "2022-03-01T08:28:09.011Z",
+      "user": {
+        "id": 108687,
+        "email": "abalkath@student.42abudhabi.ae",
+        "login": "abalkath",
+        "first_name": "Abdulrahman",
+        "last_name": "Alkatheeri",
+        "usual_full_name": "Abdulrahman Alkatheeri",
+        "usual_first_name": null,
+        "url": "https://api.intra.42.fr/v2/users/abalkath",
+        "phone": "hidden",
+        "displayname": "Abdulrahman Alkatheeri",
+        "kind": "student",
+        "image": {
+          "link": "https://cdn.intra.42.fr/users/8baa41c61e85697152f301c0ec6634fa/abalkath.jpg",
+          "versions": {
+            "large": "https://cdn.intra.42.fr/users/30426a49c20ecbcc467d54257d120723/large_abalkath.jpg",
+            "medium": "https://cdn.intra.42.fr/users/668e48f288685c51d2af3f464550dbc1/medium_abalkath.jpg",
+            "small": "https://cdn.intra.42.fr/users/22f06d991e18acf1c3085e4bc6e111cd/small_abalkath.jpg",
+            "micro": "https://cdn.intra.42.fr/users/d066de1051fa8c75c0027750b835d34c/micro_abalkath.jpg"
+          }
+        },
+        "staff?": false,
+        "correction_point": 6,
+        "pool_month": "march",
+        "pool_year": "2022",
+        "location": null,
+        "wallet": 0,
+        "anonymize_date": "2025-03-13T00:00:00.000+04:00",
+        "data_erasure_date": "2025-03-13T00:00:00.000+04:00",
+        "created_at": "2022-03-01T08:28:07.252Z",
+        "updated_at": "2022-03-14T18:05:00.454Z",
+        "alumnized_at": null,
+        "alumni?": false,
+        "active?": false
+      },
+      "cursus": {
+        "id": 9,
+        "created_at": "2015-11-04T10:58:13.979Z",
+        "name": "C Piscine",
+        "slug": "c-piscine",
+        "kind": "piscine"
+      }
+    }
+  ],
+  "projects_users": [
+    {
+      "id": 2544102,
+      "occurrence": 0,
+      "final_mark": 0,
+      "status": "finished",
+      "validated?": false,
+      "current_team_id": 4070373,
+      "project": {
+        "id": 1304,
+        "name": "C Piscine Final Exam",
+        "slug": "c-piscine-final-exam",
+        "parent_id": null
+      },
+      "cursus_ids": [
+        9
+      ],
+      "marked_at": "2022-04-05T07:21:10.347Z",
+      "marked": true,
+      "retriable_at": null,
+      "created_at": "2022-03-28T06:39:26.327Z",
+      "updated_at": "2022-04-05T07:21:10.348Z"
+    },
+    {
+      "id": 2540472,
+      "occurrence": 0,
+      "final_mark": 0,
+      "status": "finished",
+      "validated?": false,
+      "current_team_id": 4065122,
+      "project": {
+        "id": 1303,
+        "name": "C Piscine Exam 02",
+        "slug": "c-piscine-exam-02",
+        "parent_id": null
+      },
+      "cursus_ids": [
+        9
+      ],
+      "marked_at": "2022-03-31T14:02:57.447Z",
+      "marked": true,
+      "retriable_at": null,
+      "created_at": "2022-03-24T09:27:19.741Z",
+      "updated_at": "2022-03-31T14:02:57.773Z"
+    },
+    {
+      "id": 2533453,
+      "occurrence": 0,
+      "final_mark": 0,
+      "status": "finished",
+      "validated?": false,
+      "current_team_id": 4055373,
+      "project": {
+        "id": 1302,
+        "name": "C Piscine Exam 01",
+        "slug": "c-piscine-exam-01",
+        "parent_id": null
+      },
+      "cursus_ids": [
+        9
+      ],
+      "marked_at": "2022-03-21T07:24:40.837Z",
+      "marked": true,
+      "retriable_at": null,
+      "created_at": "2022-03-17T07:28:05.288Z",
+      "updated_at": "2022-03-21T07:24:40.863Z"
+    },
+    {
+      "id": 2527746,
+      "occurrence": 0,
+      "final_mark": 0,
+      "status": "finished",
+      "validated?": false,
+      "current_team_id": 4047502,
+      "project": {
+        "id": 1301,
+        "name": "C Piscine Exam 00",
+        "slug": "c-piscine-exam-00",
+        "parent_id": null
+      },
+      "cursus_ids": [
+        9
+      ],
+      "marked_at": "2022-03-31T14:02:59.326Z",
+      "marked": true,
+      "retriable_at": null,
+      "created_at": "2022-03-10T18:36:28.274Z",
+      "updated_at": "2022-03-31T14:02:59.601Z"
+    },
+    {
+      "id": 2526534,
+      "occurrence": 0,
+      "final_mark": 0,
+      "status": "finished",
+      "validated?": false,
+      "current_team_id": 4045985,
+      "project": {
+        "id": 1257,
+        "name": "C Piscine C 00",
+        "slug": "c-piscine-c-00",
+        "parent_id": null
+      },
+      "cursus_ids": [
+        9
+      ],
+      "marked_at": "2022-03-31T14:03:03.860Z",
+      "marked": true,
+      "retriable_at": "2022-03-31T14:23:03.991Z",
+      "created_at": "2022-03-10T05:31:03.535Z",
+      "updated_at": "2022-03-31T14:03:04.227Z"
+    },
+    {
+      "id": 2523290,
+      "occurrence": 0,
+      "final_mark": 0,
+      "status": "finished",
+      "validated?": false,
+      "current_team_id": 4041837,
+      "project": {
+        "id": 1255,
+        "name": "C Piscine Shell 00",
+        "slug": "c-piscine-shell-00",
+        "parent_id": null
+      },
+      "cursus_ids": [
+        9
+      ],
+      "marked_at": "2022-03-15T15:23:54.994Z",
+      "marked": true,
+      "retriable_at": "2022-03-15T15:43:55.022Z",
+      "created_at": "2022-03-07T05:58:44.218Z",
+      "updated_at": "2022-03-15T15:23:55.044Z"
+    }
+  ],
+  "languages_users": [
+    {
+      "id": 517212,
+      "language_id": 2,
+      "user_id": 108687,
+      "position": 1,
+      "created_at": "2022-03-01T08:28:07.378Z"
+    }
+  ],
+  "achievements": [],
+  "titles": [],
+  "titles_users": [],
+  "partnerships": [],
+  "patroned": [],
+  "patroning": [],
+  "expertises_users": [],
+  "roles": [],
+  "campus": [
+    {
+      "id": 43,
+      "name": "Abu Dhabi",
+      "time_zone": "Asia/Dubai",
+      "language": {
+        "id": 2,
+        "name": "English",
+        "identifier": "en",
+        "created_at": "2015-04-14T16:07:38.122Z",
+        "updated_at": "2023-02-16T11:08:11.620Z"
+      },
+      "users_count": 1500,
+      "vogsphere_id": 30,
+      "country": "United Arab Emirates",
+      "address": "Mina Zayed, Warehouse District ",
+      "zip": "00000",
+      "city": "Abu Dhabi",
+      "website": "https://42abudhabi.ae/",
+      "facebook": "",
+      "twitter": "",
+      "active": true,
+      "public": true,
+      "email_extension": "42abudhabi.ae",
+      "default_hidden_phone": false
+    }
+  ],
+  "campus_users": [
+    {
+      "id": 99848,
+      "user_id": 108687,
+      "campus_id": 43,
+      "is_primary": true,
+      "created_at": "2022-03-01T08:28:07.276Z",
+      "updated_at": "2022-03-01T08:28:07.276Z"
+    }
+  ]
+}

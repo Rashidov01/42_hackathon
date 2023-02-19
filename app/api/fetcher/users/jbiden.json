@@ -1,0 +1,148 @@
+{
+  "id": 86302,
+  "email": "jbiden@student.42abudhabi.ae",
+  "login": "jbiden",
+  "first_name": "Joe",
+  "last_name": "Biden",
+  "usual_full_name": "Joe Biden",
+  "usual_first_name": null,
+  "url": "https://api.intra.42.fr/v2/users/jbiden",
+  "phone": "hidden",
+  "displayname": "Joe Biden",
+  "kind": "student",
+  "image": {
+    "link": "https://cdn.intra.42.fr/users/e212fa68f3f1bd93901a1fc8ae46e011/jbiden.jpg",
+    "versions": {
+      "large": "https://cdn.intra.42.fr/users/cd82744e758505b9093d42ff844fc368/large_jbiden.jpg",
+      "medium": "https://cdn.intra.42.fr/users/48fe7a641c44bc69b5eae6f85524ae7f/medium_jbiden.jpg",
+      "small": "https://cdn.intra.42.fr/users/1042a24dd7795596b55a666451c2d2d4/small_jbiden.jpg",
+      "micro": "https://cdn.intra.42.fr/users/abc933c2377ceec2e1c8889c2c6f8b95/micro_jbiden.jpg"
+    }
+  },
+  "staff?": false,
+  "correction_point": 5,
+  "pool_month": "march",
+  "pool_year": "2021",
+  "location": null,
+  "wallet": 0,
+  "anonymize_date": "2024-05-15T00:00:00.000+04:00",
+  "data_erasure_date": "2024-05-15T00:00:00.000+04:00",
+  "created_at": "2021-03-08T06:42:03.280Z",
+  "updated_at": "2021-10-13T16:28:30.186Z",
+  "alumnized_at": null,
+  "alumni?": false,
+  "active?": true,
+  "groups": [],
+  "cursus_users": [
+    {
+      "grade": null,
+      "level": 0,
+      "skills": [],
+      "blackholed_at": null,
+      "id": 114260,
+      "begin_at": "2021-03-08T06:44:00.000Z",
+      "end_at": null,
+      "cursus_id": 9,
+      "has_coalition": true,
+      "created_at": "2021-03-08T06:43:33.886Z",
+      "updated_at": "2021-03-08T06:43:33.886Z",
+      "user": {
+        "id": 86302,
+        "email": "jbiden@student.42abudhabi.ae",
+        "login": "jbiden",
+        "first_name": "Joe",
+        "last_name": "Biden",
+        "usual_full_name": "Joe Biden",
+        "usual_first_name": null,
+        "url": "https://api.intra.42.fr/v2/users/jbiden",
+        "phone": "hidden",
+        "displayname": "Joe Biden",
+        "kind": "student",
+        "image": {
+          "link": "https://cdn.intra.42.fr/users/e212fa68f3f1bd93901a1fc8ae46e011/jbiden.jpg",
+          "versions": {
+            "large": "https://cdn.intra.42.fr/users/cd82744e758505b9093d42ff844fc368/large_jbiden.jpg",
+            "medium": "https://cdn.intra.42.fr/users/48fe7a641c44bc69b5eae6f85524ae7f/medium_jbiden.jpg",
+            "small": "https://cdn.intra.42.fr/users/1042a24dd7795596b55a666451c2d2d4/small_jbiden.jpg",
+            "micro": "https://cdn.intra.42.fr/users/abc933c2377ceec2e1c8889c2c6f8b95/micro_jbiden.jpg"
+          }
+        },
+        "staff?": false,
+        "correction_point": 5,
+        "pool_month": "march",
+        "pool_year": "2021",
+        "location": null,
+        "wallet": 0,
+        "anonymize_date": "2024-05-15T00:00:00.000+04:00",
+        "data_erasure_date": "2024-05-15T00:00:00.000+04:00",
+        "created_at": "2021-03-08T06:42:03.280Z",
+        "updated_at": "2021-10-13T16:28:30.186Z",
+        "alumnized_at": null,
+        "alumni?": false,
+        "active?": true
+      },
+      "cursus": {
+        "id": 9,
+        "created_at": "2015-11-04T10:58:13.979Z",
+        "name": "C Piscine",
+        "slug": "c-piscine",
+        "kind": "piscine"
+      }
+    }
+  ],
+  "projects_users": [],
+  "languages_users": [
+    {
+      "id": 351206,
+      "language_id": 2,
+      "user_id": 86302,
+      "position": 1,
+      "created_at": "2021-03-10T06:57:42.071Z"
+    }
+  ],
+  "achievements": [],
+  "titles": [],
+  "titles_users": [],
+  "partnerships": [],
+  "patroned": [],
+  "patroning": [],
+  "expertises_users": [],
+  "roles": [],
+  "campus": [
+    {
+      "id": 43,
+      "name": "Abu Dhabi",
+      "time_zone": "Asia/Dubai",
+      "language": {
+        "id": 2,
+        "name": "English",
+        "identifier": "en",
+        "created_at": "2015-04-14T16:07:38.122Z",
+        "updated_at": "2023-02-16T11:08:11.620Z"
+      },
+      "users_count": 1500,
+      "vogsphere_id": 30,
+      "country": "United Arab Emirates",
+      "address": "Mina Zayed, Warehouse District ",
+      "zip": "00000",
+      "city": "Abu Dhabi",
+      "website": "https://42abudhabi.ae/",
+      "facebook": "",
+      "twitter": "",
+      "active": true,
+      "public": true,
+      "email_extension": "42abudhabi.ae",
+      "default_hidden_phone": false
+    }
+  ],
+  "campus_users": [
+    {
+      "id": 78104,
+      "user_id": 86302,
+      "campus_id": 43,
+      "is_primary": true,
+      "created_at": "2021-03-08T06:42:03.307Z",
+      "updated_at": "2021-03-08T06:42:03.307Z"
+    }
+  ]
+}

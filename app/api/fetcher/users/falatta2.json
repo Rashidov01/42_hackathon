@@ -1,0 +1,418 @@
+{
+  "id": 108790,
+  "email": "falatta2@student.42abudhabi.ae",
+  "login": "falatta2",
+  "first_name": "Fatima",
+  "last_name": "Alattas",
+  "usual_full_name": "Fatima Alattas",
+  "usual_first_name": null,
+  "url": "https://api.intra.42.fr/v2/users/falatta2",
+  "phone": "hidden",
+  "displayname": "Fatima Alattas",
+  "kind": "student",
+  "image": {
+    "link": "https://cdn.intra.42.fr/users/257e7c9f897be1a3ad336cf2fd07704e/falatta2.jpeg",
+    "versions": {
+      "large": "https://cdn.intra.42.fr/users/d08f6b00589e7b6329c512c65410ea38/large_falatta2.jpeg",
+      "medium": "https://cdn.intra.42.fr/users/27f8cfb0cebe537bdff8534320e59a88/medium_falatta2.jpeg",
+      "small": "https://cdn.intra.42.fr/users/fb28f2da88dd7b5b5143d60520cb6ebf/small_falatta2.jpeg",
+      "micro": "https://cdn.intra.42.fr/users/48b649d3d657e3932fe62df68bf6d0fe/micro_falatta2.jpeg"
+    }
+  },
+  "staff?": false,
+  "correction_point": -1,
+  "pool_month": "may",
+  "pool_year": "2021",
+  "location": null,
+  "wallet": 5,
+  "anonymize_date": "2026-01-12T00:00:00.000+04:00",
+  "data_erasure_date": "2026-01-12T00:00:00.000+04:00",
+  "created_at": "2022-03-02T06:19:04.274Z",
+  "updated_at": "2023-01-26T06:00:24.679Z",
+  "alumnized_at": null,
+  "alumni?": false,
+  "active?": false,
+  "groups": [],
+  "cursus_users": [
+    {
+      "grade": "Learner",
+      "level": 2.93,
+      "skills": [
+        {
+          "id": 1,
+          "name": "Algorithms & AI",
+          "level": 3.15
+        },
+        {
+          "id": 3,
+          "name": "Rigor",
+          "level": 2.84
+        },
+        {
+          "id": 4,
+          "name": "Unix",
+          "level": 2.05
+        },
+        {
+          "id": 10,
+          "name": "Network & system administration",
+          "level": 1.33
+        },
+        {
+          "id": 2,
+          "name": "Imperative programming",
+          "level": 1.13
+        }
+      ],
+      "blackholed_at": "2023-01-25T06:44:00.000Z",
+      "id": 161947,
+      "begin_at": "2022-03-02T06:44:00.000Z",
+      "end_at": "2023-01-26T06:00:25.342Z",
+      "cursus_id": 21,
+      "has_coalition": true,
+      "created_at": "2022-03-02T06:44:54.545Z",
+      "updated_at": "2023-01-26T06:00:24.358Z",
+      "user": {
+        "id": 108790,
+        "email": "falatta2@student.42abudhabi.ae",
+        "login": "falatta2",
+        "first_name": "Fatima",
+        "last_name": "Alattas",
+        "usual_full_name": "Fatima Alattas",
+        "usual_first_name": null,
+        "url": "https://api.intra.42.fr/v2/users/falatta2",
+        "phone": "hidden",
+        "displayname": "Fatima Alattas",
+        "kind": "student",
+        "image": {
+          "link": "https://cdn.intra.42.fr/users/257e7c9f897be1a3ad336cf2fd07704e/falatta2.jpeg",
+          "versions": {
+            "large": "https://cdn.intra.42.fr/users/d08f6b00589e7b6329c512c65410ea38/large_falatta2.jpeg",
+            "medium": "https://cdn.intra.42.fr/users/27f8cfb0cebe537bdff8534320e59a88/medium_falatta2.jpeg",
+            "small": "https://cdn.intra.42.fr/users/fb28f2da88dd7b5b5143d60520cb6ebf/small_falatta2.jpeg",
+            "micro": "https://cdn.intra.42.fr/users/48b649d3d657e3932fe62df68bf6d0fe/micro_falatta2.jpeg"
+          }
+        },
+        "staff?": false,
+        "correction_point": -1,
+        "pool_month": "may",
+        "pool_year": "2021",
+        "location": null,
+        "wallet": 5,
+        "anonymize_date": "2026-01-12T00:00:00.000+04:00",
+        "data_erasure_date": "2026-01-12T00:00:00.000+04:00",
+        "created_at": "2022-03-02T06:19:04.274Z",
+        "updated_at": "2023-01-26T06:00:24.679Z",
+        "alumnized_at": null,
+        "alumni?": false,
+        "active?": false
+      },
+      "cursus": {
+        "id": 21,
+        "created_at": "2019-07-29T08:45:17.896Z",
+        "name": "42cursus",
+        "slug": "42cursus",
+        "kind": "main"
+      }
+    }
+  ],
+  "projects_users": [
+    {
+      "id": 2864838,
+      "occurrence": 2,
+      "final_mark": 89,
+      "status": "finished",
+      "validated?": true,
+      "current_team_id": 4574402,
+      "project": {
+        "id": 1471,
+        "name": "push_swap",
+        "slug": "42cursus-push_swap",
+        "parent_id": null
+      },
+      "cursus_ids": [
+        21
+      ],
+      "marked_at": "2022-11-30T08:48:53.407Z",
+      "marked": true,
+      "retriable_at": "2022-12-02T08:48:53.559Z",
+      "created_at": "2022-11-03T10:47:59.056Z",
+      "updated_at": "2022-11-30T08:48:53.574Z"
+    },
+    {
+      "id": 2732356,
+      "occurrence": 2,
+      "final_mark": 106,
+      "status": "finished",
+      "validated?": true,
+      "current_team_id": 4574400,
+      "project": {
+        "id": 2005,
+        "name": "minitalk",
+        "slug": "minitalk",
+        "parent_id": null
+      },
+      "cursus_ids": [
+        21
+      ],
+      "marked_at": "2022-11-29T21:22:22.366Z",
+      "marked": true,
+      "retriable_at": "2022-12-01T21:22:22.622Z",
+      "created_at": "2022-08-18T12:45:08.541Z",
+      "updated_at": "2022-11-29T21:22:22.637Z"
+    },
+    {
+      "id": 2689288,
+      "occurrence": 1,
+      "final_mark": 100,
+      "status": "finished",
+      "validated?": true,
+      "current_team_id": 4308436,
+      "project": {
+        "id": 1327,
+        "name": "get_next_line",
+        "slug": "42cursus-get_next_line",
+        "parent_id": null
+      },
+      "cursus_ids": [
+        21
+      ],
+      "marked_at": "2022-08-11T12:44:24.400Z",
+      "marked": true,
+      "retriable_at": "2022-08-12T12:44:24.481Z",
+      "created_at": "2022-07-26T10:43:33.189Z",
+      "updated_at": "2022-08-11T12:44:24.495Z"
+    },
+    {
+      "id": 2663963,
+      "occurrence": 0,
+      "final_mark": 100,
+      "status": "finished",
+      "validated?": true,
+      "current_team_id": 4234401,
+      "project": {
+        "id": 1316,
+        "name": "ft_printf",
+        "slug": "42cursus-ft_printf",
+        "parent_id": null
+      },
+      "cursus_ids": [
+        21
+      ],
+      "marked_at": "2022-08-04T07:27:31.110Z",
+      "marked": true,
+      "retriable_at": "2022-08-05T07:27:31.175Z",
+      "created_at": "2022-07-13T11:03:10.587Z",
+      "updated_at": "2022-08-04T07:27:31.187Z"
+    },
+    {
+      "id": 2691975,
+      "occurrence": 0,
+      "final_mark": 100,
+      "status": "finished",
+      "validated?": true,
+      "current_team_id": 4275609,
+      "project": {
+        "id": 1994,
+        "name": "Born2beroot",
+        "slug": "born2beroot",
+        "parent_id": null
+      },
+      "cursus_ids": [
+        21
+      ],
+      "marked_at": "2022-08-04T07:26:16.700Z",
+      "marked": true,
+      "retriable_at": "2022-08-05T07:26:16.892Z",
+      "created_at": "2022-07-27T10:14:53.291Z",
+      "updated_at": "2022-08-04T07:26:16.913Z"
+    },
+    {
+      "id": 2540909,
+      "occurrence": 0,
+      "final_mark": 100,
+      "status": "finished",
+      "validated?": true,
+      "current_team_id": 4065671,
+      "project": {
+        "id": 1314,
+        "name": "Libft",
+        "slug": "42cursus-libft",
+        "parent_id": null
+      },
+      "cursus_ids": [
+        21
+      ],
+      "marked_at": "2022-05-18T17:23:40.858Z",
+      "marked": true,
+      "retriable_at": "2022-05-19T17:23:40.955Z",
+      "created_at": "2022-03-24T13:36:25.360Z",
+      "updated_at": "2022-05-18T17:23:40.969Z"
+    }
+  ],
+  "languages_users": [
+    {
+      "id": 518041,
+      "language_id": 2,
+      "user_id": 108790,
+      "position": 1,
+      "created_at": "2022-03-03T04:08:04.015Z"
+    }
+  ],
+  "achievements": [
+    {
+      "id": 41,
+      "name": "All work and no play makes Jack a dull boy",
+      "description": "Logged for a total of 90 hours over a week.",
+      "tier": "none",
+      "kind": "scolarity",
+      "visible": true,
+      "image": "/uploads/achievement/image/41/SCO001.svg",
+      "nbr_of_success": null,
+      "users_url": "https://api.intra.42.fr/v2/achievements/41/users"
+    },
+    {
+      "id": 4,
+      "name": "Code Explorer",
+      "description": "Valided your first project.",
+      "tier": "none",
+      "kind": "project",
+      "visible": true,
+      "image": "/uploads/achievement/image/4/PRO002.svg",
+      "nbr_of_success": 1,
+      "users_url": "https://api.intra.42.fr/v2/achievements/4/users"
+    },
+    {
+      "id": 5,
+      "name": "Code Explorer",
+      "description": "Validated 3 projects",
+      "tier": "none",
+      "kind": "project",
+      "visible": true,
+      "image": "/uploads/achievement/image/5/PRO002.svg",
+      "nbr_of_success": 3,
+      "users_url": "https://api.intra.42.fr/v2/achievements/5/users"
+    },
+    {
+      "id": 45,
+      "name": "Home is where the code is",
+      "description": "Logged into the same cluster for a month in a row",
+      "tier": "none",
+      "kind": "scolarity",
+      "visible": true,
+      "image": "/uploads/achievement/image/45/SCO002.svg",
+      "nbr_of_success": null,
+      "users_url": "https://api.intra.42.fr/v2/achievements/45/users"
+    },
+    {
+      "id": 155,
+      "name": "Je voudrais un croissant",
+      "description": "Visited 42 campus in Paris.",
+      "tier": "none",
+      "kind": "scolarity",
+      "visible": true,
+      "image": "/uploads/achievement/image/155/BADGE_SCOLARITY_paris.svg",
+      "nbr_of_success": null,
+      "users_url": "https://api.intra.42.fr/v2/achievements/155/users"
+    },
+    {
+      "id": 1,
+      "name": "Welcome, Cadet !",
+      "description": "You have passed the C Piscine! Welcome to 42!",
+      "tier": "none",
+      "kind": "project",
+      "visible": true,
+      "image": "/uploads/achievement/image/1/PRO001.svg",
+      "nbr_of_success": null,
+      "users_url": "https://api.intra.42.fr/v2/achievements/1/users"
+    },
+    {
+      "id": 218,
+      "name": "Welcome, Learner !",
+      "description": "You passed the C Piscine. Welcome at 42!",
+      "tier": "none",
+      "kind": "project",
+      "visible": true,
+      "image": "/uploads/achievement/image/218/PRO001-2.svg",
+      "nbr_of_success": null,
+      "users_url": "https://api.intra.42.fr/v2/achievements/218/users"
+    }
+  ],
+  "titles": [],
+  "titles_users": [],
+  "partnerships": [],
+  "patroned": [],
+  "patroning": [],
+  "expertises_users": [],
+  "roles": [],
+  "campus": [
+    {
+      "id": 1,
+      "name": "Paris",
+      "time_zone": "Europe/Paris",
+      "language": {
+        "id": 1,
+        "name": "Français",
+        "identifier": "fr",
+        "created_at": "2014-11-02T16:43:38.466Z",
+        "updated_at": "2023-02-15T15:57:41.175Z"
+      },
+      "users_count": 25527,
+      "vogsphere_id": 1,
+      "country": "France",
+      "address": "96, boulevard Bessières",
+      "zip": "75017",
+      "city": "Paris",
+      "website": "http://www.42.fr/",
+      "facebook": "https://facebook.com/42born2code",
+      "twitter": "https://twitter.com/42born2code",
+      "active": true,
+      "public": true,
+      "email_extension": "42.fr",
+      "default_hidden_phone": false
+    },
+    {
+      "id": 43,
+      "name": "Abu Dhabi",
+      "time_zone": "Asia/Dubai",
+      "language": {
+        "id": 2,
+        "name": "English",
+        "identifier": "en",
+        "created_at": "2015-04-14T16:07:38.122Z",
+        "updated_at": "2023-02-16T11:08:11.620Z"
+      },
+      "users_count": 1500,
+      "vogsphere_id": 30,
+      "country": "United Arab Emirates",
+      "address": "Mina Zayed, Warehouse District ",
+      "zip": "00000",
+      "city": "Abu Dhabi",
+      "website": "https://42abudhabi.ae/",
+      "facebook": "",
+      "twitter": "",
+      "active": true,
+      "public": true,
+      "email_extension": "42abudhabi.ae",
+      "default_hidden_phone": false
+    }
+  ],
+  "campus_users": [
+    {
+      "id": 99951,
+      "user_id": 108790,
+      "campus_id": 1,
+      "is_primary": false,
+      "created_at": "2022-03-02T06:19:04.288Z",
+      "updated_at": "2022-03-02T06:19:04.288Z"
+    },
+    {
+      "id": 99952,
+      "user_id": 108790,
+      "campus_id": 43,
+      "is_primary": true,
+      "created_at": "2022-03-02T06:23:55.157Z",
+      "updated_at": "2022-03-02T06:24:01.128Z"
+    }
+  ]
+}

@@ -71,3 +71,28 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 ## License
 
 Nest is [MIT licensed](LICENSE).
+
+
+## Access DataBase
+data is set to be saved when you close and reopen the container through the volume
+to apply your new update to the database run the command:
+```
+docker exec -it 42_hackathon-api-1 npx prisma migrate dev
+```
+to set the database on the site as tables to be able to see and access them run:
+```
+docker exec -it 42_hackathon-api-1 npx prisma studio
+```
+to be able to use database in our code through prisma client run the command
+```
+docker exec -it 42_hackathon-api-1 npx prisma generate
+```
+
+## Fill Database
+after setting up database, you can fill it by running the api and then running the shellscript file data.sh in the file called fetcher by running
+```
+bash data.sh
+```
+OR
+to avoid updating database and waiting 35 min, just make a patch request to our api on the endpoint ```/api/update``` to install all of our local info on the database
+

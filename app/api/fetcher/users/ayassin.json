@@ -1,0 +1,1461 @@
+{
+  "id": 93223,
+  "email": "ayassin@student.42abudhabi.ae",
+  "login": "ayassin",
+  "first_name": "Ahmed",
+  "last_name": "Yassin",
+  "usual_full_name": "Ahmed Yassin",
+  "usual_first_name": null,
+  "url": "https://api.intra.42.fr/v2/users/ayassin",
+  "phone": "hidden",
+  "displayname": "Ahmed Yassin",
+  "kind": "student",
+  "image": {
+    "link": "https://cdn.intra.42.fr/users/5c0e49b29b71cdc630c2faf927a06fb2/ayassin.jpg",
+    "versions": {
+      "large": "https://cdn.intra.42.fr/users/476705eef8118f79ddb51960a17bcce8/large_ayassin.jpg",
+      "medium": "https://cdn.intra.42.fr/users/be03343209385b3043edb1d23c09db8e/medium_ayassin.jpg",
+      "small": "https://cdn.intra.42.fr/users/d435c4c673810235f5b785f200f8b7ae/small_ayassin.jpg",
+      "micro": "https://cdn.intra.42.fr/users/6f661e0cd9cb79f9b7f4e155e1d663e8/micro_ayassin.jpg"
+    }
+  },
+  "staff?": false,
+  "correction_point": 10,
+  "pool_month": "august",
+  "pool_year": "2021",
+  "location": null,
+  "wallet": 150,
+  "anonymize_date": "2026-02-13T00:00:00.000+04:00",
+  "data_erasure_date": "2026-02-13T00:00:00.000+04:00",
+  "created_at": "2021-07-13T11:29:45.641Z",
+  "updated_at": "2023-02-14T06:34:24.587Z",
+  "alumnized_at": null,
+  "alumni?": false,
+  "active?": true,
+  "groups": [],
+  "cursus_users": [
+    {
+      "grade": null,
+      "level": 8.14,
+      "skills": [
+        {
+          "id": 4,
+          "name": "Unix",
+          "level": 10.41
+        },
+        {
+          "id": 1,
+          "name": "Algorithms & AI",
+          "level": 7.5600000000000005
+        },
+        {
+          "id": 3,
+          "name": "Rigor",
+          "level": 5.49
+        },
+        {
+          "id": 7,
+          "name": "Group & interpersonal",
+          "level": 0.47
+        }
+      ],
+      "blackholed_at": null,
+      "id": 129373,
+      "begin_at": "2021-08-01T04:42:00.000Z",
+      "end_at": "2021-08-26T14:00:00.000Z",
+      "cursus_id": 9,
+      "has_coalition": true,
+      "created_at": "2021-07-13T11:29:48.400Z",
+      "updated_at": "2021-07-13T11:29:48.400Z",
+      "user": {
+        "id": 93223,
+        "email": "ayassin@student.42abudhabi.ae",
+        "login": "ayassin",
+        "first_name": "Ahmed",
+        "last_name": "Yassin",
+        "usual_full_name": "Ahmed Yassin",
+        "usual_first_name": null,
+        "url": "https://api.intra.42.fr/v2/users/ayassin",
+        "phone": "hidden",
+        "displayname": "Ahmed Yassin",
+        "kind": "student",
+        "image": {
+          "link": "https://cdn.intra.42.fr/users/5c0e49b29b71cdc630c2faf927a06fb2/ayassin.jpg",
+          "versions": {
+            "large": "https://cdn.intra.42.fr/users/476705eef8118f79ddb51960a17bcce8/large_ayassin.jpg",
+            "medium": "https://cdn.intra.42.fr/users/be03343209385b3043edb1d23c09db8e/medium_ayassin.jpg",
+            "small": "https://cdn.intra.42.fr/users/d435c4c673810235f5b785f200f8b7ae/small_ayassin.jpg",
+            "micro": "https://cdn.intra.42.fr/users/6f661e0cd9cb79f9b7f4e155e1d663e8/micro_ayassin.jpg"
+          }
+        },
+        "staff?": false,
+        "correction_point": 10,
+        "pool_month": "august",
+        "pool_year": "2021",
+        "location": null,
+        "wallet": 150,
+        "anonymize_date": "2026-02-13T00:00:00.000+04:00",
+        "data_erasure_date": "2026-02-13T00:00:00.000+04:00",
+        "created_at": "2021-07-13T11:29:45.641Z",
+        "updated_at": "2023-02-14T06:34:24.587Z",
+        "alumnized_at": null,
+        "alumni?": false,
+        "active?": true
+      },
+      "cursus": {
+        "id": 9,
+        "created_at": "2015-11-04T10:58:13.979Z",
+        "name": "C Piscine",
+        "slug": "c-piscine",
+        "kind": "piscine"
+      }
+    },
+    {
+      "grade": "Learner",
+      "level": 5.19,
+      "skills": [
+        {
+          "id": 3,
+          "name": "Rigor",
+          "level": 5
+        },
+        {
+          "id": 2,
+          "name": "Imperative programming",
+          "level": 4.46
+        },
+        {
+          "id": 17,
+          "name": "Object-oriented programming",
+          "level": 4.15
+        },
+        {
+          "id": 1,
+          "name": "Algorithms & AI",
+          "level": 4.13
+        },
+        {
+          "id": 10,
+          "name": "Network & system administration",
+          "level": 3.33
+        },
+        {
+          "id": 4,
+          "name": "Unix",
+          "level": 3.19
+        },
+        {
+          "id": 5,
+          "name": "Graphics",
+          "level": 2.71
+        }
+      ],
+      "blackholed_at": "2023-05-15T05:15:13.732Z",
+      "id": 139164,
+      "begin_at": "2021-12-19T05:15:13.732Z",
+      "end_at": null,
+      "cursus_id": 21,
+      "has_coalition": true,
+      "created_at": "2021-09-23T09:25:03.917Z",
+      "updated_at": "2021-12-19T05:15:14.316Z",
+      "user": {
+        "id": 93223,
+        "email": "ayassin@student.42abudhabi.ae",
+        "login": "ayassin",
+        "first_name": "Ahmed",
+        "last_name": "Yassin",
+        "usual_full_name": "Ahmed Yassin",
+        "usual_first_name": null,
+        "url": "https://api.intra.42.fr/v2/users/ayassin",
+        "phone": "hidden",
+        "displayname": "Ahmed Yassin",
+        "kind": "student",
+        "image": {
+          "link": "https://cdn.intra.42.fr/users/5c0e49b29b71cdc630c2faf927a06fb2/ayassin.jpg",
+          "versions": {
+            "large": "https://cdn.intra.42.fr/users/476705eef8118f79ddb51960a17bcce8/large_ayassin.jpg",
+            "medium": "https://cdn.intra.42.fr/users/be03343209385b3043edb1d23c09db8e/medium_ayassin.jpg",
+            "small": "https://cdn.intra.42.fr/users/d435c4c673810235f5b785f200f8b7ae/small_ayassin.jpg",
+            "micro": "https://cdn.intra.42.fr/users/6f661e0cd9cb79f9b7f4e155e1d663e8/micro_ayassin.jpg"
+          }
+        },
+        "staff?": false,
+        "correction_point": 10,
+        "pool_month": "august",
+        "pool_year": "2021",
+        "location": null,
+        "wallet": 150,
+        "anonymize_date": "2026-02-13T00:00:00.000+04:00",
+        "data_erasure_date": "2026-02-13T00:00:00.000+04:00",
+        "created_at": "2021-07-13T11:29:45.641Z",
+        "updated_at": "2023-02-14T06:34:24.587Z",
+        "alumnized_at": null,
+        "alumni?": false,
+        "active?": true
+      },
+      "cursus": {
+        "id": 21,
+        "created_at": "2019-07-29T08:45:17.896Z",
+        "name": "42cursus",
+        "slug": "42cursus",
+        "kind": "main"
+      }
+    }
+  ],
+  "projects_users": [
+    {
+      "id": 2755566,
+      "occurrence": 5,
+      "final_mark": 100,
+      "status": "finished",
+      "validated?": true,
+      "current_team_id": 4642116,
+      "project": {
+        "id": 1322,
+        "name": "Exam Rank 04",
+        "slug": "exam-rank-04",
+        "parent_id": null
+      },
+      "cursus_ids": [
+        21
+      ],
+      "marked_at": "2023-01-26T10:37:08.618Z",
+      "marked": true,
+      "retriable_at": "2023-01-26T10:37:08.646Z",
+      "created_at": "2022-08-30T11:25:45.335Z",
+      "updated_at": "2023-01-26T10:37:14.916Z"
+    },
+    {
+      "id": 2916304,
+      "occurrence": 0,
+      "final_mark": 100,
+      "status": "finished",
+      "validated?": true,
+      "current_team_id": 4598231,
+      "project": {
+        "id": 1315,
+        "name": "miniRT",
+        "slug": "minirt",
+        "parent_id": null
+      },
+      "cursus_ids": [
+        21
+      ],
+      "marked_at": "2023-01-18T05:21:33.976Z",
+      "marked": true,
+      "retriable_at": "2023-01-21T05:21:34.154Z",
+      "created_at": "2022-12-16T14:17:04.461Z",
+      "updated_at": "2023-01-18T05:21:34.170Z"
+    },
+    {
+      "id": 2910948,
+      "occurrence": 1,
+      "final_mark": 100,
+      "status": "finished",
+      "validated?": true,
+      "current_team_id": 4612751,
+      "project": {
+        "id": 1346,
+        "name": "CPP Module 08",
+        "slug": "cpp-module-08",
+        "parent_id": null
+      },
+      "cursus_ids": [
+        21
+      ],
+      "marked_at": "2023-01-07T12:33:08.836Z",
+      "marked": true,
+      "retriable_at": "2023-01-08T12:33:09.000Z",
+      "created_at": "2022-12-10T17:48:19.416Z",
+      "updated_at": "2023-01-07T12:33:09.015Z"
+    },
+    {
+      "id": 2904964,
+      "occurrence": 0,
+      "final_mark": 100,
+      "status": "finished",
+      "validated?": true,
+      "current_team_id": 4581929,
+      "project": {
+        "id": 1345,
+        "name": "CPP Module 07",
+        "slug": "cpp-module-07",
+        "parent_id": null
+      },
+      "cursus_ids": [
+        21
+      ],
+      "marked_at": "2022-12-10T07:15:44.199Z",
+      "marked": true,
+      "retriable_at": "2022-12-11T07:15:44.230Z",
+      "created_at": "2022-12-04T05:27:40.364Z",
+      "updated_at": "2022-12-10T07:15:44.254Z"
+    },
+    {
+      "id": 2896845,
+      "occurrence": 0,
+      "final_mark": 100,
+      "status": "finished",
+      "validated?": true,
+      "current_team_id": 4570543,
+      "project": {
+        "id": 1344,
+        "name": "CPP Module 06",
+        "slug": "cpp-module-06",
+        "parent_id": null
+      },
+      "cursus_ids": [
+        21
+      ],
+      "marked_at": "2022-12-04T05:27:27.118Z",
+      "marked": true,
+      "retriable_at": "2022-12-05T05:27:27.161Z",
+      "created_at": "2022-11-26T12:49:09.128Z",
+      "updated_at": "2022-12-04T05:27:27.178Z"
+    },
+    {
+      "id": 2862436,
+      "occurrence": 0,
+      "final_mark": 100,
+      "status": "finished",
+      "validated?": true,
+      "current_team_id": 4524427,
+      "project": {
+        "id": 1343,
+        "name": "CPP Module 05",
+        "slug": "cpp-module-05",
+        "parent_id": null
+      },
+      "cursus_ids": [
+        21
+      ],
+      "marked_at": "2022-11-26T12:48:59.369Z",
+      "marked": true,
+      "retriable_at": "2022-11-27T12:48:59.408Z",
+      "created_at": "2022-11-02T05:19:53.342Z",
+      "updated_at": "2022-11-26T12:48:59.423Z"
+    },
+    {
+      "id": 2845154,
+      "occurrence": 2,
+      "final_mark": 80,
+      "status": "finished",
+      "validated?": true,
+      "current_team_id": 4519129,
+      "project": {
+        "id": 1342,
+        "name": "CPP Module 04",
+        "slug": "cpp-module-04",
+        "parent_id": null
+      },
+      "cursus_ids": [
+        21
+      ],
+      "marked_at": "2022-11-02T05:19:25.693Z",
+      "marked": true,
+      "retriable_at": "2022-11-03T05:19:25.727Z",
+      "created_at": "2022-10-20T13:50:47.636Z",
+      "updated_at": "2022-11-02T05:19:25.741Z"
+    },
+    {
+      "id": 2844447,
+      "occurrence": 0,
+      "final_mark": 95,
+      "status": "finished",
+      "validated?": true,
+      "current_team_id": 4499773,
+      "project": {
+        "id": 1341,
+        "name": "CPP Module 03",
+        "slug": "cpp-module-03",
+        "parent_id": null
+      },
+      "cursus_ids": [
+        21
+      ],
+      "marked_at": "2022-10-20T13:50:30.048Z",
+      "marked": true,
+      "retriable_at": "2022-10-21T13:50:30.099Z",
+      "created_at": "2022-10-20T07:49:35.498Z",
+      "updated_at": "2022-10-20T13:50:30.115Z"
+    },
+    {
+      "id": 2838984,
+      "occurrence": 0,
+      "final_mark": 100,
+      "status": "finished",
+      "validated?": true,
+      "current_team_id": 4491235,
+      "project": {
+        "id": 1340,
+        "name": "CPP Module 02",
+        "slug": "cpp-module-02",
+        "parent_id": null
+      },
+      "cursus_ids": [
+        21
+      ],
+      "marked_at": "2022-10-18T05:23:51.069Z",
+      "marked": true,
+      "retriable_at": "2022-10-19T05:23:51.107Z",
+      "created_at": "2022-10-16T13:59:36.509Z",
+      "updated_at": "2022-10-18T05:23:51.121Z"
+    },
+    {
+      "id": 2836053,
+      "occurrence": 1,
+      "final_mark": 100,
+      "status": "finished",
+      "validated?": true,
+      "current_team_id": 4490236,
+      "project": {
+        "id": 1339,
+        "name": "CPP Module 01",
+        "slug": "cpp-module-01",
+        "parent_id": null
+      },
+      "cursus_ids": [
+        21
+      ],
+      "marked_at": "2022-10-16T13:58:52.280Z",
+      "marked": true,
+      "retriable_at": "2022-10-17T13:58:52.318Z",
+      "created_at": "2022-10-13T16:21:33.377Z",
+      "updated_at": "2022-10-16T13:58:52.333Z"
+    },
+    {
+      "id": 2780341,
+      "occurrence": 0,
+      "final_mark": 80,
+      "status": "finished",
+      "validated?": true,
+      "current_team_id": 4408394,
+      "project": {
+        "id": 1338,
+        "name": "CPP Module 00",
+        "slug": "cpp-module-00",
+        "parent_id": null
+      },
+      "cursus_ids": [
+        21
+      ],
+      "marked_at": "2022-10-13T16:20:54.215Z",
+      "marked": true,
+      "retriable_at": "2022-10-14T16:20:54.261Z",
+      "created_at": "2022-09-13T04:29:00.986Z",
+      "updated_at": "2022-10-13T16:20:54.286Z"
+    },
+    {
+      "id": 2765415,
+      "occurrence": 0,
+      "final_mark": 100,
+      "status": "finished",
+      "validated?": true,
+      "current_team_id": 4385091,
+      "project": {
+        "id": 2007,
+        "name": "NetPractice",
+        "slug": "netpractice",
+        "parent_id": null
+      },
+      "cursus_ids": [
+        21
+      ],
+      "marked_at": "2022-09-10T08:37:20.374Z",
+      "marked": true,
+      "retriable_at": "2022-09-13T08:37:20.513Z",
+      "created_at": "2022-09-04T04:05:43.510Z",
+      "updated_at": "2022-09-10T08:37:20.527Z"
+    },
+    {
+      "id": 2710020,
+      "occurrence": 1,
+      "final_mark": 100,
+      "status": "finished",
+      "validated?": true,
+      "current_team_id": 4359194,
+      "project": {
+        "id": 1334,
+        "name": "Philosophers",
+        "slug": "42cursus-philosophers",
+        "parent_id": null
+      },
+      "cursus_ids": [
+        21
+      ],
+      "marked_at": "2022-08-28T15:25:04.708Z",
+      "marked": true,
+      "retriable_at": "2022-08-30T15:25:04.928Z",
+      "created_at": "2022-08-08T07:30:53.500Z",
+      "updated_at": "2022-08-28T15:25:04.944Z"
+    },
+    {
+      "id": 2725241,
+      "occurrence": 0,
+      "final_mark": 101,
+      "status": "finished",
+      "validated?": true,
+      "current_team_id": 4326609,
+      "project": {
+        "id": 1331,
+        "name": "minishell",
+        "slug": "42cursus-minishell",
+        "parent_id": null
+      },
+      "cursus_ids": [
+        21
+      ],
+      "marked_at": "2022-08-16T18:02:05.937Z",
+      "marked": true,
+      "retriable_at": "2022-08-18T18:02:06.065Z",
+      "created_at": "2022-08-16T09:07:20.208Z",
+      "updated_at": "2022-08-16T18:02:06.079Z"
+    },
+    {
+      "id": 2598458,
+      "occurrence": 0,
+      "final_mark": 100,
+      "status": "finished",
+      "validated?": true,
+      "current_team_id": 4144448,
+      "project": {
+        "id": 1321,
+        "name": "Exam Rank 03",
+        "slug": "exam-rank-03",
+        "parent_id": null
+      },
+      "cursus_ids": [
+        21
+      ],
+      "marked_at": "2022-05-26T10:38:54.161Z",
+      "marked": true,
+      "retriable_at": "2022-05-26T10:38:54.184Z",
+      "created_at": "2022-05-24T04:31:23.657Z",
+      "updated_at": "2022-05-26T10:39:05.534Z"
+    },
+    {
+      "id": 2584742,
+      "occurrence": 0,
+      "final_mark": 125,
+      "status": "finished",
+      "validated?": true,
+      "current_team_id": 4126203,
+      "project": {
+        "id": 2005,
+        "name": "minitalk",
+        "slug": "minitalk",
+        "parent_id": null
+      },
+      "cursus_ids": [
+        21
+      ],
+      "marked_at": "2022-05-22T04:12:42.634Z",
+      "marked": true,
+      "retriable_at": "2022-05-24T04:12:42.788Z",
+      "created_at": "2022-05-09T08:45:16.069Z",
+      "updated_at": "2022-05-22T04:12:42.801Z"
+    },
+    {
+      "id": 2584074,
+      "occurrence": 0,
+      "final_mark": 125,
+      "status": "finished",
+      "validated?": true,
+      "current_team_id": 4125372,
+      "project": {
+        "id": 2008,
+        "name": "FdF",
+        "slug": "42cursus-fdf",
+        "parent_id": null
+      },
+      "cursus_ids": [
+        21
+      ],
+      "marked_at": "2022-05-09T13:08:42.749Z",
+      "marked": true,
+      "retriable_at": "2022-05-11T13:08:43.076Z",
+      "created_at": "2022-05-07T15:42:41.745Z",
+      "updated_at": "2022-05-09T13:08:43.098Z"
+    },
+    {
+      "id": 2510495,
+      "occurrence": 0,
+      "final_mark": 100,
+      "status": "finished",
+      "validated?": true,
+      "current_team_id": 4022733,
+      "project": {
+        "id": 1471,
+        "name": "push_swap",
+        "slug": "42cursus-push_swap",
+        "parent_id": null
+      },
+      "cursus_ids": [
+        21
+      ],
+      "marked_at": "2022-04-04T11:59:06.749Z",
+      "marked": true,
+      "retriable_at": "2022-04-06T11:59:06.956Z",
+      "created_at": "2022-02-22T04:44:05.214Z",
+      "updated_at": "2022-04-04T11:59:06.984Z"
+    },
+    {
+      "id": 2485188,
+      "occurrence": 0,
+      "final_mark": 100,
+      "status": "finished",
+      "validated?": true,
+      "current_team_id": 3985936,
+      "project": {
+        "id": 1994,
+        "name": "Born2beroot",
+        "slug": "born2beroot",
+        "parent_id": null
+      },
+      "cursus_ids": [
+        21
+      ],
+      "marked_at": "2022-02-21T11:30:54.419Z",
+      "marked": true,
+      "retriable_at": "2022-02-22T11:30:54.800Z",
+      "created_at": "2022-02-07T05:52:15.483Z",
+      "updated_at": "2022-02-21T11:30:54.816Z"
+    },
+    {
+      "id": 2472801,
+      "occurrence": 0,
+      "final_mark": 112,
+      "status": "finished",
+      "validated?": true,
+      "current_team_id": 3968770,
+      "project": {
+        "id": 1327,
+        "name": "get_next_line",
+        "slug": "42cursus-get_next_line",
+        "parent_id": null
+      },
+      "cursus_ids": [
+        21
+      ],
+      "marked_at": "2022-02-06T12:37:01.197Z",
+      "marked": true,
+      "retriable_at": "2022-02-07T12:37:01.314Z",
+      "created_at": "2022-01-31T04:08:20.505Z",
+      "updated_at": "2022-02-06T12:37:01.404Z"
+    },
+    {
+      "id": 2443952,
+      "occurrence": 0,
+      "final_mark": 125,
+      "status": "finished",
+      "validated?": true,
+      "current_team_id": 3930033,
+      "project": {
+        "id": 1314,
+        "name": "Libft",
+        "slug": "42cursus-libft",
+        "parent_id": null
+      },
+      "cursus_ids": [
+        21
+      ],
+      "marked_at": "2021-12-29T11:21:57.871Z",
+      "marked": true,
+      "retriable_at": "2021-12-30T11:21:57.988Z",
+      "created_at": "2021-12-19T05:15:21.091Z",
+      "updated_at": "2021-12-29T11:21:58.002Z"
+    },
+    {
+      "id": 2443951,
+      "occurrence": 0,
+      "final_mark": 124,
+      "status": "finished",
+      "validated?": true,
+      "current_team_id": 3930032,
+      "project": {
+        "id": 1316,
+        "name": "ft_printf",
+        "slug": "42cursus-ft_printf",
+        "parent_id": null
+      },
+      "cursus_ids": [
+        21
+      ],
+      "marked_at": "2022-01-30T20:17:30.877Z",
+      "marked": true,
+      "retriable_at": "2022-01-31T20:17:31.040Z",
+      "created_at": "2021-12-19T05:15:16.787Z",
+      "updated_at": "2022-01-30T20:17:31.056Z"
+    },
+    {
+      "id": 2306938,
+      "occurrence": 0,
+      "final_mark": 0,
+      "status": "finished",
+      "validated?": false,
+      "current_team_id": 3740828,
+      "project": {
+        "id": 1305,
+        "name": "C Piscine BSQ",
+        "slug": "c-piscine-bsq",
+        "parent_id": null
+      },
+      "cursus_ids": [
+        9
+      ],
+      "marked_at": "2021-08-25T16:19:19.076Z",
+      "marked": true,
+      "retriable_at": null,
+      "created_at": "2021-08-23T06:23:54.436Z",
+      "updated_at": "2021-08-25T16:19:19.098Z"
+    },
+    {
+      "id": 2306427,
+      "occurrence": 0,
+      "final_mark": 0,
+      "status": "finished",
+      "validated?": false,
+      "current_team_id": 3740266,
+      "project": {
+        "id": 1265,
+        "name": "C Piscine C 09",
+        "slug": "c-piscine-c-09",
+        "parent_id": null
+      },
+      "cursus_ids": [
+        9
+      ],
+      "marked_at": "2021-08-26T14:02:32.551Z",
+      "marked": true,
+      "retriable_at": "2021-08-26T14:22:32.624Z",
+      "created_at": "2021-08-22T18:08:00.141Z",
+      "updated_at": "2021-08-26T14:03:39.963Z"
+    },
+    {
+      "id": 2304842,
+      "occurrence": 3,
+      "final_mark": 100,
+      "status": "finished",
+      "validated?": true,
+      "current_team_id": 3742419,
+      "project": {
+        "id": 1264,
+        "name": "C Piscine C 08",
+        "slug": "c-piscine-c-08",
+        "parent_id": null
+      },
+      "cursus_ids": [
+        9
+      ],
+      "marked_at": "2021-08-23T16:57:28.208Z",
+      "marked": true,
+      "retriable_at": "2021-08-23T18:57:28.510Z",
+      "created_at": "2021-08-21T09:02:42.550Z",
+      "updated_at": "2021-08-23T16:57:28.536Z"
+    },
+    {
+      "id": 2299747,
+      "occurrence": 2,
+      "final_mark": 60,
+      "status": "finished",
+      "validated?": true,
+      "current_team_id": 3739060,
+      "project": {
+        "id": 1270,
+        "name": "C Piscine C 07",
+        "slug": "c-piscine-c-07",
+        "parent_id": null
+      },
+      "cursus_ids": [
+        9
+      ],
+      "marked_at": "2021-08-22T11:20:07.338Z",
+      "marked": true,
+      "retriable_at": "2021-08-22T12:20:07.528Z",
+      "created_at": "2021-08-18T09:41:03.489Z",
+      "updated_at": "2021-08-22T11:20:07.547Z"
+    },
+    {
+      "id": 2299201,
+      "occurrence": 1,
+      "final_mark": 100,
+      "status": "finished",
+      "validated?": true,
+      "current_team_id": 3731070,
+      "project": {
+        "id": 1263,
+        "name": "C Piscine C 06",
+        "slug": "c-piscine-c-06",
+        "parent_id": null
+      },
+      "cursus_ids": [
+        9
+      ],
+      "marked_at": "2021-08-18T13:03:04.902Z",
+      "marked": true,
+      "retriable_at": "2021-08-18T13:43:05.108Z",
+      "created_at": "2021-08-18T07:58:58.919Z",
+      "updated_at": "2021-08-18T13:03:05.147Z"
+    },
+    {
+      "id": 2299200,
+      "occurrence": 0,
+      "final_mark": 100,
+      "status": "finished",
+      "validated?": true,
+      "current_team_id": 3730168,
+      "project": {
+        "id": 1262,
+        "name": "C Piscine C 05",
+        "slug": "c-piscine-c-05",
+        "parent_id": null
+      },
+      "cursus_ids": [
+        9
+      ],
+      "marked_at": "2021-08-18T09:39:54.667Z",
+      "marked": true,
+      "retriable_at": "2021-08-18T09:59:54.814Z",
+      "created_at": "2021-08-18T07:58:50.659Z",
+      "updated_at": "2021-08-18T09:39:54.832Z"
+    },
+    {
+      "id": 2298768,
+      "occurrence": 0,
+      "final_mark": 84,
+      "status": "finished",
+      "validated?": true,
+      "current_team_id": 3729795,
+      "project": {
+        "id": 1303,
+        "name": "C Piscine Exam 02",
+        "slug": "c-piscine-exam-02",
+        "parent_id": null
+      },
+      "cursus_ids": [
+        9
+      ],
+      "marked_at": "2021-08-19T10:33:51.893Z",
+      "marked": true,
+      "retriable_at": null,
+      "created_at": "2021-08-18T05:48:36.125Z",
+      "updated_at": "2021-08-19T11:17:16.607Z"
+    },
+    {
+      "id": 2298766,
+      "occurrence": 0,
+      "final_mark": 0,
+      "status": "finished",
+      "validated?": false,
+      "current_team_id": 3735070,
+      "project": {
+        "id": 1309,
+        "name": "C Piscine Rush 02",
+        "slug": "c-piscine-rush-02",
+        "parent_id": null
+      },
+      "cursus_ids": [
+        9
+      ],
+      "marked_at": "2021-08-23T04:35:52.550Z",
+      "marked": true,
+      "retriable_at": null,
+      "created_at": "2021-08-18T05:48:01.043Z",
+      "updated_at": "2021-08-26T19:42:29.852Z"
+    },
+    {
+      "id": 2297225,
+      "occurrence": 0,
+      "final_mark": 77,
+      "status": "finished",
+      "validated?": true,
+      "current_team_id": 3727611,
+      "project": {
+        "id": 1261,
+        "name": "C Piscine C 04",
+        "slug": "c-piscine-c-04",
+        "parent_id": null
+      },
+      "cursus_ids": [
+        9
+      ],
+      "marked_at": "2021-08-17T18:15:49.609Z",
+      "marked": true,
+      "retriable_at": "2021-08-17T18:35:49.722Z",
+      "created_at": "2021-08-17T11:14:34.644Z",
+      "updated_at": "2021-08-17T18:15:49.737Z"
+    },
+    {
+      "id": 2297224,
+      "occurrence": 1,
+      "final_mark": 75,
+      "status": "finished",
+      "validated?": true,
+      "current_team_id": 3728108,
+      "project": {
+        "id": 1260,
+        "name": "C Piscine C 03",
+        "slug": "c-piscine-c-03",
+        "parent_id": null
+      },
+      "cursus_ids": [
+        9
+      ],
+      "marked_at": "2021-08-17T15:50:57.347Z",
+      "marked": true,
+      "retriable_at": "2021-08-17T16:30:57.472Z",
+      "created_at": "2021-08-17T11:14:23.157Z",
+      "updated_at": "2021-08-17T15:50:57.488Z"
+    },
+    {
+      "id": 2293412,
+      "occurrence": 0,
+      "final_mark": 80,
+      "status": "finished",
+      "validated?": true,
+      "current_team_id": 3722177,
+      "project": {
+        "id": 1302,
+        "name": "C Piscine Exam 01",
+        "slug": "c-piscine-exam-01",
+        "parent_id": null
+      },
+      "cursus_ids": [
+        9
+      ],
+      "marked_at": "2021-08-16T12:41:43.284Z",
+      "marked": true,
+      "retriable_at": null,
+      "created_at": "2021-08-15T08:57:14.642Z",
+      "updated_at": "2021-08-16T13:58:34.143Z"
+    },
+    {
+      "id": 2287632,
+      "occurrence": 0,
+      "final_mark": 0,
+      "status": "finished",
+      "validated?": false,
+      "current_team_id": 3718989,
+      "project": {
+        "id": 1310,
+        "name": "C Piscine Rush 01",
+        "slug": "c-piscine-rush-01",
+        "parent_id": null
+      },
+      "cursus_ids": [
+        9
+      ],
+      "marked_at": "2021-08-19T19:42:13.786Z",
+      "marked": true,
+      "retriable_at": null,
+      "created_at": "2021-08-11T08:13:39.336Z",
+      "updated_at": "2021-08-19T19:42:13.850Z"
+    },
+    {
+      "id": 2283340,
+      "occurrence": 2,
+      "final_mark": 65,
+      "status": "finished",
+      "validated?": true,
+      "current_team_id": 3715787,
+      "project": {
+        "id": 1259,
+        "name": "C Piscine C 02",
+        "slug": "c-piscine-c-02",
+        "parent_id": null
+      },
+      "cursus_ids": [
+        9
+      ],
+      "marked_at": "2021-08-11T15:03:38.699Z",
+      "marked": true,
+      "retriable_at": "2021-08-11T16:03:38.888Z",
+      "created_at": "2021-08-08T07:23:49.483Z",
+      "updated_at": "2021-08-11T15:03:38.926Z"
+    },
+    {
+      "id": 2282753,
+      "occurrence": 0,
+      "final_mark": 100,
+      "status": "finished",
+      "validated?": true,
+      "current_team_id": 3706847,
+      "project": {
+        "id": 1258,
+        "name": "C Piscine C 01",
+        "slug": "c-piscine-c-01",
+        "parent_id": null
+      },
+      "cursus_ids": [
+        9
+      ],
+      "marked_at": "2021-08-08T10:25:12.062Z",
+      "marked": true,
+      "retriable_at": "2021-08-08T10:45:12.203Z",
+      "created_at": "2021-08-07T11:29:51.827Z",
+      "updated_at": "2021-08-08T10:25:12.220Z"
+    },
+    {
+      "id": 2280135,
+      "occurrence": 0,
+      "final_mark": 60,
+      "status": "finished",
+      "validated?": true,
+      "current_team_id": 3704079,
+      "project": {
+        "id": 1308,
+        "name": "C Piscine Rush 00",
+        "slug": "c-piscine-rush-00",
+        "parent_id": null
+      },
+      "cursus_ids": [
+        9
+      ],
+      "marked_at": "2021-08-12T19:43:17.184Z",
+      "marked": true,
+      "retriable_at": null,
+      "created_at": "2021-08-05T13:04:03.393Z",
+      "updated_at": "2021-08-12T19:43:17.879Z"
+    },
+    {
+      "id": 2273381,
+      "occurrence": 1,
+      "final_mark": 67,
+      "status": "finished",
+      "validated?": true,
+      "current_team_id": 3703675,
+      "project": {
+        "id": 1257,
+        "name": "C Piscine C 00",
+        "slug": "c-piscine-c-00",
+        "parent_id": null
+      },
+      "cursus_ids": [
+        9
+      ],
+      "marked_at": "2021-08-07T11:28:18.990Z",
+      "marked": true,
+      "retriable_at": "2021-08-07T12:08:19.085Z",
+      "created_at": "2021-08-03T07:28:03.432Z",
+      "updated_at": "2021-08-07T11:28:19.099Z"
+    },
+    {
+      "id": 2273162,
+      "occurrence": 0,
+      "final_mark": 80,
+      "status": "finished",
+      "validated?": true,
+      "current_team_id": 3694655,
+      "project": {
+        "id": 1301,
+        "name": "C Piscine Exam 00",
+        "slug": "c-piscine-exam-00",
+        "parent_id": null
+      },
+      "cursus_ids": [
+        9
+      ],
+      "marked_at": "2021-08-05T11:50:28.421Z",
+      "marked": true,
+      "retriable_at": null,
+      "created_at": "2021-08-03T04:18:26.241Z",
+      "updated_at": "2021-08-05T12:00:51.272Z"
+    },
+    {
+      "id": 2273159,
+      "occurrence": 0,
+      "final_mark": 0,
+      "status": "finished",
+      "validated?": false,
+      "current_team_id": 3694653,
+      "project": {
+        "id": 1256,
+        "name": "C Piscine Shell 01",
+        "slug": "c-piscine-shell-01",
+        "parent_id": null
+      },
+      "cursus_ids": [
+        9
+      ],
+      "marked_at": "2021-08-26T14:02:42.868Z",
+      "marked": true,
+      "retriable_at": "2021-08-26T14:22:42.907Z",
+      "created_at": "2021-08-03T04:09:34.924Z",
+      "updated_at": "2021-08-26T14:03:41.282Z"
+    },
+    {
+      "id": 2269743,
+      "occurrence": 2,
+      "final_mark": 92,
+      "status": "finished",
+      "validated?": true,
+      "current_team_id": 3695298,
+      "project": {
+        "id": 1255,
+        "name": "C Piscine Shell 00",
+        "slug": "c-piscine-shell-00",
+        "parent_id": null
+      },
+      "cursus_ids": [
+        9
+      ],
+      "marked_at": "2021-08-03T11:48:52.220Z",
+      "marked": true,
+      "retriable_at": "2021-08-03T12:48:52.385Z",
+      "created_at": "2021-08-01T07:42:58.937Z",
+      "updated_at": "2021-08-03T11:48:52.401Z"
+    },
+    {
+      "id": 2554369,
+      "occurrence": 0,
+      "final_mark": 100,
+      "status": "in_progress",
+      "validated?": true,
+      "current_team_id": 4085625,
+      "project": {
+        "id": 1320,
+        "name": "Exam Rank 02",
+        "slug": "exam-rank-02",
+        "parent_id": null
+      },
+      "cursus_ids": [
+        21
+      ],
+      "marked_at": "2022-04-11T10:42:23.089Z",
+      "marked": true,
+      "retriable_at": "2022-04-11T10:42:23.228Z",
+      "created_at": "2022-04-07T06:28:04.747Z",
+      "updated_at": "2022-04-11T10:42:23.254Z"
+    },
+    {
+      "id": 2308981,
+      "occurrence": 0,
+      "final_mark": null,
+      "status": "finished",
+      "validated?": null,
+      "current_team_id": 3744250,
+      "project": {
+        "id": 1304,
+        "name": "C Piscine Final Exam",
+        "slug": "c-piscine-final-exam",
+        "parent_id": null
+      },
+      "cursus_ids": [
+        9
+      ],
+      "marked_at": null,
+      "marked": false,
+      "retriable_at": null,
+      "created_at": "2021-08-24T11:44:08.654Z",
+      "updated_at": "2021-08-26T13:55:59.028Z"
+    }
+  ],
+  "languages_users": [
+    {
+      "id": 387689,
+      "language_id": 2,
+      "user_id": 93223,
+      "position": 1,
+      "created_at": "2021-07-13T11:29:45.800Z"
+    }
+  ],
+  "achievements": [
+    {
+      "id": 41,
+      "name": "All work and no play makes Jack a dull boy",
+      "description": "Logged for a total of 90 hours over a week.",
+      "tier": "none",
+      "kind": "scolarity",
+      "visible": true,
+      "image": "/uploads/achievement/image/41/SCO001.svg",
+      "nbr_of_success": null,
+      "users_url": "https://api.intra.42.fr/v2/achievements/41/users"
+    },
+    {
+      "id": 169,
+      "name": "Bill Gates",
+      "description": "Donated 1 evaluation point to the pool.",
+      "tier": "none",
+      "kind": "scolarity",
+      "visible": true,
+      "image": "/uploads/achievement/image/169/BADGE_SCOLARITY_billgates.svg",
+      "nbr_of_success": 13,
+      "users_url": "https://api.intra.42.fr/v2/achievements/169/users"
+    },
+    {
+      "id": 17,
+      "name": "Bonus Hunter",
+      "description": "Validated 1 project with the maximum score.",
+      "tier": "easy",
+      "kind": "project",
+      "visible": true,
+      "image": "/uploads/achievement/image/17/PRO005.svg",
+      "nbr_of_success": 1,
+      "users_url": "https://api.intra.42.fr/v2/achievements/17/users"
+    },
+    {
+      "id": 18,
+      "name": "Bonus Hunter",
+      "description": "Validated 3 projects with the maximum score.",
+      "tier": "medium",
+      "kind": "project",
+      "visible": true,
+      "image": "/uploads/achievement/image/18/PRO005.svg",
+      "nbr_of_success": 3,
+      "users_url": "https://api.intra.42.fr/v2/achievements/18/users"
+    },
+    {
+      "id": 19,
+      "name": "Bonus Hunter",
+      "description": "Validated 10 projects with the maximum score.",
+      "tier": "hard",
+      "kind": "project",
+      "visible": true,
+      "image": "/uploads/achievement/image/19/PRO005.svg",
+      "nbr_of_success": 10,
+      "users_url": "https://api.intra.42.fr/v2/achievements/19/users"
+    },
+    {
+      "id": 4,
+      "name": "Code Explorer",
+      "description": "Valided your first project.",
+      "tier": "none",
+      "kind": "project",
+      "visible": true,
+      "image": "/uploads/achievement/image/4/PRO002.svg",
+      "nbr_of_success": 1,
+      "users_url": "https://api.intra.42.fr/v2/achievements/4/users"
+    },
+    {
+      "id": 5,
+      "name": "Code Explorer",
+      "description": "Validated 3 projects",
+      "tier": "none",
+      "kind": "project",
+      "visible": true,
+      "image": "/uploads/achievement/image/5/PRO002.svg",
+      "nbr_of_success": 3,
+      "users_url": "https://api.intra.42.fr/v2/achievements/5/users"
+    },
+    {
+      "id": 6,
+      "name": "Code Explorer",
+      "description": "Validated 10 projects.",
+      "tier": "none",
+      "kind": "project",
+      "visible": true,
+      "image": "/uploads/achievement/image/6/PRO002.svg",
+      "nbr_of_success": 10,
+      "users_url": "https://api.intra.42.fr/v2/achievements/6/users"
+    },
+    {
+      "id": 7,
+      "name": "Code Explorer",
+      "description": "Validated 21 projects.",
+      "tier": "none",
+      "kind": "project",
+      "visible": true,
+      "image": "/uploads/achievement/image/7/PRO002.svg",
+      "nbr_of_success": 21,
+      "users_url": "https://api.intra.42.fr/v2/achievements/7/users"
+    },
+    {
+      "id": 46,
+      "name": "Film buff",
+      "description": "Watched 1 video from the e-learning.",
+      "tier": "none",
+      "kind": "pedagogy",
+      "visible": true,
+      "image": "/uploads/achievement/image/46/PED005.svg",
+      "nbr_of_success": 1,
+      "users_url": "https://api.intra.42.fr/v2/achievements/46/users"
+    },
+    {
+      "id": 47,
+      "name": "Film buff",
+      "description": "Watched 3 videos from the e-learning.",
+      "tier": "none",
+      "kind": "pedagogy",
+      "visible": true,
+      "image": "/uploads/achievement/image/47/PED005.svg",
+      "nbr_of_success": 3,
+      "users_url": "https://api.intra.42.fr/v2/achievements/47/users"
+    },
+    {
+      "id": 48,
+      "name": "Film buff",
+      "description": "Watched 10 videos from the e-learning.",
+      "tier": "none",
+      "kind": "pedagogy",
+      "visible": true,
+      "image": "/uploads/achievement/image/48/PED005.svg",
+      "nbr_of_success": 10,
+      "users_url": "https://api.intra.42.fr/v2/achievements/48/users"
+    },
+    {
+      "id": 49,
+      "name": "Film buff",
+      "description": "Watched 21 videos from the e-learning.",
+      "tier": "none",
+      "kind": "pedagogy",
+      "visible": true,
+      "image": "/uploads/achievement/image/49/PED005.svg",
+      "nbr_of_success": 21,
+      "users_url": "https://api.intra.42.fr/v2/achievements/49/users"
+    },
+    {
+      "id": 50,
+      "name": "Film buff",
+      "description": "Watched 42 videos from the e-learning.",
+      "tier": "none",
+      "kind": "pedagogy",
+      "visible": true,
+      "image": "/uploads/achievement/image/50/PED005.svg",
+      "nbr_of_success": 42,
+      "users_url": "https://api.intra.42.fr/v2/achievements/50/users"
+    },
+    {
+      "id": 45,
+      "name": "Home is where the code is",
+      "description": "Logged into the same cluster for a month in a row",
+      "tier": "none",
+      "kind": "scolarity",
+      "visible": true,
+      "image": "/uploads/achievement/image/45/SCO002.svg",
+      "nbr_of_success": null,
+      "users_url": "https://api.intra.42.fr/v2/achievements/45/users"
+    },
+    {
+      "id": 82,
+      "name": "I have no idea what I'm doing",
+      "description": "Made a defense without having validated the project.",
+      "tier": "none",
+      "kind": "pedagogy",
+      "visible": true,
+      "image": "/uploads/achievement/image/82/PED011.svg",
+      "nbr_of_success": null,
+      "users_url": "https://api.intra.42.fr/v2/achievements/82/users"
+    },
+    {
+      "id": 84,
+      "name": "I'm reliable !",
+      "description": "Participated in 21 defenses in a row without missing any.",
+      "tier": "easy",
+      "kind": "pedagogy",
+      "visible": true,
+      "image": "/uploads/achievement/image/84/PED009.svg",
+      "nbr_of_success": 21,
+      "users_url": "https://api.intra.42.fr/v2/achievements/84/users"
+    },
+    {
+      "id": 36,
+      "name": "It's a rich man's world",
+      "description": "Collected 100 wallet points.",
+      "tier": "none",
+      "kind": "social",
+      "visible": true,
+      "image": "/uploads/achievement/image/36/SOC004.svg",
+      "nbr_of_success": 100,
+      "users_url": "https://api.intra.42.fr/v2/achievements/36/users"
+    },
+    {
+      "id": 12,
+      "name": "Perfectionist",
+      "description": "Validated and redid 1 project.",
+      "tier": "none",
+      "kind": "project",
+      "visible": true,
+      "image": "/uploads/achievement/image/12/PRO004.svg",
+      "nbr_of_success": 1,
+      "users_url": "https://api.intra.42.fr/v2/achievements/12/users"
+    },
+    {
+      "id": 25,
+      "name": "Rigorous Basterd",
+      "description": "Validated 3 projects in a row (Piscine days included).",
+      "tier": "none",
+      "kind": "project",
+      "visible": true,
+      "image": "/uploads/achievement/image/25/PRO010.svg",
+      "nbr_of_success": 3,
+      "users_url": "https://api.intra.42.fr/v2/achievements/25/users"
+    },
+    {
+      "id": 26,
+      "name": "Rigorous Basterd",
+      "description": "Validated 10 projects in a row (Piscine days included).",
+      "tier": "easy",
+      "kind": "project",
+      "visible": true,
+      "image": "/uploads/achievement/image/26/PRO010.svg",
+      "nbr_of_success": 10,
+      "users_url": "https://api.intra.42.fr/v2/achievements/26/users"
+    },
+    {
+      "id": 1,
+      "name": "Welcome, Cadet !",
+      "description": "You have passed the C Piscine! Welcome to 42!",
+      "tier": "none",
+      "kind": "project",
+      "visible": true,
+      "image": "/uploads/achievement/image/1/PRO001.svg",
+      "nbr_of_success": null,
+      "users_url": "https://api.intra.42.fr/v2/achievements/1/users"
+    },
+    {
+      "id": 218,
+      "name": "Welcome, Learner !",
+      "description": "You passed the C Piscine. Welcome at 42!",
+      "tier": "none",
+      "kind": "project",
+      "visible": true,
+      "image": "/uploads/achievement/image/218/PRO001-2.svg",
+      "nbr_of_success": null,
+      "users_url": "https://api.intra.42.fr/v2/achievements/218/users"
+    }
+  ],
+  "titles": [],
+  "titles_users": [],
+  "partnerships": [],
+  "patroned": [],
+  "patroning": [],
+  "expertises_users": [],
+  "roles": [],
+  "campus": [
+    {
+      "id": 43,
+      "name": "Abu Dhabi",
+      "time_zone": "Asia/Dubai",
+      "language": {
+        "id": 2,
+        "name": "English",
+        "identifier": "en",
+        "created_at": "2015-04-14T16:07:38.122Z",
+        "updated_at": "2023-02-16T11:08:11.620Z"
+      },
+      "users_count": 1500,
+      "vogsphere_id": 30,
+      "country": "United Arab Emirates",
+      "address": "Mina Zayed, Warehouse District ",
+      "zip": "00000",
+      "city": "Abu Dhabi",
+      "website": "https://42abudhabi.ae/",
+      "facebook": "",
+      "twitter": "",
+      "active": true,
+      "public": true,
+      "email_extension": "42abudhabi.ae",
+      "default_hidden_phone": false
+    }
+  ],
+  "campus_users": [
+    {
+      "id": 84770,
+      "user_id": 93223,
+      "campus_id": 43,
+      "is_primary": true,
+      "created_at": "2021-07-13T11:29:45.659Z",
+      "updated_at": "2021-07-13T11:29:45.659Z"
+    }
+  ]
+}
