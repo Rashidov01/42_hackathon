@@ -2,7 +2,7 @@ version: '3'
 
 services:
 
-  # frontend (Nuxtjs)
+  # frontend (Reactjs)
   web:
     image: node:19
     env_file:

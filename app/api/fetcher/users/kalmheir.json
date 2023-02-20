@@ -20,15 +20,15 @@
     }
   },
   "staff?": false,
-  "correction_point": 7,
+  "correction_point": 4,
   "pool_month": "august",
   "pool_year": "2021",
   "location": null,
   "wallet": 50,
-  "anonymize_date": "2026-02-18T00:00:00.000+04:00",
-  "data_erasure_date": "2026-02-18T00:00:00.000+04:00",
+  "anonymize_date": "2026-02-19T00:00:00.000+04:00",
+  "data_erasure_date": "2026-02-19T00:00:00.000+04:00",
   "created_at": "2021-07-12T10:16:56.569Z",
-  "updated_at": "2023-02-18T16:36:42.720Z",
+  "updated_at": "2023-02-19T16:48:05.445Z",
   "alumnized_at": null,
   "alumni?": false,
   "active?": true,
@@ -89,15 +89,15 @@
           }
         },
         "staff?": false,
-        "correction_point": 7,
+        "correction_point": 4,
         "pool_month": "august",
         "pool_year": "2021",
         "location": null,
         "wallet": 50,
-        "anonymize_date": "2026-02-18T00:00:00.000+04:00",
-        "data_erasure_date": "2026-02-18T00:00:00.000+04:00",
+        "anonymize_date": "2026-02-19T00:00:00.000+04:00",
+        "data_erasure_date": "2026-02-19T00:00:00.000+04:00",
         "created_at": "2021-07-12T10:16:56.569Z",
-        "updated_at": "2023-02-18T16:36:42.720Z",
+        "updated_at": "2023-02-19T16:48:05.445Z",
         "alumnized_at": null,
         "alumni?": false,
         "active?": true
@@ -175,15 +175,15 @@
           }
         },
         "staff?": false,
-        "correction_point": 7,
+        "correction_point": 4,
         "pool_month": "august",
         "pool_year": "2021",
         "location": null,
         "wallet": 50,
-        "anonymize_date": "2026-02-18T00:00:00.000+04:00",
-        "data_erasure_date": "2026-02-18T00:00:00.000+04:00",
+        "anonymize_date": "2026-02-19T00:00:00.000+04:00",
+        "data_erasure_date": "2026-02-19T00:00:00.000+04:00",
         "created_at": "2021-07-12T10:16:56.569Z",
-        "updated_at": "2023-02-18T16:36:42.720Z",
+        "updated_at": "2023-02-19T16:48:05.445Z",
         "alumnized_at": null,
         "alumni?": false,
         "active?": true
@@ -198,6 +198,28 @@
     }
   ],
   "projects_users": [
+    {
+      "id": 2977524,
+      "occurrence": 0,
+      "final_mark": 80,
+      "status": "finished",
+      "validated?": true,
+      "current_team_id": 4680253,
+      "project": {
+        "id": 1342,
+        "name": "CPP Module 04",
+        "slug": "cpp-module-04",
+        "parent_id": null
+      },
+      "cursus_ids": [
+        21
+      ],
+      "marked_at": "2023-02-19T14:03:55.727Z",
+      "marked": true,
+      "retriable_at": "2023-02-20T14:03:55.782Z",
+      "created_at": "2023-02-10T16:24:41.975Z",
+      "updated_at": "2023-02-19T14:03:55.804Z"
+    },
     {
       "id": 2964196,
       "occurrence": 0,
@@ -219,28 +241,6 @@
       "retriable_at": null,
       "created_at": "2023-02-03T22:41:02.130Z",
       "updated_at": "2023-02-16T18:52:15.426Z"
-    },
-    {
-      "id": 2977524,
-      "occurrence": 0,
-      "final_mark": null,
-      "status": "in_progress",
-      "validated?": null,
-      "current_team_id": 4680253,
-      "project": {
-        "id": 1342,
-        "name": "CPP Module 04",
-        "slug": "cpp-module-04",
-        "parent_id": null
-      },
-      "cursus_ids": [
-        21
-      ],
-      "marked_at": null,
-      "marked": false,
-      "retriable_at": null,
-      "created_at": "2023-02-10T16:24:41.975Z",
-      "updated_at": "2023-02-10T16:26:23.947Z"
     },
     {
       "id": 2967950,

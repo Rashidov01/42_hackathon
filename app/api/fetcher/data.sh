@@ -43,7 +43,7 @@ function get_all_info {
     local response=$(curl -s -H "Authorization: Bearer $TOKEN" "https://api.intra.42.fr/v2/users/$user")
     all_users+=("$response")
     ((count++))
-    echo "Processed $count users." > counter.txt
+    echo "Processed $count users. \n Current Token $TOKEN" > counter.txt
     echo "$response" > "pretty/$user.json"
     jq '.' ./pretty/$user.json > ./users/$user.json
     if [ $count -eq 750 ]; then

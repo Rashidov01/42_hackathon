@@ -20,15 +20,15 @@
     }
   },
   "staff?": false,
-  "correction_point": 4,
+  "correction_point": 1,
   "pool_month": "august",
   "pool_year": "2022",
   "location": null,
   "wallet": 45,
-  "anonymize_date": "2026-02-18T00:00:00.000+04:00",
-  "data_erasure_date": "2026-02-18T00:00:00.000+04:00",
+  "anonymize_date": "2026-02-19T00:00:00.000+04:00",
+  "data_erasure_date": "2026-02-19T00:00:00.000+04:00",
   "created_at": "2022-07-28T11:23:27.733Z",
-  "updated_at": "2023-02-17T14:06:39.332Z",
+  "updated_at": "2023-02-19T10:35:05.015Z",
   "alumnized_at": null,
   "alumni?": false,
   "active?": true,
@@ -94,15 +94,15 @@
           }
         },
         "staff?": false,
-        "correction_point": 4,
+        "correction_point": 1,
         "pool_month": "august",
         "pool_year": "2022",
         "location": null,
         "wallet": 45,
-        "anonymize_date": "2026-02-18T00:00:00.000+04:00",
-        "data_erasure_date": "2026-02-18T00:00:00.000+04:00",
+        "anonymize_date": "2026-02-19T00:00:00.000+04:00",
+        "data_erasure_date": "2026-02-19T00:00:00.000+04:00",
         "created_at": "2022-07-28T11:23:27.733Z",
-        "updated_at": "2023-02-17T14:06:39.332Z",
+        "updated_at": "2023-02-19T10:35:05.015Z",
         "alumnized_at": null,
         "alumni?": false,
         "active?": true
@@ -117,22 +117,22 @@
     },
     {
       "grade": "Learner",
-      "level": 2.55,
+      "level": 3.03,
       "skills": [
-        {
-          "id": 3,
-          "name": "Rigor",
-          "level": 2.81
-        },
         {
           "id": 1,
           "name": "Algorithms & AI",
-          "level": 2.33
+          "level": 3.2
+        },
+        {
+          "id": 3,
+          "name": "Rigor",
+          "level": 2.96
         },
         {
           "id": 4,
           "name": "Unix",
-          "level": 1.9100000000000001
+          "level": 2.08
         },
         {
           "id": 10,
@@ -142,10 +142,10 @@
         {
           "id": 2,
           "name": "Imperative programming",
-          "level": 0.74
+          "level": 1.16
         }
       ],
-      "blackholed_at": "2023-05-18T04:42:00.000Z",
+      "blackholed_at": "2023-06-11T04:42:00.000Z",
       "id": 186651,
       "begin_at": "2022-09-19T04:42:00.000Z",
       "end_at": null,
@@ -175,15 +175,15 @@
           }
         },
         "staff?": false,
-        "correction_point": 4,
+        "correction_point": 1,
         "pool_month": "august",
         "pool_year": "2022",
         "location": null,
         "wallet": 45,
-        "anonymize_date": "2026-02-18T00:00:00.000+04:00",
-        "data_erasure_date": "2026-02-18T00:00:00.000+04:00",
+        "anonymize_date": "2026-02-19T00:00:00.000+04:00",
+        "data_erasure_date": "2026-02-19T00:00:00.000+04:00",
         "created_at": "2022-07-28T11:23:27.733Z",
-        "updated_at": "2023-02-17T14:06:39.332Z",
+        "updated_at": "2023-02-19T10:35:05.015Z",
         "alumnized_at": null,
         "alumni?": false,
         "active?": true
@@ -198,6 +198,28 @@
     }
   ],
   "projects_users": [
+    {
+      "id": 2922904,
+      "occurrence": 1,
+      "final_mark": 86,
+      "status": "finished",
+      "validated?": true,
+      "current_team_id": 4702583,
+      "project": {
+        "id": 1471,
+        "name": "push_swap",
+        "slug": "42cursus-push_swap",
+        "parent_id": null
+      },
+      "cursus_ids": [
+        21
+      ],
+      "marked_at": "2023-02-19T09:09:16.583Z",
+      "marked": true,
+      "retriable_at": "2023-02-21T09:09:16.757Z",
+      "created_at": "2022-12-26T05:21:22.273Z",
+      "updated_at": "2023-02-19T09:09:16.770Z"
+    },
     {
       "id": 2919778,
       "occurrence": 2,
@@ -219,28 +241,6 @@
       "retriable_at": "2023-02-16T16:57:41.172Z",
       "created_at": "2022-12-20T16:36:26.923Z",
       "updated_at": "2023-02-16T17:02:24.828Z"
-    },
-    {
-      "id": 2922904,
-      "occurrence": 0,
-      "final_mark": 0,
-      "status": "finished",
-      "validated?": false,
-      "current_team_id": 4606750,
-      "project": {
-        "id": 1471,
-        "name": "push_swap",
-        "slug": "42cursus-push_swap",
-        "parent_id": null
-      },
-      "cursus_ids": [
-        21
-      ],
-      "marked_at": "2023-02-16T08:58:08.733Z",
-      "marked": true,
-      "retriable_at": "2023-02-18T08:58:08.763Z",
-      "created_at": "2022-12-26T05:21:22.273Z",
-      "updated_at": "2023-02-16T08:58:08.781Z"
     },
     {
       "id": 2918604,
