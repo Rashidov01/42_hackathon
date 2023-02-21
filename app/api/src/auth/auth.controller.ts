@@ -1,4 +1,4 @@
-import { Controller, Get, Req } from "@nestjs/common";
+import { Controller, Get, Post, Req } from "@nestjs/common";
 import { AuthService } from "./auth.service";
 import { UseGuards } from "@nestjs/common";
 import { AuthGuard } from '@nestjs/passport'
@@ -9,7 +9,7 @@ export class AuthController {
 
 	constructor(private authService: AuthService) {}
 
-	@Get('/auth')
+	@Post('/auth')
 	async GetAuth(@Req() request) {
 		let token = this.authService.GetToken(request.headers.authorization);
 		const auth = await this.authService.getAccessToken(token);
