@@ -1,5 +1,8 @@
 import { Controller, Get, Req } from "@nestjs/common";
 import { AuthService } from "./auth.service";
+import { UseGuards } from "@nestjs/common";
+import { AuthGuard } from '@nestjs/passport'
+import { JwtAuthGuard } from "./guard/auth.guard";
 
 @Controller('/api')
 export class AuthController {
@@ -11,6 +14,16 @@ export class AuthController {
 		let token = this.authService.GetToken(request.headers.authorization);
 		const auth = await this.authService.getAccessToken(token);
 		const data = await this.authService.getProfile(auth);
-		return (await this.authService.GetUserInfo(data));
+		return ({
+			access_token: await this.authService.GetUserInfo(data)
+		});
 	}
+
+	@UseGuards(AuthGuard('jwt'))
+	@Get('/users/me')
+	async GetMe(@Req() request) {
+		console.log(`name: ${request.user.login}`)
+		return (await this.authService.getUser(request.user.login));
+	}
+
 }

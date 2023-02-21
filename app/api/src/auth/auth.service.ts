@@ -2,8 +2,6 @@ import { PrismaClient } from '@prisma/client';
 import { Injectable } from "@nestjs/common";
 import axios from 'axios';
 import * as jwt from 'jsonwebtoken';
-// require('dotenv').config();
-
 
 
 @Injectable({})
@@ -17,11 +15,11 @@ export class AuthService {
 	
 	async getAccessToken(authCode) {
 		const response = await axios.post('https://api.intra.42.fr/oauth/token', {
-			grant_type: 'authorization_code',
-			client_id: '',
-			client_secret: '',
+			grant_type: process.env.GRANT_TYPE,
+			client_id: process.env.CLIENT_ID,
+			client_secret: process.env.CLIENT_SECRET,
 			code: authCode,
-			redirect_uri: 'http://127.0.0.1/api'
+			redirect_uri: process.env.REDIRECT_URI
 		});
 		const accessToken = response.data.access_token;
 		return accessToken;
@@ -41,8 +39,19 @@ export class AuthService {
 		const token = {
 			login: data.login,
 		}
-		const key = jwt.sign(token, 'process.env.JWT_SECRET');
+		const key = jwt.sign(token, process.env.JWT_SECRET);
         return key;
+	}
+
+	async getUser(login) {
+		const user = await this.prisma.user.findUnique({
+			where: {
+				login: login
+			}
+		});
+		if (!user)
+			throw new Error('User not found');
+		return user;
 	}
 
 }
