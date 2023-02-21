@@ -20,15 +20,15 @@
     }
   },
   "staff?": false,
-  "correction_point": 3,
+  "correction_point": 0,
   "pool_month": "august",
   "pool_year": "2022",
   "location": null,
   "wallet": 10,
-  "anonymize_date": "2026-02-18T00:00:00.000+04:00",
-  "data_erasure_date": "2026-02-18T00:00:00.000+04:00",
+  "anonymize_date": "2026-02-19T00:00:00.000+04:00",
+  "data_erasure_date": "2026-02-19T00:00:00.000+04:00",
   "created_at": "2022-07-26T10:44:06.830Z",
-  "updated_at": "2023-02-18T17:10:26.557Z",
+  "updated_at": "2023-02-19T20:37:14.001Z",
   "alumnized_at": null,
   "alumni?": false,
   "active?": true,
@@ -94,15 +94,15 @@
           }
         },
         "staff?": false,
-        "correction_point": 3,
+        "correction_point": 0,
         "pool_month": "august",
         "pool_year": "2022",
         "location": null,
         "wallet": 10,
-        "anonymize_date": "2026-02-18T00:00:00.000+04:00",
-        "data_erasure_date": "2026-02-18T00:00:00.000+04:00",
+        "anonymize_date": "2026-02-19T00:00:00.000+04:00",
+        "data_erasure_date": "2026-02-19T00:00:00.000+04:00",
         "created_at": "2022-07-26T10:44:06.830Z",
-        "updated_at": "2023-02-18T17:10:26.557Z",
+        "updated_at": "2023-02-19T20:37:14.001Z",
         "alumnized_at": null,
         "alumni?": false,
         "active?": true
@@ -117,7 +117,7 @@
     },
     {
       "grade": "Learner",
-      "level": 1.83,
+      "level": 2.06,
       "skills": [
         {
           "id": 1,
@@ -127,7 +127,12 @@
         {
           "id": 3,
           "name": "Rigor",
-          "level": 1.97
+          "level": 2.14
+        },
+        {
+          "id": 10,
+          "name": "Network & system administration",
+          "level": 1.33
         },
         {
           "id": 4,
@@ -140,7 +145,7 @@
           "level": 0.59
         }
       ],
-      "blackholed_at": "2023-04-06T04:42:00.000Z",
+      "blackholed_at": "2023-04-19T04:42:00.000Z",
       "id": 186644,
       "begin_at": "2022-09-19T04:42:00.000Z",
       "end_at": null,
@@ -170,15 +175,15 @@
           }
         },
         "staff?": false,
-        "correction_point": 3,
+        "correction_point": 0,
         "pool_month": "august",
         "pool_year": "2022",
         "location": null,
         "wallet": 10,
-        "anonymize_date": "2026-02-18T00:00:00.000+04:00",
-        "data_erasure_date": "2026-02-18T00:00:00.000+04:00",
+        "anonymize_date": "2026-02-19T00:00:00.000+04:00",
+        "data_erasure_date": "2026-02-19T00:00:00.000+04:00",
         "created_at": "2022-07-26T10:44:06.830Z",
-        "updated_at": "2023-02-18T17:10:26.557Z",
+        "updated_at": "2023-02-19T20:37:14.001Z",
         "alumnized_at": null,
         "alumni?": false,
         "active?": true
@@ -195,11 +200,11 @@
   "projects_users": [
     {
       "id": 2990396,
-      "occurrence": 0,
-      "final_mark": 58,
+      "occurrence": 1,
+      "final_mark": 100,
       "status": "finished",
-      "validated?": false,
-      "current_team_id": 4699689,
+      "validated?": true,
+      "current_team_id": 4703717,
       "project": {
         "id": 1994,
         "name": "Born2beroot",
@@ -209,11 +214,11 @@
       "cursus_ids": [
         21
       ],
-      "marked_at": "2023-02-18T16:29:12.731Z",
+      "marked_at": "2023-02-19T19:54:31.124Z",
       "marked": true,
-      "retriable_at": "2023-02-19T16:29:12.763Z",
+      "retriable_at": "2023-02-20T19:54:31.298Z",
       "created_at": "2023-02-17T14:50:52.263Z",
-      "updated_at": "2023-02-18T16:29:12.778Z"
+      "updated_at": "2023-02-19T19:54:31.314Z"
     },
     {
       "id": 2953384,

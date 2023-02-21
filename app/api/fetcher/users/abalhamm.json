@@ -20,15 +20,15 @@
     }
   },
   "staff?": false,
-  "correction_point": 9,
+  "correction_point": 7,
   "pool_month": "august",
   "pool_year": "2022",
   "location": null,
   "wallet": 15,
-  "anonymize_date": "2026-02-04T00:00:00.000+04:00",
-  "data_erasure_date": "2026-02-04T00:00:00.000+04:00",
+  "anonymize_date": "2026-02-20T00:00:00.000+04:00",
+  "data_erasure_date": "2026-02-20T00:00:00.000+04:00",
   "created_at": "2022-07-26T08:53:35.173Z",
-  "updated_at": "2023-01-29T16:39:43.891Z",
+  "updated_at": "2023-02-19T21:00:42.599Z",
   "alumnized_at": null,
   "alumni?": false,
   "active?": true,
@@ -89,15 +89,15 @@
           }
         },
         "staff?": false,
-        "correction_point": 9,
+        "correction_point": 7,
         "pool_month": "august",
         "pool_year": "2022",
         "location": null,
         "wallet": 15,
-        "anonymize_date": "2026-02-04T00:00:00.000+04:00",
-        "data_erasure_date": "2026-02-04T00:00:00.000+04:00",
+        "anonymize_date": "2026-02-20T00:00:00.000+04:00",
+        "data_erasure_date": "2026-02-20T00:00:00.000+04:00",
         "created_at": "2022-07-26T08:53:35.173Z",
-        "updated_at": "2023-01-29T16:39:43.891Z",
+        "updated_at": "2023-02-19T21:00:42.599Z",
         "alumnized_at": null,
         "alumni?": false,
         "active?": true
@@ -160,15 +160,15 @@
           }
         },
         "staff?": false,
-        "correction_point": 9,
+        "correction_point": 7,
         "pool_month": "august",
         "pool_year": "2022",
         "location": null,
         "wallet": 15,
-        "anonymize_date": "2026-02-04T00:00:00.000+04:00",
-        "data_erasure_date": "2026-02-04T00:00:00.000+04:00",
+        "anonymize_date": "2026-02-20T00:00:00.000+04:00",
+        "data_erasure_date": "2026-02-20T00:00:00.000+04:00",
         "created_at": "2022-07-26T08:53:35.173Z",
-        "updated_at": "2023-01-29T16:39:43.891Z",
+        "updated_at": "2023-02-19T21:00:42.599Z",
         "alumnized_at": null,
         "alumni?": false,
         "active?": true
@@ -183,6 +183,28 @@
     }
   ],
   "projects_users": [
+    {
+      "id": 2992951,
+      "occurrence": 0,
+      "final_mark": 62,
+      "status": "finished",
+      "validated?": false,
+      "current_team_id": 4703909,
+      "project": {
+        "id": 1327,
+        "name": "get_next_line",
+        "slug": "42cursus-get_next_line",
+        "parent_id": null
+      },
+      "cursus_ids": [
+        21
+      ],
+      "marked_at": "2023-02-19T20:53:05.184Z",
+      "marked": true,
+      "retriable_at": "2023-02-20T20:53:05.225Z",
+      "created_at": "2023-02-19T18:18:09.908Z",
+      "updated_at": "2023-02-19T20:53:05.241Z"
+    },
     {
       "id": 2952882,
       "occurrence": 0,

@@ -25,10 +25,10 @@
   "pool_year": "2022",
   "location": null,
   "wallet": 645,
-  "anonymize_date": "2026-02-18T00:00:00.000+04:00",
-  "data_erasure_date": "2026-02-18T00:00:00.000+04:00",
+  "anonymize_date": "2026-02-19T00:00:00.000+04:00",
+  "data_erasure_date": "2026-02-19T00:00:00.000+04:00",
   "created_at": "2022-03-01T09:17:13.846Z",
-  "updated_at": "2023-02-18T12:46:22.745Z",
+  "updated_at": "2023-02-19T19:11:27.634Z",
   "alumnized_at": null,
   "alumni?": false,
   "active?": true,
@@ -89,10 +89,10 @@
         "pool_year": "2022",
         "location": null,
         "wallet": 645,
-        "anonymize_date": "2026-02-18T00:00:00.000+04:00",
-        "data_erasure_date": "2026-02-18T00:00:00.000+04:00",
+        "anonymize_date": "2026-02-19T00:00:00.000+04:00",
+        "data_erasure_date": "2026-02-19T00:00:00.000+04:00",
         "created_at": "2022-03-01T09:17:13.846Z",
-        "updated_at": "2023-02-18T12:46:22.745Z",
+        "updated_at": "2023-02-19T19:11:27.634Z",
         "alumnized_at": null,
         "alumni?": false,
         "active?": true
@@ -180,10 +180,10 @@
         "pool_year": "2022",
         "location": null,
         "wallet": 645,
-        "anonymize_date": "2026-02-18T00:00:00.000+04:00",
-        "data_erasure_date": "2026-02-18T00:00:00.000+04:00",
+        "anonymize_date": "2026-02-19T00:00:00.000+04:00",
+        "data_erasure_date": "2026-02-19T00:00:00.000+04:00",
         "created_at": "2022-03-01T09:17:13.846Z",
-        "updated_at": "2023-02-18T12:46:22.745Z",
+        "updated_at": "2023-02-19T19:11:27.634Z",
         "alumnized_at": null,
         "alumni?": false,
         "active?": true
@@ -198,6 +198,28 @@
     }
   ],
   "projects_users": [
+    {
+      "id": 2851972,
+      "occurrence": 0,
+      "final_mark": null,
+      "status": "in_progress",
+      "validated?": null,
+      "current_team_id": 4703475,
+      "project": {
+        "id": 1315,
+        "name": "miniRT",
+        "slug": "minirt",
+        "parent_id": null
+      },
+      "cursus_ids": [
+        21
+      ],
+      "marked_at": null,
+      "marked": false,
+      "retriable_at": null,
+      "created_at": "2022-10-26T05:28:43.512Z",
+      "updated_at": "2023-02-19T14:47:56.317Z"
+    },
     {
       "id": 2831687,
       "occurrence": 1,
@@ -307,28 +329,6 @@
       "retriable_at": "2022-10-30T16:01:12.180Z",
       "created_at": "2022-10-25T15:55:17.013Z",
       "updated_at": "2022-10-27T16:01:12.203Z"
-    },
-    {
-      "id": 2851972,
-      "occurrence": 0,
-      "final_mark": null,
-      "status": "searching_a_group",
-      "validated?": null,
-      "current_team_id": null,
-      "project": {
-        "id": 1315,
-        "name": "miniRT",
-        "slug": "minirt",
-        "parent_id": null
-      },
-      "cursus_ids": [
-        21
-      ],
-      "marked_at": null,
-      "marked": false,
-      "retriable_at": null,
-      "created_at": "2022-10-26T05:28:43.512Z",
-      "updated_at": "2022-10-26T05:28:43.512Z"
     },
     {
       "id": 2851704,

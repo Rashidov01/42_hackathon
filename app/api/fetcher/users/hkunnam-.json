@@ -20,15 +20,15 @@
     }
   },
   "staff?": false,
-  "correction_point": 4,
+  "correction_point": 1,
   "pool_month": "november",
   "pool_year": "2022",
   "location": null,
   "wallet": 145,
-  "anonymize_date": "2026-02-18T00:00:00.000+04:00",
-  "data_erasure_date": "2026-02-18T00:00:00.000+04:00",
+  "anonymize_date": "2026-02-19T00:00:00.000+04:00",
+  "data_erasure_date": "2026-02-19T00:00:00.000+04:00",
   "created_at": "2022-10-25T10:47:15.218Z",
-  "updated_at": "2023-02-18T14:14:08.347Z",
+  "updated_at": "2023-02-19T13:45:50.147Z",
   "alumnized_at": null,
   "alumni?": false,
   "active?": true,
@@ -89,15 +89,15 @@
           }
         },
         "staff?": false,
-        "correction_point": 4,
+        "correction_point": 1,
         "pool_month": "november",
         "pool_year": "2022",
         "location": null,
         "wallet": 145,
-        "anonymize_date": "2026-02-18T00:00:00.000+04:00",
-        "data_erasure_date": "2026-02-18T00:00:00.000+04:00",
+        "anonymize_date": "2026-02-19T00:00:00.000+04:00",
+        "data_erasure_date": "2026-02-19T00:00:00.000+04:00",
         "created_at": "2022-10-25T10:47:15.218Z",
-        "updated_at": "2023-02-18T14:14:08.347Z",
+        "updated_at": "2023-02-19T13:45:50.147Z",
         "alumnized_at": null,
         "alumni?": false,
         "active?": true
@@ -112,7 +112,7 @@
     },
     {
       "grade": "Learner",
-      "level": 3.13,
+      "level": 3.38,
       "skills": [
         {
           "id": 1,
@@ -125,19 +125,19 @@
           "level": 2.65
         },
         {
-          "id": 5,
-          "name": "Graphics",
-          "level": 1.46
-        },
-        {
           "id": 2,
           "name": "Imperative programming",
-          "level": 1.41
+          "level": 2.26
         },
         {
           "id": 4,
           "name": "Unix",
-          "level": 1.4
+          "level": 2.25
+        },
+        {
+          "id": 5,
+          "name": "Graphics",
+          "level": 1.46
         },
         {
           "id": 10,
@@ -145,7 +145,7 @@
           "level": 1.37
         }
       ],
-      "blackholed_at": "2023-10-17T04:42:00.000Z",
+      "blackholed_at": "2023-11-04T04:42:00.000Z",
       "id": 199493,
       "begin_at": "2023-01-10T04:42:00.000Z",
       "end_at": null,
@@ -175,15 +175,15 @@
           }
         },
         "staff?": false,
-        "correction_point": 4,
+        "correction_point": 1,
         "pool_month": "november",
         "pool_year": "2022",
         "location": null,
         "wallet": 145,
-        "anonymize_date": "2026-02-18T00:00:00.000+04:00",
-        "data_erasure_date": "2026-02-18T00:00:00.000+04:00",
+        "anonymize_date": "2026-02-19T00:00:00.000+04:00",
+        "data_erasure_date": "2026-02-19T00:00:00.000+04:00",
         "created_at": "2022-10-25T10:47:15.218Z",
-        "updated_at": "2023-02-18T14:14:08.347Z",
+        "updated_at": "2023-02-19T13:45:50.147Z",
         "alumnized_at": null,
         "alumni?": false,
         "active?": true
@@ -199,11 +199,33 @@
   ],
   "projects_users": [
     {
-      "id": 2990019,
+      "id": 2992871,
       "occurrence": 0,
       "final_mark": null,
       "status": "in_progress",
       "validated?": null,
+      "current_team_id": 4703704,
+      "project": {
+        "id": 1321,
+        "name": "Exam Rank 03",
+        "slug": "exam-rank-03",
+        "parent_id": null
+      },
+      "cursus_ids": [
+        21
+      ],
+      "marked_at": null,
+      "marked": false,
+      "retriable_at": null,
+      "created_at": "2023-02-19T16:46:13.515Z",
+      "updated_at": "2023-02-19T16:46:13.664Z"
+    },
+    {
+      "id": 2990019,
+      "occurrence": 0,
+      "final_mark": 125,
+      "status": "finished",
+      "validated?": true,
       "current_team_id": 4699273,
       "project": {
         "id": 2004,
@@ -214,11 +236,11 @@
       "cursus_ids": [
         21
       ],
-      "marked_at": null,
-      "marked": false,
-      "retriable_at": null,
+      "marked_at": "2023-02-19T12:27:10.765Z",
+      "marked": true,
+      "retriable_at": "2023-02-21T12:27:10.929Z",
       "created_at": "2023-02-17T11:39:10.358Z",
-      "updated_at": "2023-02-17T11:41:05.280Z"
+      "updated_at": "2023-02-19T12:27:10.948Z"
     },
     {
       "id": 2957236,

@@ -25,10 +25,10 @@
   "pool_year": "2021",
   "location": null,
   "wallet": 45,
-  "anonymize_date": "2026-02-18T00:00:00.000+04:00",
-  "data_erasure_date": "2026-02-18T00:00:00.000+04:00",
+  "anonymize_date": "2026-02-19T00:00:00.000+04:00",
+  "data_erasure_date": "2026-02-19T00:00:00.000+04:00",
   "created_at": "2021-07-13T11:31:59.493Z",
-  "updated_at": "2023-02-18T17:06:35.037Z",
+  "updated_at": "2023-02-19T16:02:46.196Z",
   "alumnized_at": null,
   "alumni?": false,
   "active?": true,
@@ -89,10 +89,10 @@
         "pool_year": "2021",
         "location": null,
         "wallet": 45,
-        "anonymize_date": "2026-02-18T00:00:00.000+04:00",
-        "data_erasure_date": "2026-02-18T00:00:00.000+04:00",
+        "anonymize_date": "2026-02-19T00:00:00.000+04:00",
+        "data_erasure_date": "2026-02-19T00:00:00.000+04:00",
         "created_at": "2021-07-13T11:31:59.493Z",
-        "updated_at": "2023-02-18T17:06:35.037Z",
+        "updated_at": "2023-02-19T16:02:46.196Z",
         "alumnized_at": null,
         "alumni?": false,
         "active?": true
@@ -175,10 +175,10 @@
         "pool_year": "2021",
         "location": null,
         "wallet": 45,
-        "anonymize_date": "2026-02-18T00:00:00.000+04:00",
-        "data_erasure_date": "2026-02-18T00:00:00.000+04:00",
+        "anonymize_date": "2026-02-19T00:00:00.000+04:00",
+        "data_erasure_date": "2026-02-19T00:00:00.000+04:00",
         "created_at": "2021-07-13T11:31:59.493Z",
-        "updated_at": "2023-02-18T17:06:35.037Z",
+        "updated_at": "2023-02-19T16:02:46.196Z",
         "alumnized_at": null,
         "alumni?": false,
         "active?": true
@@ -193,6 +193,28 @@
     }
   ],
   "projects_users": [
+    {
+      "id": 2962628,
+      "occurrence": 0,
+      "final_mark": null,
+      "status": "in_progress",
+      "validated?": null,
+      "current_team_id": 4702419,
+      "project": {
+        "id": 1326,
+        "name": "cub3d",
+        "slug": "cub3d",
+        "parent_id": null
+      },
+      "cursus_ids": [
+        21
+      ],
+      "marked_at": null,
+      "marked": false,
+      "retriable_at": null,
+      "created_at": "2023-02-02T19:01:34.743Z",
+      "updated_at": "2023-02-19T01:26:46.987Z"
+    },
     {
       "id": 2983834,
       "occurrence": 0,
@@ -236,28 +258,6 @@
       "retriable_at": "2023-02-15T20:54:15.123Z",
       "created_at": "2023-01-30T01:44:32.516Z",
       "updated_at": "2023-02-14T20:54:15.137Z"
-    },
-    {
-      "id": 2962628,
-      "occurrence": 0,
-      "final_mark": null,
-      "status": "searching_a_group",
-      "validated?": null,
-      "current_team_id": null,
-      "project": {
-        "id": 1326,
-        "name": "cub3d",
-        "slug": "cub3d",
-        "parent_id": null
-      },
-      "cursus_ids": [
-        21
-      ],
-      "marked_at": null,
-      "marked": false,
-      "retriable_at": null,
-      "created_at": "2023-02-02T19:01:34.743Z",
-      "updated_at": "2023-02-02T19:01:34.743Z"
     },
     {
       "id": 2950046,

@@ -20,7 +20,7 @@
     }
   },
   "staff?": false,
-  "correction_point": 4,
+  "correction_point": 3,
   "pool_month": "march",
   "pool_year": "2022",
   "location": null,
@@ -28,7 +28,7 @@
   "anonymize_date": "2026-02-19T00:00:00.000+04:00",
   "data_erasure_date": "2026-02-19T00:00:00.000+04:00",
   "created_at": "2022-03-01T09:20:40.176Z",
-  "updated_at": "2023-02-15T15:02:46.956Z",
+  "updated_at": "2023-02-19T22:25:17.784Z",
   "alumnized_at": null,
   "alumni?": false,
   "active?": true,
@@ -84,7 +84,7 @@
           }
         },
         "staff?": false,
-        "correction_point": 4,
+        "correction_point": 3,
         "pool_month": "march",
         "pool_year": "2022",
         "location": null,
@@ -92,7 +92,7 @@
         "anonymize_date": "2026-02-19T00:00:00.000+04:00",
         "data_erasure_date": "2026-02-19T00:00:00.000+04:00",
         "created_at": "2022-03-01T09:20:40.176Z",
-        "updated_at": "2023-02-15T15:02:46.956Z",
+        "updated_at": "2023-02-19T22:25:17.784Z",
         "alumnized_at": null,
         "alumni?": false,
         "active?": true
@@ -170,7 +170,7 @@
           }
         },
         "staff?": false,
-        "correction_point": 4,
+        "correction_point": 3,
         "pool_month": "march",
         "pool_year": "2022",
         "location": null,
@@ -178,7 +178,7 @@
         "anonymize_date": "2026-02-19T00:00:00.000+04:00",
         "data_erasure_date": "2026-02-19T00:00:00.000+04:00",
         "created_at": "2022-03-01T09:20:40.176Z",
-        "updated_at": "2023-02-15T15:02:46.956Z",
+        "updated_at": "2023-02-19T22:25:17.784Z",
         "alumnized_at": null,
         "alumni?": false,
         "active?": true
@@ -193,6 +193,28 @@
     }
   ],
   "projects_users": [
+    {
+      "id": 2992556,
+      "occurrence": 0,
+      "final_mark": 0,
+      "status": "finished",
+      "validated?": false,
+      "current_team_id": 4703205,
+      "project": {
+        "id": 2007,
+        "name": "NetPractice",
+        "slug": "netpractice",
+        "parent_id": null
+      },
+      "cursus_ids": [
+        21
+      ],
+      "marked_at": "2023-02-19T14:43:18.465Z",
+      "marked": true,
+      "retriable_at": "2023-02-22T14:43:18.502Z",
+      "created_at": "2023-02-19T12:16:10.398Z",
+      "updated_at": "2023-02-19T14:43:18.518Z"
+    },
     {
       "id": 2932802,
       "occurrence": 0,

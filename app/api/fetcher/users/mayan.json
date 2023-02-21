@@ -20,15 +20,15 @@
     }
   },
   "staff?": false,
-  "correction_point": 6,
+  "correction_point": 3,
   "pool_month": "november",
   "pool_year": "2022",
   "location": null,
   "wallet": 15,
-  "anonymize_date": "2026-02-18T00:00:00.000+04:00",
-  "data_erasure_date": "2026-02-18T00:00:00.000+04:00",
+  "anonymize_date": "2026-02-19T00:00:00.000+04:00",
+  "data_erasure_date": "2026-02-19T00:00:00.000+04:00",
   "created_at": "2022-10-27T08:58:57.617Z",
-  "updated_at": "2023-02-18T16:35:02.412Z",
+  "updated_at": "2023-02-19T19:15:12.392Z",
   "alumnized_at": null,
   "alumni?": false,
   "active?": true,
@@ -84,15 +84,15 @@
           }
         },
         "staff?": false,
-        "correction_point": 6,
+        "correction_point": 3,
         "pool_month": "november",
         "pool_year": "2022",
         "location": null,
         "wallet": 15,
-        "anonymize_date": "2026-02-18T00:00:00.000+04:00",
-        "data_erasure_date": "2026-02-18T00:00:00.000+04:00",
+        "anonymize_date": "2026-02-19T00:00:00.000+04:00",
+        "data_erasure_date": "2026-02-19T00:00:00.000+04:00",
         "created_at": "2022-10-27T08:58:57.617Z",
-        "updated_at": "2023-02-18T16:35:02.412Z",
+        "updated_at": "2023-02-19T19:15:12.392Z",
         "alumnized_at": null,
         "alumni?": false,
         "active?": true
@@ -107,17 +107,22 @@
     },
     {
       "grade": "Learner",
-      "level": 1.44,
+      "level": 1.8900000000000001,
       "skills": [
         {
           "id": 1,
           "name": "Algorithms & AI",
-          "level": 1.77
+          "level": 2.3
         },
         {
           "id": 3,
           "name": "Rigor",
-          "level": 1.6099999999999999
+          "level": 2.01
+        },
+        {
+          "id": 4,
+          "name": "Unix",
+          "level": 1.05
         },
         {
           "id": 2,
@@ -125,7 +130,7 @@
           "level": 0.74
         }
       ],
-      "blackholed_at": "2023-07-05T04:42:00.000Z",
+      "blackholed_at": "2023-07-31T04:42:00.000Z",
       "id": 199511,
       "begin_at": "2023-01-10T04:42:00.000Z",
       "end_at": null,
@@ -155,15 +160,15 @@
           }
         },
         "staff?": false,
-        "correction_point": 6,
+        "correction_point": 3,
         "pool_month": "november",
         "pool_year": "2022",
         "location": null,
         "wallet": 15,
-        "anonymize_date": "2026-02-18T00:00:00.000+04:00",
-        "data_erasure_date": "2026-02-18T00:00:00.000+04:00",
+        "anonymize_date": "2026-02-19T00:00:00.000+04:00",
+        "data_erasure_date": "2026-02-19T00:00:00.000+04:00",
         "created_at": "2022-10-27T08:58:57.617Z",
-        "updated_at": "2023-02-18T16:35:02.412Z",
+        "updated_at": "2023-02-19T19:15:12.392Z",
         "alumnized_at": null,
         "alumni?": false,
         "active?": true
@@ -181,9 +186,9 @@
     {
       "id": 2960811,
       "occurrence": 0,
-      "final_mark": null,
-      "status": "in_progress",
-      "validated?": null,
+      "final_mark": 112,
+      "status": "finished",
+      "validated?": true,
       "current_team_id": 4658242,
       "project": {
         "id": 1327,
@@ -194,11 +199,11 @@
       "cursus_ids": [
         21
       ],
-      "marked_at": null,
-      "marked": false,
-      "retriable_at": null,
+      "marked_at": "2023-02-19T19:12:29.991Z",
+      "marked": true,
+      "retriable_at": "2023-02-20T19:12:30.086Z",
       "created_at": "2023-02-02T07:02:20.267Z",
-      "updated_at": "2023-02-02T07:04:03.209Z"
+      "updated_at": "2023-02-19T19:12:30.099Z"
     },
     {
       "id": 2951440,
@@ -617,6 +622,17 @@
       "image": "/uploads/achievement/image/4/PRO002.svg",
       "nbr_of_success": 1,
       "users_url": "https://api.intra.42.fr/v2/achievements/4/users"
+    },
+    {
+      "id": 5,
+      "name": "Code Explorer",
+      "description": "Validated 3 projects",
+      "tier": "none",
+      "kind": "project",
+      "visible": true,
+      "image": "/uploads/achievement/image/5/PRO002.svg",
+      "nbr_of_success": 3,
+      "users_url": "https://api.intra.42.fr/v2/achievements/5/users"
     },
     {
       "id": 46,
