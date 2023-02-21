@@ -77,15 +77,15 @@ Nest is [MIT licensed](LICENSE).
 data is set to be saved when you close and reopen the container through the volume
 to apply your new update to the database run the command:
 ```
-docker exec -it 42_hackathon-api-1 npx prisma migrate dev
+docker exec -it 42_hackathon_api_1 npx prisma migrate dev
 ```
 to set the database on the site as tables to be able to see and access them run:
 ```
-docker exec -it 42_hackathon-api-1 npx prisma studio
+docker exec -it 42_hackathon_api_1 npx prisma studio
 ```
 to be able to use database in our code through prisma client run the command
 ```
-docker exec -it 42_hackathon-api-1 npx prisma generate
+docker exec -it 42_hackathon_api_1 npx prisma generate
 ```
 
 ## Fill Database
