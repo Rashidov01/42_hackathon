@@ -79,10 +79,6 @@ to apply your new update to the database run the command:
 ```
 docker exec -it 42_hackathon-api-1 npx prisma migrate dev
 ```
-to set the database on the site as tables to be able to see and access them run:
-```
-docker exec -it 42_hackathon-api-1 npx prisma studio
-```
 to be able to use database in our code through prisma client run the command
 ```
 docker exec -it 42_hackathon-api-1 npx prisma generate
@@ -95,4 +91,9 @@ bash data.sh
 ```
 OR
 to avoid updating database and waiting 35 min, just make a patch request to our api on the endpoint ```/api/update``` to install all of our local info on the database
+
+## Auth
+to authenticate a user after extracting the code from 42 authentication, make a post request to the endpoint ```/api/auth``` by including the code as a header with the request as a bearer token, then you will receive a new encoded token that is used to communicate between the backend and frontend to identify the logged in user.
+
+to get the current logged in user send the provided token mentioned up there in the request in the header as a bearer token to the endpoint ```/api/users/me``` and you'll get the info of that user.
 
