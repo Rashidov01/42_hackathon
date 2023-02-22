@@ -1,5 +1,5 @@
 import { PrismaClient } from '@prisma/client';
-import { Injectable } from "@nestjs/common";
+import { Injectable, NotFoundException } from "@nestjs/common";
 import axios from 'axios';
 import * as jwt from 'jsonwebtoken';
 
@@ -50,7 +50,7 @@ export class AuthService {
 			}
 		});
 		if (!user)
-			throw new Error('User not found');
+			throw new NotFoundException('User not found');
 		return user;
 	}
 

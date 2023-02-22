@@ -89,23 +89,19 @@ model UserSkill {
 
 model ProjectUser {
   id               Int      @id
-  user_id          Int
-  occurrence       Int
-  final_mark       Int
-  status           String
-  validated        Boolean @map("validated?")
-  current_team_id  Int     @map("current_team_id")
-  marked           Boolean
-  marked_at        DateTime @map("marked_at")
-  retriable_at     DateTime @map("retriable_at")
-  created_at       DateTime @map("created_at")
-  updated_at       DateTime @map("updated_at")
-  project_id       Int     @map("project.id")
-  name             String  @map("project.name")
-  slug             String  @map("project.slug")
-  parent_id        Int?    @map("project.parent_id")
-  cursus_ids       Int[]
-  user             User    @relation(fields: [user_id], references: [id])
+  user_id          Int      @default(autoincrement())
+  occurrence       Int?     @default(0)
+  final_mark       Int?     @default(0)
+  status           String?  
+  validated        Boolean  @default(false)
+  current_team_id  Int?
+  marked           Boolean?
+  marked_at        DateTime?
+  retriable_at     DateTime?
+  created_at       DateTime?
+  updated_at       DateTime?
+  name             String?
+  user             User?    @relation(fields: [user_id], references: [id])
 }
 
 model LanguagesUsers {
