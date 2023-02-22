@@ -73,7 +73,6 @@ export class UpdateService {
               kind: jsonData.kind,
               alumnized_at: jsonData.alumnized_at,
               alumni: jsonData.alumni,
-              titles: jsonData.titles,
               login: jsonData.login,
               email: jsonData.email,
               first_name: jsonData.first_name,
@@ -96,8 +95,8 @@ export class UpdateService {
           await createProjectsUsers(jsonData);
 
           console.log(`User ${jsonData.login} created.`);
-        } catch (error) {
-          // console.error(error);
+        } catch (error){
+          console.log(error);
           console.error(`Error creating ${jsonData.login} user`);
         }
       });

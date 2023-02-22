@@ -18,4 +18,26 @@ export class ProjectService {
     });
   }
 
+  async getNewsByProjectName(name: string) {
+    const yesterday = new Date();
+    yesterday.setDate(yesterday.getDate() - 60);
+    yesterday.setUTCHours(0, 0, 0, 0);
+    const projects = await this.prisma.user.findMany({
+      where: {
+        Project_users: {
+          some: {
+            name: name,
+            marked_at: {
+              gte: yesterday.toISOString(),
+              lt: new Date().toISOString(),
+            },
+          },
+        },
+      },
+    });
+    return projects;
+  }
+  
+  
+
 }

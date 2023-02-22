@@ -30,10 +30,10 @@ model User {
   pool_year          String?
   location           String?
   wallet             Int
-  anonymize_date     DateTime
-  data_erasure_date  DateTime
-  created_at         DateTime
-  updated_at         DateTime
+  anonymize_date     DateTime?
+  data_erasure_date  DateTime?
+  created_at         DateTime?
+  updated_at         DateTime?
   alumnized_at       DateTime?
   alumni             Boolean?
   active             Boolean?
@@ -41,7 +41,6 @@ model User {
   Project_users      ProjectUser[]
   User_skill         UserSkill[]
   achievements       Achievement[]
-  titles             String[]
   languages_users    LanguagesUsers[]
 }
 
