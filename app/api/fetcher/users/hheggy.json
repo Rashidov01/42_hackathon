@@ -25,10 +25,10 @@
   "pool_year": "2021",
   "location": null,
   "wallet": 45,
-  "anonymize_date": "2026-02-17T00:00:00.000+04:00",
-  "data_erasure_date": "2026-02-17T00:00:00.000+04:00",
+  "anonymize_date": "2026-02-19T00:00:00.000+04:00",
+  "data_erasure_date": "2026-02-19T00:00:00.000+04:00",
   "created_at": "2021-05-02T17:20:13.431Z",
-  "updated_at": "2023-02-17T22:35:32.694Z",
+  "updated_at": "2023-02-19T02:28:48.131Z",
   "alumnized_at": null,
   "alumni?": false,
   "active?": true,
@@ -94,10 +94,10 @@
         "pool_year": "2021",
         "location": null,
         "wallet": 45,
-        "anonymize_date": "2026-02-17T00:00:00.000+04:00",
-        "data_erasure_date": "2026-02-17T00:00:00.000+04:00",
+        "anonymize_date": "2026-02-19T00:00:00.000+04:00",
+        "data_erasure_date": "2026-02-19T00:00:00.000+04:00",
         "created_at": "2021-05-02T17:20:13.431Z",
-        "updated_at": "2023-02-17T22:35:32.694Z",
+        "updated_at": "2023-02-19T02:28:48.131Z",
         "alumnized_at": null,
         "alumni?": false,
         "active?": true
@@ -180,10 +180,10 @@
         "pool_year": "2021",
         "location": null,
         "wallet": 45,
-        "anonymize_date": "2026-02-17T00:00:00.000+04:00",
-        "data_erasure_date": "2026-02-17T00:00:00.000+04:00",
+        "anonymize_date": "2026-02-19T00:00:00.000+04:00",
+        "data_erasure_date": "2026-02-19T00:00:00.000+04:00",
         "created_at": "2021-05-02T17:20:13.431Z",
-        "updated_at": "2023-02-17T22:35:32.694Z",
+        "updated_at": "2023-02-19T02:28:48.131Z",
         "alumnized_at": null,
         "alumni?": false,
         "active?": true
@@ -198,6 +198,28 @@
     }
   ],
   "projects_users": [
+    {
+      "id": 2992140,
+      "occurrence": 0,
+      "final_mark": null,
+      "status": "in_progress",
+      "validated?": null,
+      "current_team_id": 4702419,
+      "project": {
+        "id": 1326,
+        "name": "cub3d",
+        "slug": "cub3d",
+        "parent_id": null
+      },
+      "cursus_ids": [
+        21
+      ],
+      "marked_at": null,
+      "marked": false,
+      "retriable_at": null,
+      "created_at": "2023-02-18T23:21:13.256Z",
+      "updated_at": "2023-02-19T01:26:46.986Z"
+    },
     {
       "id": 2975454,
       "occurrence": 0,

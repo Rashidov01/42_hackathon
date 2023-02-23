@@ -18,10 +18,10 @@
     "app/*"
   ],
   "devDependencies": {
-    "lerna": "^6.4.1",
     "concurrently": "^7.6.0",
-    "prettier": "^2.8.2",
-    "lerna-changelog": "^2.2.0"
+    "lerna": "^6.4.1",
+    "lerna-changelog": "^2.2.0",
+    "prettier": "^2.8.2"
   },
   "changelog": {
     "labels": {

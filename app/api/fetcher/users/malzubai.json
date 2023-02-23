@@ -20,15 +20,15 @@
     }
   },
   "staff?": false,
-  "correction_point": 5,
+  "correction_point": 3,
   "pool_month": "july",
   "pool_year": "2021",
   "location": null,
   "wallet": 645,
-  "anonymize_date": "2026-02-16T00:00:00.000+04:00",
-  "data_erasure_date": "2026-02-16T00:00:00.000+04:00",
+  "anonymize_date": "2026-02-19T00:00:00.000+04:00",
+  "data_erasure_date": "2026-02-19T00:00:00.000+04:00",
   "created_at": "2021-06-08T12:28:38.546Z",
-  "updated_at": "2023-02-16T17:07:21.108Z",
+  "updated_at": "2023-02-19T19:26:43.083Z",
   "alumnized_at": null,
   "alumni?": false,
   "active?": true,
@@ -84,15 +84,15 @@
           }
         },
         "staff?": false,
-        "correction_point": 5,
+        "correction_point": 3,
         "pool_month": "july",
         "pool_year": "2021",
         "location": null,
         "wallet": 645,
-        "anonymize_date": "2026-02-16T00:00:00.000+04:00",
-        "data_erasure_date": "2026-02-16T00:00:00.000+04:00",
+        "anonymize_date": "2026-02-19T00:00:00.000+04:00",
+        "data_erasure_date": "2026-02-19T00:00:00.000+04:00",
         "created_at": "2021-06-08T12:28:38.546Z",
-        "updated_at": "2023-02-16T17:07:21.108Z",
+        "updated_at": "2023-02-19T19:26:43.083Z",
         "alumnized_at": null,
         "alumni?": false,
         "active?": true
@@ -170,15 +170,15 @@
           }
         },
         "staff?": false,
-        "correction_point": 5,
+        "correction_point": 3,
         "pool_month": "july",
         "pool_year": "2021",
         "location": null,
         "wallet": 645,
-        "anonymize_date": "2026-02-16T00:00:00.000+04:00",
-        "data_erasure_date": "2026-02-16T00:00:00.000+04:00",
+        "anonymize_date": "2026-02-19T00:00:00.000+04:00",
+        "data_erasure_date": "2026-02-19T00:00:00.000+04:00",
         "created_at": "2021-06-08T12:28:38.546Z",
-        "updated_at": "2023-02-16T17:07:21.108Z",
+        "updated_at": "2023-02-19T19:26:43.083Z",
         "alumnized_at": null,
         "alumni?": false,
         "active?": true
@@ -194,11 +194,33 @@
   ],
   "projects_users": [
     {
-      "id": 2988943,
+      "id": 2992805,
       "occurrence": 0,
       "final_mark": null,
-      "status": "in_progress",
+      "status": "waiting_for_correction",
       "validated?": null,
+      "current_team_id": 4703611,
+      "project": {
+        "id": 1345,
+        "name": "CPP Module 07",
+        "slug": "cpp-module-07",
+        "parent_id": null
+      },
+      "cursus_ids": [
+        21
+      ],
+      "marked_at": null,
+      "marked": false,
+      "retriable_at": null,
+      "created_at": "2023-02-19T16:03:20.113Z",
+      "updated_at": "2023-02-19T16:23:25.577Z"
+    },
+    {
+      "id": 2988943,
+      "occurrence": 0,
+      "final_mark": 100,
+      "status": "finished",
+      "validated?": true,
       "current_team_id": 4697671,
       "project": {
         "id": 1344,
@@ -209,11 +231,11 @@
       "cursus_ids": [
         21
       ],
-      "marked_at": null,
-      "marked": false,
-      "retriable_at": null,
+      "marked_at": "2023-02-19T16:02:34.739Z",
+      "marked": true,
+      "retriable_at": "2023-02-20T16:02:34.777Z",
       "created_at": "2023-02-16T17:08:59.154Z",
-      "updated_at": "2023-02-16T17:10:58.309Z"
+      "updated_at": "2023-02-19T16:02:34.795Z"
     },
     {
       "id": 2948110,

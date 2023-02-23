@@ -25,10 +25,10 @@
   "pool_year": "2022",
   "location": null,
   "wallet": 15,
-  "anonymize_date": "2026-02-18T00:00:00.000+04:00",
-  "data_erasure_date": "2026-02-18T00:00:00.000+04:00",
+  "anonymize_date": "2026-02-19T00:00:00.000+04:00",
+  "data_erasure_date": "2026-02-19T00:00:00.000+04:00",
   "created_at": "2022-09-12T06:01:08.494Z",
-  "updated_at": "2023-02-18T17:03:27.999Z",
+  "updated_at": "2023-02-19T16:43:30.172Z",
   "alumnized_at": null,
   "alumni?": false,
   "active?": true,
@@ -94,10 +94,10 @@
         "pool_year": "2022",
         "location": null,
         "wallet": 15,
-        "anonymize_date": "2026-02-18T00:00:00.000+04:00",
-        "data_erasure_date": "2026-02-18T00:00:00.000+04:00",
+        "anonymize_date": "2026-02-19T00:00:00.000+04:00",
+        "data_erasure_date": "2026-02-19T00:00:00.000+04:00",
         "created_at": "2022-09-12T06:01:08.494Z",
-        "updated_at": "2023-02-18T17:03:27.999Z",
+        "updated_at": "2023-02-19T16:43:30.172Z",
         "alumnized_at": null,
         "alumni?": false,
         "active?": true
@@ -112,17 +112,22 @@
     },
     {
       "grade": "Learner",
-      "level": 1.44,
+      "level": 1.73,
       "skills": [
+        {
+          "id": 3,
+          "name": "Rigor",
+          "level": 1.87
+        },
         {
           "id": 1,
           "name": "Algorithms & AI",
           "level": 1.77
         },
         {
-          "id": 3,
-          "name": "Rigor",
-          "level": 1.6099999999999999
+          "id": 10,
+          "name": "Network & system administration",
+          "level": 1.3900000000000001
         },
         {
           "id": 2,
@@ -130,7 +135,7 @@
           "level": 0.74
         }
       ],
-      "blackholed_at": "2023-07-05T04:42:00.000Z",
+      "blackholed_at": "2023-07-22T04:42:00.000Z",
       "id": 199068,
       "begin_at": "2023-01-10T04:42:00.000Z",
       "end_at": null,
@@ -165,10 +170,10 @@
         "pool_year": "2022",
         "location": null,
         "wallet": 15,
-        "anonymize_date": "2026-02-18T00:00:00.000+04:00",
-        "data_erasure_date": "2026-02-18T00:00:00.000+04:00",
+        "anonymize_date": "2026-02-19T00:00:00.000+04:00",
+        "data_erasure_date": "2026-02-19T00:00:00.000+04:00",
         "created_at": "2022-09-12T06:01:08.494Z",
-        "updated_at": "2023-02-18T17:03:27.999Z",
+        "updated_at": "2023-02-19T16:43:30.172Z",
         "alumnized_at": null,
         "alumni?": false,
         "active?": true
@@ -186,9 +191,9 @@
     {
       "id": 2987548,
       "occurrence": 1,
-      "final_mark": 0,
-      "status": "waiting_for_correction",
-      "validated?": false,
+      "final_mark": 110,
+      "status": "finished",
+      "validated?": true,
       "current_team_id": 4699337,
       "project": {
         "id": 1994,
@@ -199,11 +204,11 @@
       "cursus_ids": [
         21
       ],
-      "marked_at": "2023-02-16T10:13:08.363Z",
+      "marked_at": "2023-02-19T14:02:46.578Z",
       "marked": true,
-      "retriable_at": "2023-02-17T10:13:08.415Z",
+      "retriable_at": "2023-02-20T14:02:46.771Z",
       "created_at": "2023-02-16T09:21:44.433Z",
-      "updated_at": "2023-02-18T15:46:41.582Z"
+      "updated_at": "2023-02-19T14:02:46.785Z"
     },
     {
       "id": 2953359,
@@ -622,6 +627,17 @@
       "image": "/uploads/achievement/image/4/PRO002.svg",
       "nbr_of_success": 1,
       "users_url": "https://api.intra.42.fr/v2/achievements/4/users"
+    },
+    {
+      "id": 5,
+      "name": "Code Explorer",
+      "description": "Validated 3 projects",
+      "tier": "none",
+      "kind": "project",
+      "visible": true,
+      "image": "/uploads/achievement/image/5/PRO002.svg",
+      "nbr_of_success": 3,
+      "users_url": "https://api.intra.42.fr/v2/achievements/5/users"
     },
     {
       "id": 45,

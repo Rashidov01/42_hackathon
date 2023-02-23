@@ -23,12 +23,12 @@
   "correction_point": 18,
   "pool_month": "march",
   "pool_year": "2022",
-  "location": null,
+  "location": "lab1r2s12",
   "wallet": 145,
-  "anonymize_date": "2026-02-18T00:00:00.000+04:00",
-  "data_erasure_date": "2026-02-18T00:00:00.000+04:00",
+  "anonymize_date": "2026-02-20T00:00:00.000+04:00",
+  "data_erasure_date": "2026-02-20T00:00:00.000+04:00",
   "created_at": "2022-03-03T13:29:46.985Z",
-  "updated_at": "2023-02-18T16:35:04.457Z",
+  "updated_at": "2023-02-19T23:24:10.883Z",
   "alumnized_at": null,
   "alumni?": false,
   "active?": true,
@@ -97,12 +97,12 @@
         "correction_point": 18,
         "pool_month": "march",
         "pool_year": "2022",
-        "location": null,
+        "location": "lab1r2s12",
         "wallet": 145,
-        "anonymize_date": "2026-02-18T00:00:00.000+04:00",
-        "data_erasure_date": "2026-02-18T00:00:00.000+04:00",
+        "anonymize_date": "2026-02-20T00:00:00.000+04:00",
+        "data_erasure_date": "2026-02-20T00:00:00.000+04:00",
         "created_at": "2022-03-03T13:29:46.985Z",
-        "updated_at": "2023-02-18T16:35:04.457Z",
+        "updated_at": "2023-02-19T23:24:10.883Z",
         "alumnized_at": null,
         "alumni?": false,
         "active?": true
@@ -183,12 +183,12 @@
         "correction_point": 18,
         "pool_month": "march",
         "pool_year": "2022",
-        "location": null,
+        "location": "lab1r2s12",
         "wallet": 145,
-        "anonymize_date": "2026-02-18T00:00:00.000+04:00",
-        "data_erasure_date": "2026-02-18T00:00:00.000+04:00",
+        "anonymize_date": "2026-02-20T00:00:00.000+04:00",
+        "data_erasure_date": "2026-02-20T00:00:00.000+04:00",
         "created_at": "2022-03-03T13:29:46.985Z",
-        "updated_at": "2023-02-18T16:35:04.457Z",
+        "updated_at": "2023-02-19T23:24:10.883Z",
         "alumnized_at": null,
         "alumni?": false,
         "active?": true
@@ -205,11 +205,11 @@
   "projects_users": [
     {
       "id": 2964682,
-      "occurrence": 0,
+      "occurrence": 1,
       "final_mark": 0,
-      "status": "finished",
+      "status": "waiting_for_correction",
       "validated?": false,
-      "current_team_id": 4663375,
+      "current_team_id": 4703902,
       "project": {
         "id": 1331,
         "name": "minishell",
@@ -223,7 +223,7 @@
       "marked": true,
       "retriable_at": "2023-02-19T16:43:02.162Z",
       "created_at": "2023-02-04T18:47:07.506Z",
-      "updated_at": "2023-02-17T16:43:02.252Z"
+      "updated_at": "2023-02-19T18:50:09.314Z"
     },
     {
       "id": 2893977,
@@ -1061,9 +1061,9 @@
       "id": 22417,
       "user_id": 108861,
       "title_id": 1328,
-      "selected": false,
+      "selected": true,
       "created_at": "2023-02-12T17:26:25.592Z",
-      "updated_at": "2023-02-12T17:26:25.592Z"
+      "updated_at": "2023-02-19T23:24:10.881Z"
     }
   ],
   "partnerships": [],

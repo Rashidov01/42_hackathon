@@ -20,15 +20,15 @@
     }
   },
   "staff?": false,
-  "correction_point": 3,
+  "correction_point": 1,
   "pool_month": "may",
   "pool_year": "2021",
   "location": null,
-  "wallet": 5,
+  "wallet": 10,
   "anonymize_date": "2026-02-19T00:00:00.000+04:00",
   "data_erasure_date": "2026-02-19T00:00:00.000+04:00",
   "created_at": "2021-05-03T17:26:04.140Z",
-  "updated_at": "2023-02-16T12:48:08.693Z",
+  "updated_at": "2023-02-19T16:12:33.893Z",
   "alumnized_at": null,
   "alumni?": false,
   "active?": true,
@@ -89,15 +89,15 @@
           }
         },
         "staff?": false,
-        "correction_point": 3,
+        "correction_point": 1,
         "pool_month": "may",
         "pool_year": "2021",
         "location": null,
-        "wallet": 5,
+        "wallet": 10,
         "anonymize_date": "2026-02-19T00:00:00.000+04:00",
         "data_erasure_date": "2026-02-19T00:00:00.000+04:00",
         "created_at": "2021-05-03T17:26:04.140Z",
-        "updated_at": "2023-02-16T12:48:08.693Z",
+        "updated_at": "2023-02-19T16:12:33.893Z",
         "alumnized_at": null,
         "alumni?": false,
         "active?": true
@@ -112,9 +112,25 @@
     },
     {
       "grade": "Learner",
-      "level": 0,
-      "skills": [],
-      "blackholed_at": "2023-02-26T04:42:00.000Z",
+      "level": 1,
+      "skills": [
+        {
+          "id": 1,
+          "name": "Algorithms & AI",
+          "level": 1.1
+        },
+        {
+          "id": 3,
+          "name": "Rigor",
+          "level": 0.9
+        },
+        {
+          "id": 2,
+          "name": "Imperative programming",
+          "level": 0.59
+        }
+      ],
+      "blackholed_at": "2023-04-26T04:42:00.000Z",
       "id": 186668,
       "begin_at": "2022-09-19T04:42:00.000Z",
       "end_at": null,
@@ -144,15 +160,15 @@
           }
         },
         "staff?": false,
-        "correction_point": 3,
+        "correction_point": 1,
         "pool_month": "may",
         "pool_year": "2021",
         "location": null,
-        "wallet": 5,
+        "wallet": 10,
         "anonymize_date": "2026-02-19T00:00:00.000+04:00",
         "data_erasure_date": "2026-02-19T00:00:00.000+04:00",
         "created_at": "2021-05-03T17:26:04.140Z",
-        "updated_at": "2023-02-16T12:48:08.693Z",
+        "updated_at": "2023-02-19T16:12:33.893Z",
         "alumnized_at": null,
         "alumni?": false,
         "active?": true
@@ -170,9 +186,9 @@
     {
       "id": 2792599,
       "occurrence": 0,
-      "final_mark": null,
-      "status": "in_progress",
-      "validated?": null,
+      "final_mark": 100,
+      "status": "finished",
+      "validated?": true,
       "current_team_id": 4426509,
       "project": {
         "id": 1314,
@@ -183,11 +199,11 @@
       "cursus_ids": [
         21
       ],
-      "marked_at": null,
-      "marked": false,
-      "retriable_at": null,
+      "marked_at": "2023-02-19T15:28:39.488Z",
+      "marked": true,
+      "retriable_at": "2023-02-20T15:28:39.631Z",
       "created_at": "2022-09-19T05:46:24.892Z",
-      "updated_at": "2022-09-19T05:48:09.144Z"
+      "updated_at": "2023-02-19T15:28:39.645Z"
     },
     {
       "id": 2191642,
@@ -608,6 +624,17 @@
       "users_url": "https://api.intra.42.fr/v2/achievements/41/users"
     },
     {
+      "id": 4,
+      "name": "Code Explorer",
+      "description": "Valided your first project.",
+      "tier": "none",
+      "kind": "project",
+      "visible": true,
+      "image": "/uploads/achievement/image/4/PRO002.svg",
+      "nbr_of_success": 1,
+      "users_url": "https://api.intra.42.fr/v2/achievements/4/users"
+    },
+    {
       "id": 45,
       "name": "Home is where the code is",
       "description": "Logged into the same cluster for a month in a row",
@@ -617,6 +644,28 @@
       "image": "/uploads/achievement/image/45/SCO002.svg",
       "nbr_of_success": null,
       "users_url": "https://api.intra.42.fr/v2/achievements/45/users"
+    },
+    {
+      "id": 82,
+      "name": "I have no idea what I'm doing",
+      "description": "Made a defense without having validated the project.",
+      "tier": "none",
+      "kind": "pedagogy",
+      "visible": true,
+      "image": "/uploads/achievement/image/82/PED011.svg",
+      "nbr_of_success": null,
+      "users_url": "https://api.intra.42.fr/v2/achievements/82/users"
+    },
+    {
+      "id": 84,
+      "name": "I'm reliable !",
+      "description": "Participated in 21 defenses in a row without missing any.",
+      "tier": "easy",
+      "kind": "pedagogy",
+      "visible": true,
+      "image": "/uploads/achievement/image/84/PED009.svg",
+      "nbr_of_success": 21,
+      "users_url": "https://api.intra.42.fr/v2/achievements/84/users"
     },
     {
       "id": 25,

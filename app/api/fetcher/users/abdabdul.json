@@ -20,15 +20,15 @@
     }
   },
   "staff?": false,
-  "correction_point": 5,
+  "correction_point": 3,
   "pool_month": "march",
   "pool_year": "2022",
   "location": null,
   "wallet": 145,
-  "anonymize_date": "2026-02-18T00:00:00.000+04:00",
-  "data_erasure_date": "2026-02-18T00:00:00.000+04:00",
+  "anonymize_date": "2026-02-19T00:00:00.000+04:00",
+  "data_erasure_date": "2026-02-19T00:00:00.000+04:00",
   "created_at": "2022-03-01T09:14:39.428Z",
-  "updated_at": "2023-02-15T16:43:33.682Z",
+  "updated_at": "2023-02-19T21:05:56.103Z",
   "alumnized_at": null,
   "alumni?": false,
   "active?": true,
@@ -84,15 +84,15 @@
           }
         },
         "staff?": false,
-        "correction_point": 5,
+        "correction_point": 3,
         "pool_month": "march",
         "pool_year": "2022",
         "location": null,
         "wallet": 145,
-        "anonymize_date": "2026-02-18T00:00:00.000+04:00",
-        "data_erasure_date": "2026-02-18T00:00:00.000+04:00",
+        "anonymize_date": "2026-02-19T00:00:00.000+04:00",
+        "data_erasure_date": "2026-02-19T00:00:00.000+04:00",
         "created_at": "2022-03-01T09:14:39.428Z",
-        "updated_at": "2023-02-15T16:43:33.682Z",
+        "updated_at": "2023-02-19T21:05:56.103Z",
         "alumnized_at": null,
         "alumni?": false,
         "active?": true
@@ -107,22 +107,27 @@
     },
     {
       "grade": "Learner",
-      "level": 4.19,
+      "level": 4.37,
       "skills": [
+        {
+          "id": 3,
+          "name": "Rigor",
+          "level": 4.2
+        },
         {
           "id": 2,
           "name": "Imperative programming",
           "level": 4.09
         },
         {
-          "id": 3,
-          "name": "Rigor",
-          "level": 4.04
-        },
-        {
           "id": 1,
           "name": "Algorithms & AI",
           "level": 3.48
+        },
+        {
+          "id": 10,
+          "name": "Network & system administration",
+          "level": 3.35
         },
         {
           "id": 4,
@@ -133,14 +138,9 @@
           "id": 5,
           "name": "Graphics",
           "level": 1.63
-        },
-        {
-          "id": 10,
-          "name": "Network & system administration",
-          "level": 1.38
         }
       ],
-      "blackholed_at": "2023-05-18T04:42:00.000Z",
+      "blackholed_at": "2023-06-12T04:42:00.000Z",
       "id": 166559,
       "begin_at": "2022-05-09T04:42:00.000Z",
       "end_at": null,
@@ -170,15 +170,15 @@
           }
         },
         "staff?": false,
-        "correction_point": 5,
+        "correction_point": 3,
         "pool_month": "march",
         "pool_year": "2022",
         "location": null,
         "wallet": 145,
-        "anonymize_date": "2026-02-18T00:00:00.000+04:00",
-        "data_erasure_date": "2026-02-18T00:00:00.000+04:00",
+        "anonymize_date": "2026-02-19T00:00:00.000+04:00",
+        "data_erasure_date": "2026-02-19T00:00:00.000+04:00",
         "created_at": "2022-03-01T09:14:39.428Z",
-        "updated_at": "2023-02-15T16:43:33.682Z",
+        "updated_at": "2023-02-19T21:05:56.103Z",
         "alumnized_at": null,
         "alumni?": false,
         "active?": true
@@ -193,6 +193,50 @@
     }
   ],
   "projects_users": [
+    {
+      "id": 2992508,
+      "occurrence": 0,
+      "final_mark": 100,
+      "status": "finished",
+      "validated?": true,
+      "current_team_id": 4703130,
+      "project": {
+        "id": 2007,
+        "name": "NetPractice",
+        "slug": "netpractice",
+        "parent_id": null
+      },
+      "cursus_ids": [
+        21
+      ],
+      "marked_at": "2023-02-19T19:13:24.574Z",
+      "marked": true,
+      "retriable_at": "2023-02-22T19:13:24.744Z",
+      "created_at": "2023-02-19T11:39:29.905Z",
+      "updated_at": "2023-02-19T19:13:24.759Z"
+    },
+    {
+      "id": 2992509,
+      "occurrence": 0,
+      "final_mark": null,
+      "status": "in_progress",
+      "validated?": null,
+      "current_team_id": 4703132,
+      "project": {
+        "id": 1338,
+        "name": "CPP Module 00",
+        "slug": "cpp-module-00",
+        "parent_id": null
+      },
+      "cursus_ids": [
+        21
+      ],
+      "marked_at": null,
+      "marked": false,
+      "retriable_at": null,
+      "created_at": "2023-02-19T11:39:41.594Z",
+      "updated_at": "2023-02-19T11:41:24.303Z"
+    },
     {
       "id": 2932798,
       "occurrence": 0,
