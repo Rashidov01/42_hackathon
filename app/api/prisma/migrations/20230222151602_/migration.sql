@@ -1,0 +1,2 @@
+-- AlterTable
+ALTER TABLE "User" ALTER COLUMN "anonymize_date" SET DEFAULT CURRENT_TIMESTAMP;

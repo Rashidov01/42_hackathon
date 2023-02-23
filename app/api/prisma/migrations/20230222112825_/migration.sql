@@ -1,0 +1,9 @@
+-- AlterTable
+ALTER TABLE "ProjectUser" ALTER COLUMN "status" DROP NOT NULL,
+ALTER COLUMN "current_team_id" DROP NOT NULL,
+ALTER COLUMN "marked" DROP NOT NULL,
+ALTER COLUMN "marked_at" DROP NOT NULL,
+ALTER COLUMN "retriable_at" DROP NOT NULL,
+ALTER COLUMN "created_at" DROP NOT NULL,
+ALTER COLUMN "updated_at" DROP NOT NULL,
+ALTER COLUMN "validated" DROP NOT NULL;
