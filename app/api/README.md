@@ -114,4 +114,12 @@ to get all users that are on a specific status on single project you can make a 
 ```
 /api/users/project/:name/:status
 ```
+to get a token for a user that is logging in through authentication you can make a post request with the required code as a header to
+```
+/api/auth
+```
+to get the current logged in user you can make a get request including the authorization code as a header taken from the previous endpoint to
+```
+/api/users/me
+```
 
