@@ -20,7 +20,7 @@ export class ProjectService {
 
   async getNewsByProjectName(name: string) {
     const yesterday = new Date();
-    yesterday.setDate(yesterday.getDate() - 60);
+    yesterday.setDate(yesterday.getDate() - 1);
     yesterday.setUTCHours(0, 0, 0, 0);
     const projects = await this.prisma.user.findMany({
       where: {
@@ -28,8 +28,9 @@ export class ProjectService {
           some: {
             name: name,
             marked_at: {
-              gte: yesterday.toISOString(),
-              lt: new Date().toISOString(),
+              // gte: yesterday.toISOString(),
+              gte: new Date().toISOString(),
+              lt: yesterday.toISOString(),
             },
           },
         },

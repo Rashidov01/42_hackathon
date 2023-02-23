@@ -62,20 +62,20 @@ model Skill {
 }
 
 model CursusUser {
-  id            Int      @id
-  grade         String?
+  id            Int       @id
+  grade         String?   @default("null")
   level         Float
-  blackholed_at DateTime?
-  begin_at      DateTime
-  end_at        DateTime
-  has_coalition Boolean
+  blackholed_at String?   @default("null")
+  begin_at      String
+  end_at        String    @default("null")
+  has_coalition Boolean   @default(false)
   created_at    DateTime
   updated_at    DateTime
-  user          User     @relation(fields: [user_id], references: [id])
-  user_id       Int
-  cursus        Cursus   @relation(fields: [cursus_id], references: [id])
-  cursus_id     Int
-  skills        Skill[]  @relation("UserSkill")
+  user_id       Int?      @default(autoincrement())
+  cursus_id     Int     
+  user             User?    @relation(fields: [user_id], references: [id])
+  cursus        Cursus?   @relation(fields: [cursus_id], references: [id])
+  skills        Skill[]   @relation("UserSkill")
 }
 
 model UserSkill {
