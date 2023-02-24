@@ -20,4 +20,9 @@ export class UserController {
         return await this.userService.getUsersOneProject(login, project);
     }
 
+    @Get('/:login/projects/status/:status')
+    async getUsersProjectStatus(@Param('login') login: string, @Param('status') status: string) {
+        return await this.userService.getUsersProjectStatus(login, status);
+    }
+
 }

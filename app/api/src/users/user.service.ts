@@ -28,6 +28,11 @@ export class UserService {
     async getUsersOneProject(name: string, projectName: string) {
         const user = await this.getUserByLogin(name);
         return user.Project_users.find((project) => project.name === projectName);
-      }
+    }
+
+    async getUsersProjectStatus(name: string, status: string) {
+        const user = await this.getUserByLogin(name);
+        return user.Project_users.filter((project) => project.status === status);
+    }
 
 }
