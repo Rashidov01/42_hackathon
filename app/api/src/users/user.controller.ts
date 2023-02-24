@@ -25,4 +25,9 @@ export class UserController {
         return await this.userService.getUsersProjectStatus(login, status);
     }
 
+    @Get('/sort/:key')
+    async getUsersSortBy(@Param('key') key: string) {
+        return await this.userService.getUsersSortBy(key);
+    }
+
 }

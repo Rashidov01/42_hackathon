@@ -38,6 +38,7 @@ model User {
   alumnized_at       DateTime?
   alumni             Boolean?
   active             Boolean?
+  pace               Int?      @default(0)
   Cursus_user        CursusUser[]
   Project_users      ProjectUser[]
   User_skill         UserSkill[]
@@ -73,7 +74,8 @@ model CursusUser {
   has_coalition Boolean   @default(false)
   created_at    DateTime
   updated_at    DateTime
-  // cursus_id     Int       @default(autoincrement())
+  cursus_id     Int?      @default(0)
+  slug          String?   @default("null")
   user          User?     @relation(fields: [user_id], references: [id])
   // cursus        Cursus?   @relation(fields: [cursus_id], references: [id])
   skills        Skill[]   @relation("UserSkill")
