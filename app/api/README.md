@@ -122,4 +122,11 @@ to get the current logged in user you can make a get request including the autho
 ```
 /api/users/me
 ```
-
+to get a project status of a single user you can make a get request to the endpoint
+```
+/:login/projects/status/:status
+```
+to get the cursus user info of a single user you can make a get request to the endpoint
+```
+/api/users/:login/cursus
+```
