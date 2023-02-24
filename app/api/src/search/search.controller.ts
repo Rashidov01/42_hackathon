@@ -5,7 +5,7 @@ import { SearchService } from './search.service';
 export class SearchController {
   constructor(private readonly searchService: SearchService) {}
 
-    @Get('/:search')
+    @Get('/search/:search')
     async getSearch(@Param('search') search: string) {
         return await this.searchService.getSearch(search);
     }

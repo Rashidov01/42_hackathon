@@ -69,6 +69,8 @@ export class UpdateService {
                     update: {},
                     create: {
                       id: hobby.id,
+                      cursus_id: hobby.cursus.id,
+                      slug: hobby.cursus.slug,
                       grade: hobby.grade,
                       level: hobby.level,
                       blackholed_at: hobby.blackholed_at,
