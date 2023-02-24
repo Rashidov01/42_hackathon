@@ -1,3 +1,5 @@
+@import "../../sass/variables.scss";
+
 .header {
   padding: 10px 0;
 }
@@ -14,6 +16,7 @@
   font-weight: 600;
   margin: 0;
   margin-right: 20px;
+  color: $text-color;
 }
 
 .header-enter {
@@ -21,12 +24,12 @@
 }
 
 .username {
-  color: #1687a7;
+  color: $blue-color;
 }
 
 .header-inp {
   width: 50%;
-  padding: 10px 5px;
+  // padding: 10px 5px 0 0;
   border-radius: 2px;
   display: flex;
   align-items: center;
@@ -36,11 +39,11 @@
   border: none;
   background-color: transparent;
   outline: none;
-  color: #eaeaeb;
+  color: $text-color;
   font-size: 13px;
 
   &::placeholder {
-    color: #eaeaeb;
+    color: $text-color;
   }
 }
 
@@ -59,25 +62,81 @@
   padding: 10px;
   border-radius: 50%;
   border: none;
-  background-color: #393e46;
+  background-color: $grey-color;
   cursor: pointer;
+}
+
+.header-wrapper {
+  margin-right: 15px;
+
+  &:last-child {
+    margin-right: 0;
+  }
 }
 
 .header-not__icon {
   font-size: 20px;
-  color: #eaeaeb;
+  color: $text-color;
+}
+
+.header-inp__icon {
+  color: $text-color;
 }
 
 .header-not__count {
-  width: 15px;
-  height: 15px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  width: 8px;
+  height: 8px;
   position: absolute;
-  bottom: 0px;
-  right: -6px;
-  background-color: #f55050;
+  top: 5px;
+  right: 8px;
+  background-color: $red-color;
   border-radius: 50%;
-  color: #fff;
+}
+
+.site-content.light-mode {
+  .username {
+    color: $blue-color;
+  }
+
+  .header-inp__icon {
+    color: $light-text-color;
+  }
+
+  .header-inner__title {
+    color: $light-text-color;
+  }
+
+  .header-input {
+    border: none;
+    background-color: transparent;
+    outline: none;
+    color: $light-text-color;
+    font-size: 13px;
+
+    &::placeholder {
+      color: $light-text-color;
+    }
+  }
+
+  .header-not__btn {
+    background-color: $light-border-color;
+  }
+
+  .header-not__icon {
+    color: $light-text-color;
+  }
+}
+
+.site-content.light-mode {
+  .username {
+    color: $light-main-color;
+  }
+
+  .header-inp__icon {
+    color: $light-main-color;
+  }
+
+  .header-not__btn {
+    background-color: $light-border-color;
+  }
 }

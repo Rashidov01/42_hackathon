@@ -1,10 +1,11 @@
 @import "../../sass/mixins.scss";
+@import "../../sass/variables.scss";
 
 .sidebar {
   padding: 20px 10px;
-  background-color: #393e46;
+  background-color: $grey-color;
   height: 100%;
-  border-right: 2px solid #495464;
+  border-right: 2px solid $border-color;
 }
 
 .sidebar-container {
@@ -39,26 +40,26 @@
   align-items: center;
   justify-content: center;
   transition: all ease 0.4s;
-  // border-radius: 50%;
+  border-radius: 10px;
   text-decoration: none;
 
   &:hover {
-    background-color: #303841;
+    background-color: $back-color;
     border-radius: 10px;
   }
 }
 
 .sidebar-list__link.active {
-  background-color: #303841;
+  background-color: $back-color;
   border-radius: 10px;
 }
 
 .sidebar-list__link:hover .sidebar-list__icon {
-  color: #1687a7;
+  color: $blue-color;
 }
 
 .sidebar-list__link.active .sidebar-list__icon {
-  color: #1687a7;
+  color: $blue-color;
 }
 
 .sidebar-list__item:not(:last-child) {
@@ -67,9 +68,44 @@
 
 .sidebar-icon {
   font-size: 25px;
-  color: #fff;
+  color: $text-color;
 }
 
 .sidebar-footer {
   display: flex;
+}
+
+.site-content.light-mode {
+  .sidebar {
+    padding: 20px 10px;
+    background-color: $light-back-color;
+    height: 100%;
+    border-right: 2px solid $light-border-color;
+  }
+
+  .sidebar-list__link:hover {
+    background-color: $light-btn-color;
+  }
+
+  .sidebar-list__link.active {
+    background-color: $light-btn-color;
+    border-radius: 10px;
+  }
+
+  .sidebar-logo {
+    filter: brightness(1) invert(1);
+  }
+
+  .sidebar-list__link:hover .sidebar-list__icon {
+    color: $light-main-color;
+  }
+
+  .sidebar-list__link.active .sidebar-list__icon {
+    color: $light-main-color;
+  }
+
+  .sidebar-icon {
+    font-size: 25px;
+    color: $light-text-color;
+  }
 }

@@ -1,0 +1,54 @@
+@import "../../sass/variables.scss";
+
+.login {
+  background-color: $site-color;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../../assets/icons/login-back.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+.login-container {
+  position: fixed;
+  backdrop-filter: blur(7px);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 450px;
+  height: 300px;
+  border: 1px solid rgba(22, 135, 167, 0.6);
+  border-radius: 5px;
+}
+
+.login-img {
+  margin-bottom: 20px;
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+}
+
+.login-title {
+  margin: 0;
+  text-transform: capitalize;
+  color: $text-color;
+  margin-bottom: 30px;
+  font-size: 22px;
+}
+
+.login-btn {
+  border: none;
+  background-color: $blue-color;
+  padding: 6px 20px;
+  font-size: 13px;
+  font-weight: 600;
+  border-radius: 5px;
+  text-transform: capitalize;
+  text-decoration: none;
+  color: $text-color;
+}

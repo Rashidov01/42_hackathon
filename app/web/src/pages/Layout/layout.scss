@@ -1,13 +1,17 @@
+@import "../../sass/variables.scss";
+@import "../../sass/mixins.scss";
+
 .site-content {
   width: 100%;
   display: flex;
   align-items: flex-start;
   overflow: hidden;
   overflow: hidden;
+  background-color: $site-color;
 }
 
 .site-content-header {
-  border-bottom: 2px solid #495464;
+  border-bottom: 2px solid $border-color;
 }
 
 .site-content-sidebar {
@@ -38,21 +42,18 @@
 }
 
 .toggle-btn {
-  padding: 10px 4px;
+  padding: 8px 2px;
   position: absolute;
   top: 18px;
   right: -22px;
   border: none;
-  color: #fff;
-  background-color: #444f5a;
+  color: $text-color;
+  background-color: $border-color;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
   cursor: pointer;
   z-index: 20;
-}
-
-.togg-btn {
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .site-content-aside.open .site-content-container {
@@ -61,7 +62,33 @@
 
 .site-content-aside.open {
   translate: 0;
-  background: #393e46;
+  background: $grey-color;
   width: 25%;
   transition: 0.4s;
+}
+
+.site-content-icon {
+  font-size: 25px;
+  color: $text-color;
+}
+
+.site-content.light-mode {
+  background-color: $light-grey-color;
+  .site-content-header {
+    border-bottom: 2px solid $light-border-color;
+  }
+
+  .toggle-btn {
+    color: $light-text-color;
+    background-color: $light-border-color;
+  }
+
+  .site-content-aside.open {
+    translate: 0;
+    background-color: $light-grey-color;
+  }
+
+  .site-content-icon {
+    color: $light-text-color;
+  }
 }

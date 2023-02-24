@@ -1,15 +1,21 @@
 import "./sidebar.scss";
 import React from "react";
-import Logo from "../../assets/icons/logo.svg";
 import { NavLink } from "react-router-dom";
+import Logo from "../../assets/icons/logo.svg";
 
-export default function Sidebar() {
+export default function Sidebar({ toggleTheme, icon }) {
   return (
     <div className="sidebar">
       <div className="sidebar-container">
         <div className="sidebar-head sidebar-holder">
           <NavLink to="/">
-            <img src={Logo} alt="site logo" width="45" height="45" />
+            <img
+              className="sidebar-logo"
+              src={Logo}
+              alt="site logo"
+              width="45"
+              height="45"
+            />
           </NavLink>
         </div>
         <ul className="sidebar__list sidebar-list">
@@ -20,7 +26,7 @@ export default function Sidebar() {
           </li>
           <li className="sidebar-list__item">
             <NavLink className="sidebar-list__link" to="/about">
-              <i className="sidebar-list__icon sidebar-icon bx bxs-calendar-alt"></i>
+              <i className="sidebar-list__icon sidebar-icon bx bx-chat"></i>
             </NavLink>
           </li>
           <li className="sidebar-list__item">
@@ -30,8 +36,12 @@ export default function Sidebar() {
           </li>
         </ul>
         <div className="sidebar-footer sidebar-holder">
-          <button className="sidebar-footer__btn" type="button">
-            <i className="sidebar-footer__icon sidebar-icon bx bx-moon"></i>
+          <button
+            onClick={toggleTheme}
+            className="sidebar-footer__btn"
+            type="button"
+          >
+            <i className={`sidebar-footer__icon bx ${icon}`}></i>
           </button>
         </div>
       </div>

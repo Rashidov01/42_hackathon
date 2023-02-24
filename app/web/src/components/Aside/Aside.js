@@ -1,9 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 import "./aside.scss";
-import Avatar from "../../assets/icons/arashido.jpg";
+import Avatar from "../../assets/icons/ibouch.jpg";
 
 export default function Aside() {
-  return (
+  const [user, setUser] = useState(true);
+  const checkUser = () => {
+    setUser(!user);
+  };
+  return user ? (
     <div className="aside">
       <div className="aside-header">
         <img
@@ -15,7 +19,41 @@ export default function Aside() {
         />
       </div>
       <div className="aside-main">
-        <span className="aside-main__seat">Lab 01 / 10 / 14</span>
+        <ul className="aside-main__list aside-list">
+          <li className="aside-list__item">
+            <p className="aside-list__text">Fullname</p>
+            <span className="aside-list__out">Ilyes Bouchlaghem</span>
+          </li>
+          <li className="aside-list__item">
+            <p className="aside-list__text">Intra name</p>
+            <span className="aside-list__out">ibouch</span>
+          </li>
+          <li className="aside-list__item">
+            <p className="aside-list__text">Position</p>
+            <span className="aside-list__out">Staff</span>
+          </li>
+          <li className="aside-list__item">
+            <p className="aside-list__text">Mail</p>
+            <a className="aside-list__out" href="ilyes@42abudhabi.ae">
+              ilyes@42abudhabi.ae
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  ) : (
+    <div className="aside">
+      <div className="aside-header">
+        <img
+          className="aside-header__img"
+          src={Avatar}
+          alt="user"
+          width="100"
+          height="100"
+        />
+      </div>
+      <div className="aside-main">
+        <span className="aside-main__seat">lab 01 01 01</span>
         <ul className="aside-main__list aside-list">
           <li className="aside-list__item">
             <p className="aside-list__text">Evaluation points</p>

@@ -1,8 +1,8 @@
 import React from "react";
-import "./table.scss";
+import "./protable.scss";
 import { Table } from "antd";
 
-export default function Tablee() {
+export default function LeadTable() {
   const columns = [
     {
       title: "#",
@@ -16,19 +16,19 @@ export default function Tablee() {
       render: (text) => <p>{text}</p>,
     },
     {
-      title: "Level",
-      dataIndex: "level",
-      key: "level",
+      title: "Last submitted project",
+      dataIndex: "last",
+      key: "last",
     },
     {
-      title: "Pace",
-      dataIndex: "pace",
-      key: "pace",
+      title: "Try",
+      dataIndex: "try",
+      key: "try",
     },
     {
-      title: "Kick off date",
-      dataIndex: "kick",
-      key: "kick",
+      title: "Point",
+      dataIndex: "point",
+      key: "point",
     },
     {
       title: "Intra link",
@@ -43,27 +43,35 @@ export default function Tablee() {
   const data = [
     {
       key: "1",
-      name: "John Brown",
+      name: "arashido",
       pace: 32,
       level: "12.1",
       place: 1,
-      kick: "12.10.2003",
+      try: 1,
+      point: 125,
+      last: "Get_Next_Line",
     },
     {
-      key: "1",
-      name: "John Brown",
+      key: "2",
+      name: "zosobiro",
       pace: 32,
       level: "12.1",
-      place: 1,
-      kick: "12.12.2021",
+      place: 2,
+      try: 1,
+      point: 100,
+      status: "passed",
+      last: "Minishell",
     },
     {
-      key: "1",
-      name: "John Brown",
+      key: "3",
+      name: "isroilo",
       pace: 32,
+      point: 100,
       level: "12.1",
-      kick: "12.12.1023",
-      place: 1,
+      last: "Minishell",
+      place: 3,
+      status: "passed",
+      try: 1,
     },
   ];
   return (
