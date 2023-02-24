@@ -32,7 +32,7 @@ export class AuthService {
 			}
 		});
 		const profile = response.data;
-		return profile;
+		return profile.login;
 	}
 
 	async GetUserInfo(data) {
@@ -43,10 +43,11 @@ export class AuthService {
         return key;
 	}
 
-	async getUser(login) {
+	async getUser(name) {
+		console.log(name);
 		const user = await this.prisma.user.findUnique({
 			where: {
-				login: login
+				login: name
 			},
 			include: {
 				Project_users: true,
