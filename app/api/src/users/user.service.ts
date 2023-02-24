@@ -38,26 +38,32 @@ export class UserService {
     }
 
     async getUsersSortBy(key: string) {
-    //     try {
-    //     const user = await this.prisma.user.findMany({
-    //         orderBy: {
-    //             [key]: 'desc',
-    //         },
-    //     });
-    //     if (user) {
-    //         return user;
-    //     }
-    // } catch (e) {
-    //     console.log(e);
-    // }
-    try {
-        const user2 = await this.prisma.user.findMany({
-            select: {
-                Cursus_user: true
-            }
+      try {
+        const user = await this.prisma.user.findMany({
+            orderBy: {
+                [key]: 'desc',
+            },
         });
-        const sorted = user2.sort((a, b) => { return a.Cursus_user[0].level - b.Cursus_user[0].level });
-            return sorted;
+        if (user) {
+            return user;
+        }
+    } catch (e) {
+        console.log(e);
+    }
+    try {
+        const user2 = await this.prisma.cursusUser.findMany({
+            where: {
+                cursus_id: 21,
+            },
+            orderBy: {
+                [key]: 'desc',
+            },
+            select: {
+                user: true,
+                level: true,
+            }
+          });          
+        return user2;
     } catch (e) {
         console.log(e);
     }
