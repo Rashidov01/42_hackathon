@@ -97,3 +97,36 @@ to authenticate a user after extracting the code from 42 authentication, make a 
 
 to get the current logged in user send the provided token mentioned up there in the request in the header as a bearer token to the endpoint ```/api/users/me``` and you'll get the info of that user.
 
+## EndPoints
+to get a user's info you can make a get request to
+```
+/api/users/:login
+```
+to get a user's projects you can make a get request to
+```
+/api/users/:login/projects
+```
+to get a specific project from a single user you can make a get request to
+```
+/api/users/:login/projects/:project
+```
+to get all users that are on a specific status on single project you can make a get request to
+```
+/api/users/project/:name/:status
+```
+to get a token for a user that is logging in through authentication you can make a post request with the required code as a header to
+```
+/api/auth
+```
+to get the current logged in user you can make a get request including the authorization code as a header taken from the previous endpoint to
+```
+/api/users/me
+```
+to get a project status of a single user you can make a get request to the endpoint
+```
+/:login/projects/status/:status
+```
+to get the cursus user info of a single user you can make a get request to the endpoint
+```
+/api/users/:login/cursus
+```

@@ -16,6 +16,7 @@ model User {
   tg_id              Int       @unique @default(autoincrement())
   email              String    @unique
   login              String    @unique
+  image_url          String?   @default("null")
   first_name         String?
   last_name          String?
   usual_full_name    String?
@@ -30,10 +31,10 @@ model User {
   pool_year          String?
   location           String?
   wallet             Int
-  anonymize_date     DateTime
-  data_erasure_date  DateTime
-  created_at         DateTime
-  updated_at         DateTime
+  anonymize_date     DateTime?
+  data_erasure_date  DateTime?
+  created_at         DateTime?
+  updated_at         DateTime?
   alumnized_at       DateTime?
   alumni             Boolean?
   active             Boolean?
@@ -41,7 +42,6 @@ model User {
   Project_users      ProjectUser[]
   User_skill         UserSkill[]
   achievements       Achievement[]
-  titles             String[]
   languages_users    LanguagesUsers[]
 }
 
@@ -51,7 +51,7 @@ model Cursus {
   name          String
   slug          String
   kind          String
-  users         CursusUser[]
+  // users         CursusUser[]
 }
 
 model Skill {
@@ -63,20 +63,20 @@ model Skill {
 }
 
 model CursusUser {
-  id            Int      @id
-  grade         String?
+  id            Int       @id
+  user_id       Int       @default(autoincrement())
+  grade         String?   @default("null")
   level         Float
-  blackholed_at DateTime?
-  begin_at      DateTime
-  end_at        DateTime
-  has_coalition Boolean
+  blackholed_at String?   @default("null")
+  begin_at      String
+  end_at        String?   @default("null")
+  has_coalition Boolean   @default(false)
   created_at    DateTime
   updated_at    DateTime
-  user          User     @relation(fields: [user_id], references: [id])
-  user_id       Int
-  cursus        Cursus   @relation(fields: [cursus_id], references: [id])
-  cursus_id     Int
-  skills        Skill[]  @relation("UserSkill")
+  // cursus_id     Int       @default(autoincrement())
+  user          User?     @relation(fields: [user_id], references: [id])
+  // cursus        Cursus?   @relation(fields: [cursus_id], references: [id])
+  skills        Skill[]   @relation("UserSkill")
 }
 
 model UserSkill {
@@ -89,23 +89,19 @@ model UserSkill {
 
 model ProjectUser {
   id               Int      @id
-  user_id          Int
-  occurrence       Int
-  final_mark       Int
-  status           String
-  validated        Boolean @map("validated?")
-  current_team_id  Int     @map("current_team_id")
-  marked           Boolean
-  marked_at        DateTime @map("marked_at")
-  retriable_at     DateTime @map("retriable_at")
-  created_at       DateTime @map("created_at")
-  updated_at       DateTime @map("updated_at")
-  project_id       Int     @map("project.id")
-  name             String  @map("project.name")
-  slug             String  @map("project.slug")
-  parent_id        Int?    @map("project.parent_id")
-  cursus_ids       Int[]
-  user             User    @relation(fields: [user_id], references: [id])
+  user_id          Int      @default(autoincrement())
+  occurrence       Int?     @default(0)
+  final_mark       Int?     @default(0)
+  status           String?  
+  validated        Boolean  @default(false)
+  current_team_id  Int?
+  marked           Boolean?
+  marked_at        DateTime?
+  retriable_at     DateTime?
+  created_at       DateTime?
+  updated_at       DateTime?
+  name             String?
+  user             User?    @relation(fields: [user_id], references: [id])
 }
 
 model LanguagesUsers {
