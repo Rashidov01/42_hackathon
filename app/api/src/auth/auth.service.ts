@@ -50,6 +50,7 @@ export class AuthService {
 			},
 			include: {
 				Project_users: true,
+				Cursus_user: true,
 			}
 		});
 		if (!user)

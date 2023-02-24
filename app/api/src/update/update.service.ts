@@ -59,34 +59,32 @@ export class UpdateService {
               );
           };
 
-          // const createCursusUsers = async (jsonData) => {
-          //     await Promise.all(
-          //       jsonData.cursus_users.map(async (hobby) => {
-          //         await self.prisma.cursusUser.upsert({
-          //           where: {
-          //             id: hobby.id,
-          //           },
-          //           update: {},
-          //           create: {
-          //             id: hobby.id,
-          //             grade: hobby.grade,
-          //             level: hobby.level,
-          //             blackholed_at: hobby.blackholed_at,
-          //             begin_at: hobby.begin_at,
-          //             end_at: hobby.end_at,
-          //             has_coalition: hobby.has_coalition,
-          //             created_at:hobby.created_at,
-          //             updated_at: hobby.updated_at,
-          //             user_id: jsonData.user_id,
-          //             cursus_id: hobby.cursus_id,
-          //             user: {
-          //               connect: { id: jsonData.id },
-          //             },
-          //           },
-          //         });
-          //       })
-          //     );
-          // };
+          const createCursusUsers = async (jsonData) => {
+              await Promise.all(
+                jsonData.cursus_users.map(async (hobby) => {
+                  await self.prisma.cursusUser.upsert({
+                    where: {
+                      id: hobby.id,
+                    },
+                    update: {},
+                    create: {
+                      id: hobby.id,
+                      grade: hobby.grade,
+                      level: hobby.level,
+                      blackholed_at: hobby.blackholed_at,
+                      begin_at: hobby.begin_at,
+                      end_at: hobby.end_at,
+                      has_coalition: hobby.has_coalition,
+                      created_at:hobby.created_at,
+                      updated_at: hobby.updated_at,
+                      user: {
+                        connect: { id: jsonData.id },
+                      },
+                    },
+                  });
+                })
+              );
+          };
 
           await self.prisma.user.upsert({
             where: {
@@ -101,6 +99,7 @@ export class UpdateService {
               url: jsonData.url,
               kind: jsonData.kind,
               alumnized_at: jsonData.alumnized_at,
+              image_url: jsonData.image.link,
               alumni: jsonData.alumni,
               login: jsonData.login,
               email: jsonData.email,
@@ -122,10 +121,11 @@ export class UpdateService {
           });
 
           await createProjectsUsers(jsonData);
+          await createCursusUsers(jsonData);
 
           console.log(`User ${jsonData.login} created.`);
         } catch (error){
-          console.log(error);
+          // console.log(error);
           console.error(`Error creating ${jsonData.login} user`);
         }
       });

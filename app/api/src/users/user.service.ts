@@ -12,6 +12,7 @@ export class UserService {
             },
             include: {
                 Project_users: true,
+                Cursus_user: true,
             }
         });
         if (!user) {

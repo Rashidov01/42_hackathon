@@ -16,6 +16,7 @@ model User {
   tg_id              Int       @unique @default(autoincrement())
   email              String    @unique
   login              String    @unique
+  image_url          String?   @default("null")
   first_name         String?
   last_name          String?
   usual_full_name    String?
@@ -50,7 +51,7 @@ model Cursus {
   name          String
   slug          String
   kind          String
-  users         CursusUser[]
+  // users         CursusUser[]
 }
 
 model Skill {
@@ -63,18 +64,18 @@ model Skill {
 
 model CursusUser {
   id            Int       @id
+  user_id       Int       @default(autoincrement())
   grade         String?   @default("null")
   level         Float
   blackholed_at String?   @default("null")
   begin_at      String
-  end_at        String    @default("null")
+  end_at        String?   @default("null")
   has_coalition Boolean   @default(false)
   created_at    DateTime
   updated_at    DateTime
-  user_id       Int?      @default(autoincrement())
-  cursus_id     Int     
-  user             User?    @relation(fields: [user_id], references: [id])
-  cursus        Cursus?   @relation(fields: [cursus_id], references: [id])
+  // cursus_id     Int       @default(autoincrement())
+  user          User?     @relation(fields: [user_id], references: [id])
+  // cursus        Cursus?   @relation(fields: [cursus_id], references: [id])
   skills        Skill[]   @relation("UserSkill")
 }
 
