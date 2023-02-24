@@ -1,7 +1,6 @@
 import { PrismaClient } from '@prisma/client';
 import { Injectable, NotFoundException } from "@nestjs/common";
 import axios from 'axios';
-import * as jwt from 'jsonwebtoken';
 
 
 @Injectable({})
@@ -32,24 +31,18 @@ export class AuthService {
 			}
 		});
 		const profile = response.data;
-		return profile;
+		return profile.login;
 	}
 
-	async GetUserInfo(data) {
-		const token = {
-			login: data.login,
-		}
-		const key = jwt.sign(token, process.env.JWT_SECRET);
-        return key;
-	}
-
-	async getUser(login) {
+	async getUser(name) {
+		console.log(name);
 		const user = await this.prisma.user.findUnique({
 			where: {
-				login: login
+				login: name
 			},
 			include: {
 				Project_users: true,
+				Cursus_user: true,
 			}
 		});
 		if (!user)

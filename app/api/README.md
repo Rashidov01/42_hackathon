@@ -93,7 +93,7 @@ OR
 to avoid updating database and waiting 35 min, just make a patch request to our api on the endpoint ```/api/update``` to install all of our local info on the database
 
 ## Auth
-to authenticate a user after extracting the code from 42 authentication, make a post request to the endpoint ```/api/auth``` by including the code as a header with the request as a bearer token, then you will receive a new encoded token that is used to communicate between the backend and frontend to identify the logged in user.
+to authenticate a user after extracting the code from 42 authentication, make a post request to the endpoint ```/api/auth``` by including the code as a header with the request as a bearer token, then you will receive a new encoded token that is used to communicate between the backend and the frontend to identify the logged in user.
 
 to get the current logged in user send the provided token mentioned up there in the request in the header as a bearer token to the endpoint ```/api/users/me``` and you'll get the info of that user.
 
@@ -122,4 +122,21 @@ to get the current logged in user you can make a get request including the autho
 ```
 /api/users/me
 ```
+to get a project status of a single user you can make a get request to the endpoint
+```
+/api/:login/projects/status/:status
+```
+to get the cursus user info of a single user you can make a get request to the endpoint
+```
+/api/users/:login/cursus
+```
+to search for a user using a set of characters you can make a get request to the endpoint
+```
+/api/search/:searched
+```
+to get the users sorted using a specific key from (level, correction_points, wallet) you can make a get request to the endpoint
+```
+/api/users/sort/:key
+```
+
 

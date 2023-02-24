@@ -59,34 +59,34 @@ export class UpdateService {
               );
           };
 
-          // const createCursusUsers = async (jsonData) => {
-          //     await Promise.all(
-          //       jsonData.cursus_users.map(async (hobby) => {
-          //         await self.prisma.cursusUser.upsert({
-          //           where: {
-          //             id: hobby.id,
-          //           },
-          //           update: {},
-          //           create: {
-          //             id: hobby.id,
-          //             grade: hobby.grade,
-          //             level: hobby.level,
-          //             blackholed_at: hobby.blackholed_at,
-          //             begin_at: hobby.begin_at,
-          //             end_at: hobby.end_at,
-          //             has_coalition: hobby.has_coalition,
-          //             created_at:hobby.created_at,
-          //             updated_at: hobby.updated_at,
-          //             user_id: jsonData.user_id,
-          //             cursus_id: hobby.cursus_id,
-          //             user: {
-          //               connect: { id: jsonData.id },
-          //             },
-          //           },
-          //         });
-          //       })
-          //     );
-          // };
+          const createCursusUsers = async (jsonData) => {
+              await Promise.all(
+                jsonData.cursus_users.map(async (hobby) => {
+                  await self.prisma.cursusUser.upsert({
+                    where: {
+                      id: hobby.id,
+                    },
+                    update: {},
+                    create: {
+                      id: hobby.id,
+                      cursus_id: hobby.cursus.id,
+                      slug: hobby.cursus.slug,
+                      grade: hobby.grade,
+                      level: hobby.level,
+                      blackholed_at: hobby.blackholed_at,
+                      begin_at: hobby.begin_at,
+                      end_at: hobby.end_at,
+                      has_coalition: hobby.has_coalition,
+                      created_at:hobby.created_at,
+                      updated_at: hobby.updated_at,
+                      user: {
+                        connect: { id: jsonData.id },
+                      },
+                    },
+                  });
+                })
+              );
+          };
 
           await self.prisma.user.upsert({
             where: {
@@ -101,6 +101,7 @@ export class UpdateService {
               url: jsonData.url,
               kind: jsonData.kind,
               alumnized_at: jsonData.alumnized_at,
+              image_url: jsonData.image.link,
               alumni: jsonData.alumni,
               login: jsonData.login,
               email: jsonData.email,
@@ -122,16 +123,135 @@ export class UpdateService {
           });
 
           await createProjectsUsers(jsonData);
+          await createCursusUsers(jsonData);
 
           console.log(`User ${jsonData.login} created.`);
         } catch (error){
-          console.log(error);
+          // console.log(error);
           console.error(`Error creating ${jsonData.login} user`);
         }
       });
     });
   });
 }
+
+async updatePace() {
+  const users = await this.prisma.user.findMany({
+    include: {
+      Cursus_user: true,
+      Project_users: true,
+    }
+  });
+  for (const user of users){
+    let latest = null;
+    for (const project of user.Project_users){
+      if (latest === null || project.marked_at > latest.marked_at){
+        latest = project;
+      }
+    }
+    let core;
+    for (const cursus of user.Cursus_user){
+      if (cursus.cursus_id === 21){
+        core = new Date(cursus.begin_at);
+      }
+    }
+    let date_diff;
+let date_now = new Date();
+if (core)
+  date_diff = (date_now.getTime() - core.getTime()) / (1000 * 60 * 60 * 24); // Convert milliseconds to days
+else
+  date_diff = 0;
+let pace = 0;
+if (latest && latest.name){
+  if (latest.name === "Libft"){
+    if ((date_diff ) <= 8)
+      pace = 8;
+    else if ((date_diff ) <= 13)
+      pace = 12;
+    else if ((date_diff ) <= 18)
+      pace = 15;
+    else if ((date_diff ) <= 24)
+      pace = 18;
+    else
+      pace = 22;
+  }
+  else if (latest.name === "ft_printf" || latest.name === "get_next_line" || latest.name === "Born2beroot"){
+    if ((date_diff ) <= 32)
+      pace = 8;
+    else if ((date_diff ) <= 48)
+      pace = 12;
+    else if ((date_diff ) <= 60)
+      pace = 15;
+    else if ((date_diff ) <= 72)
+      pace = 18;
+    else
+      pace = 22;
+  }
+  else if (latest.name === "so_long" || latest.name === "Exam Rank 02" || latest.name === "pipex" || latest.name === "push_swap" || latest.name === "minitalk" || latest.name === "fract-ol" || latest.name === "FdF"){
+    if ((date_diff ) <= 54)
+      pace = 8;
+    else if ((date_diff ) <= 81)
+      pace = 12;
+    else if ((date_diff ) <= 101)
+      pace = 15;
+    else if ((date_diff ) <= 121)
+      pace = 18;
+    else
+      pace = 22;
+  }
+  else if (latest.name === "Exam Rank 03" || latest.name === "minishell" || latest.name === "Philosophers"){
+    if ((date_diff ) <= 90)
+      pace = 8;
+    else if ((date_diff ) <= 134)
+      pace = 12;
+    else if ((date_diff ) <= 168)
+      pace = 15;
+    else if ((date_diff ) <= 201)
+      pace = 18;
+    else
+      pace = 22;
+  }
+  else if (latest.name === "Exam Rank 04" || latest.name === "cub3d" || latest.name === "NetPractice" || latest.name.includes("CPP Module")){
+    if ((date_diff ) <= 141)
+      pace = 8;
+    else if ((date_diff ) <= 211)
+      pace = 12;
+    else if ((date_diff ) <= 264)
+      pace = 15;
+    else if ((date_diff ) <= 316)
+      pace = 18;
+    else
+      pace = 22;
+  }
+  else if (latest.name === "Exam Rank 05" || latest.name === "ft_containers" || latest.name === "ft_irc" || latest.name === "webserv"){
+    if ((date_diff ) <= 212)
+      pace = 8;
+    else if ((date_diff ) <= 318)
+      pace = 12;
+    else if ((date_diff ) <= 398)
+      pace = 15;
+    else if ((date_diff ) <= 478)
+      pace = 18;
+    else
+      pace = 22;
+  }
+}
+
+    await this.updatePaceDatabase(pace, user);
+}
+}
+
+async updatePaceDatabase(pace, user) {
+  await this.prisma.user.update({
+    where: {
+      login: user.login,
+    },
+    data: {
+      pace: pace,
+    },
+  });
+}
+
 
 
 }
