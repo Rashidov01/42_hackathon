@@ -1,8 +1,5 @@
 import { Controller, Get, Post, Req } from "@nestjs/common";
 import { AuthService } from "./auth.service";
-import { UseGuards } from "@nestjs/common";
-import { AuthGuard } from '@nestjs/passport'
-import { JwtAuthGuard } from "./guard/auth.guard";
 
 @Controller('/api')
 export class AuthController {
