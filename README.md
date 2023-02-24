@@ -13,9 +13,5 @@ docker-compose down
 data is set to be saved when you close and reopen the container through the volume
 to apply your new update to the database run the command:
 ```
-npx prisma migrate dev
-```
-to set the database on the site as tables to be able to see and access them run:
-```
-npx prisma studio
+docker exec -it <docker_name> npx prisma migrate dev
 ```
