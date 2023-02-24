@@ -10,4 +10,9 @@ export class UpdateController {
     return await this.updateService.updateAllUsers();
   }
 
+  @Patch('/api/update/pace')
+  async UpdatePace() {
+    return await this.updateService.updatePace();
+  }
+
 }

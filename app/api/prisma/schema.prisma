@@ -38,6 +38,7 @@ model User {
   alumnized_at       DateTime?
   alumni             Boolean?
   active             Boolean?
+  pace               Int?      @default(0)
   Cursus_user        CursusUser[]
   Project_users      ProjectUser[]
   User_skill         UserSkill[]

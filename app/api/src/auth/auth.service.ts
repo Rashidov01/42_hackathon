@@ -1,7 +1,6 @@
 import { PrismaClient } from '@prisma/client';
 import { Injectable, NotFoundException } from "@nestjs/common";
 import axios from 'axios';
-import * as jwt from 'jsonwebtoken';
 
 
 @Injectable({})
