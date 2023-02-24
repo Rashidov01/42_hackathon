@@ -35,14 +35,6 @@ export class AuthService {
 		return profile.login;
 	}
 
-	async GetUserInfo(data) {
-		const token = {
-			login: data.login,
-		}
-		const key = jwt.sign(token, process.env.JWT_SECRET);
-        return key;
-	}
-
 	async getUser(name) {
 		console.log(name);
 		const user = await this.prisma.user.findUnique({
