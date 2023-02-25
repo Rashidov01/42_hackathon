@@ -31,5 +31,9 @@
       "documentation": "Documentation",
       "internal": "Internal"
     }
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.9.3",
+    "redux": "^4.2.1"
   }
 }
