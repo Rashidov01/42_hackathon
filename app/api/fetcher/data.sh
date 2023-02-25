@@ -11,15 +11,6 @@ function get_token {
   echo "$token"
 }
 
-function get_second_token {
-  local response=$(curl -s -X POST \
-    https://api.intra.42.fr/oauth/token \
-    -H 'Content-Type: application/x-www-form-urlencoded' \
-    -d "grant_type=client_credentials&client_id=$CLIENT_ID_&client_secret=$CLIENT_SECRET_")
-  local token=$(echo "$response" | jq -r '.access_token')
-  echo "$token"
-}
-
 function get_users {
   local all_users=()
   local page_nb=1
@@ -46,10 +37,7 @@ function get_all_info {
     echo "Processed $count users. \n Current Token $TOKEN" > counter.txt
     echo "$response" > "pretty/$user.json"
     jq '.' ./pretty/$user.json > ./users/$user.json
-    if [ $count -eq 750 ]; then
-      TOKEN=$(get_second_token)
-    fi
-    sleep 1
+    sleep 4
   done
   echo "${all_users[@]}"
 }
